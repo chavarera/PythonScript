@@ -1,0 +1,8 @@
+just open command prompt and hit 
+
+pip install opencv-python 
+
+to install opencv on python 3.x.x
+
+to need more help about this just visit here
+https://pypi.org/project/opencv-python/
