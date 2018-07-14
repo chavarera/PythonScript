@@ -15,9 +15,9 @@ IDENTIFIRES:-
 \S anything except a space
 
 \w any charcter
-\W anythong except acharacter
+\W anything except a character
 
-. any charcter but except new line
+. any character but except new line
 \b white space arround wprds
 \. a period
 
