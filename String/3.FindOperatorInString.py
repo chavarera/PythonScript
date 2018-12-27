@@ -24,3 +24,9 @@ print (mystring.find("hahaha"))
 first=(mystring.find("o"))
 second=(mystring.find("o",first+1))
 print(second)
+
+
+#To find all occurences of word
+for i,j in enumerate(mystring):
+  if j=='o':
+    print(i)
