@@ -19,7 +19,7 @@ IDENTIFIRES:-
 
 . any character but except new line
 \b white space arround wprds
-\. a period
+\. a period(this will find out . in given string)
 
 
 
@@ -64,6 +64,18 @@ findall is method
 r is for regular expression
 \d finding digit
 {1,3} modifier to find 1 or 2 or 3 digit number
+
+For Example 
+data='100 is number 5 where abcd@gmail.com is email. 54854584'
+To find Exact 3 digit group use {3} after the \d
+rex='\d{3}'
+searchall=findall(rex,data)
+output=['100','548','545']
+
+To find 1,2,3, digit number use {1,3}
+rex='\d{1,3}'
+searchall=findall(rex,data)
+output=['100','5','548','545','84']
 '''
 ages=re.findall(r'\d{1,3}',mystring)
 print(ages)
