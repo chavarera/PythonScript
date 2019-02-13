@@ -59,10 +59,7 @@ class Angle:
         i=0
 
 
-        #fourcc Codec Used to Save The Video
-        fourcc = cv.VideoWriter_fourcc('M','J','P','G')
-        writer=cv.VideoWriter("tracking.avi",fourcc,30,(frame_height, frame_width),1)
-
+        
         #Now time to Detect Every Frame using infinite loop
 
         while True:
