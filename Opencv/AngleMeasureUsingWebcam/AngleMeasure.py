@@ -9,6 +9,26 @@
 This program is Created using opencv,numpy and math libraries
 To measure the angle between Two Red and Blue Colored Objects
 
+Following Steps Are Used
+
+1.Import Required libraries
+2.Create A class and two method (run,AreaDefine)
+3.Initialize the Camera(Webcam using the cv.VideoCapture(0))
+4.get Height and Width of Image Capture using(cv.CAP_PROP_FRAME_HEIGHT,cv.CAP_PROP_FRAME_Width)
+5.Now Create 4-5 blank images using np(1.HSV,2.Red Color combination,3.Another red Combination,4.Blue Color Combination)
+6.Now read The Every Frame Using While Loop
+7.Convert normal Image To hsv image using cv.cvtColor(img,cv.COLOR_BGR2HSV)
+8.now define Threshold values lower and upper color range for both red and blue (you can use multiple combination and the add it using cv.add(img,img2))
+9.Now Findout moments for both color(this is the area of an selected object)
+10.Find out he area(Example:area=redmoment["m00"])
+10.noise in the video so ignore objects with small areas by condtioning the area
+11.now Find out the center of area by substarcting the m00 from moment['m10'] andmoment['m01'](x1,y1 will get Here) 
+12.Do 11 Step For blue object also(you will find it x2,y2)
+13.Draw lines using points
+14.Now measure angle using math function
+
+and put the text on Image
+
 '''
 
 #------Required Lib-------
@@ -21,10 +41,9 @@ import numpy as np
 
 class Angle:
     def __init__(self):
-        #Use this from video file
+        #From Video File
         #self.capture=cv.VideoCapture("redobj.mp4")
-        
-        #Use this For Live Streaming
+        #Live Streaming
         self.capture=cv.VideoCapture(0)
         
     def AreaDefine(self,moments1,area1,img,font):
@@ -58,8 +77,6 @@ class Angle:
         #Frame Count Start From 0
         i=0
 
-
-        
         #Now time to Detect Every Frame using infinite loop
 
         while True:
@@ -115,11 +132,10 @@ class Angle:
             
             #Draw Lines using above points the point values are updated
             if(x1!=1 and y1!=2 and x2!=3 and y2!=4):
-                
                 cv.line(img,(x1,y1),(x2,y2),(0,0,255),10)
                 cv.line(img,(x1,y1),(int(frame_height/2), int(frame_width/2)),(100,100,100,100),4,cv.LINE_AA)
                 cv.line(img,(x2,y2),(int(frame_height/2), int(frame_width/2)),(00,100,100,100),4,cv.LINE_AA)
-
+                
                 #Calculate Angle
                 x1=float(x1)
                 y1=float(y1)
