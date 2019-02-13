@@ -118,9 +118,10 @@ class Angle:
             
             #Draw Lines using above points the point values are updated
             if(x1!=1 and y1!=2 and x2!=3 and y2!=4):
+                
                 cv.line(img,(x1,y1),(x2,y2),(0,0,255),10)
                 cv.line(img,(x1,y1),(int(frame_height/2), int(frame_width/2)),(100,100,100,100),4,cv.LINE_AA)
-
+                cv.line(img,(x2,y2),(int(frame_height/2), int(frame_width/2)),(00,100,100,100),4,cv.LINE_AA)
 
                 #Calculate Angle
                 x1=float(x1)
