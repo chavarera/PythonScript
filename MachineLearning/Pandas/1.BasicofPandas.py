@@ -2,7 +2,7 @@
 https://www.listendata.com/2017/12/python-pandas-tutorial.html
 
 What is Pandas:
-Pandas Module is commonly used for data manipulation purpose.
+Pandas Module is commonly used for data manipulation and data anlysis purpose.
 It is a very powerful and versatile package which makes data cleaning
 and wrangling much easier and pleasant.
 
