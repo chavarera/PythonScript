@@ -50,6 +50,21 @@ the user can simply ignore the labels and let Series, DataFrame, etc. automatica
 -Make it easy to convert ragged, differently-indexed data in other Python and NumPy data structures into DataFrame objects
 '''
 
+##******************************************************************************************************************************##
+#                                     --Operation on pandas--
+##******************************************************************************************************************************##
+'''
+1.Data Slicing
+2.Changing the index
+3.Data Conversion
+4.Concatnation
+5.Joining And Merging
+6.Changing The Columns Headers
+7.And More
+
+'''
+
+
 
 ##**********************************************************************************************************************************
 #                                ----Insallation and Setup----
