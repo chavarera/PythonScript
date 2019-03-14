@@ -24,4 +24,4 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 - [Dictionary]()
 - [Set](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Set)
   - [Basic of Set](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/1.BasicOfSet.py)
-  - [Adding And Removing Element](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Set)
+  - [Adding And Removing Element](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/2.AddingAndRemovingElement.py)
