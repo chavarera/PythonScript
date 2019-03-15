@@ -33,6 +33,10 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - [Adding And Removing Element](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/2.AddingAndRemovingElement.py)
   
 #### 3.Important Concepts in Python
+- Reading User Input
+  - [Basic Of User Input](https://github.com/chavarera/PythonScript/blob/master/UserInput/1.UserInput.py)
+  - [Example OF User Inptut](https://github.com/chavarera/PythonScript/blob/master/UserInput/2.UserInputExamples.py)
+  
 - Function:
   - [Basic Of Function ](https://github.com/chavarera/PythonScript/blob/master/Function/1.BasicOfFunction.py)
   - [Function Examples](https://github.com/chavarera/PythonScript/blob/master/Function/2.ExampleOfFunction.py)
@@ -55,7 +59,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Class Variable And Instance Variable](https://github.com/chavarera/PythonScript/blob/master/Class/3.DifferenceBetweenClassVariableAndInstanceVariable.py)
     - [Writing Document Inside Class](https://github.com/chavarera/PythonScript/blob/master/Class/4.CreateAndFetchDocuments.py)
     
-  - [Inheritance] 
+  - Inheritance 
     - [Basic Of Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/5.InheritanceInPythonClass.py)
     - [Multilevel Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/6.MultilevelInheritance.py)
     - [Multiple Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/7.Multipleinheritance.py)
@@ -71,3 +75,11 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Single and Multiple Occurences](https://github.com/chavarera/PythonScript/blob/master/Regex/5.FindSingleAndMultipleOccurence.py)
     - [Regular Expression on File](https://github.com/chavarera/PythonScript/blob/master/Regex/5.FindSingleAndMultipleOccurence.py)
     
+#### 6.Some Important Utilty Modules
+  - Module logging
+    - [Basic Of Logging](https://github.com/chavarera/PythonScript/blob/master/Logging/1.BasicOfLogging.py)
+    - [Writing Log To File](https://github.com/chavarera/PythonScript/blob/master/Logging/2.WriteLogToFile.py)
+    
+ - ZipFile Handeling
+    - [Basic Of ZipFile](https://github.com/chavarera/PythonScript/blob/master/ZipFileHandleing/1.Basicofzipfile.py)
+    - [Extract Data From Zip FIles](https://github.com/chavarera/PythonScript/blob/master/ZipFileHandleing/2.ExtractDataFromZipFile.py)
