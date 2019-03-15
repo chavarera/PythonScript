@@ -30,3 +30,19 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 - [Set](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Set)
   - [Basic of Set](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/1.BasicOfSet.py)
   - [Adding And Removing Element](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/2.AddingAndRemovingElement.py)
+  
+#### 3.Important Concepts in Python
+- Function:
+  - [Basic Of Function ](https://github.com/chavarera/PythonScript/blob/master/Function/1.BasicOfFunction.py)
+  - [Function Examples](https://github.com/chavarera/PythonScript/blob/master/Function/2.ExampleOfFunction.py)
+- Loops:
+  - [For Loop](https://github.com/chavarera/PythonScript/blob/master/Loops/1.ForLoop.py)
+  - [Advanced For Loop](https://github.com/chavarera/PythonScript/blob/master/Loops/2.AdavancedForLoop.py)
+  - [For Loop On List](https://github.com/chavarera/PythonScript/blob/master/Loops/3.ForLoopOnList.py)
+  
+  - [While Loop](https://github.com/chavarera/PythonScript/blob/master/Loops/4.WhileLoop.py)
+  - [Infinite While Loop](https://github.com/chavarera/PythonScript/blob/master/Loops/5.InfinteWhileLoop.py)
+  
+- Error Handeling
+  - [Basic of Try Catch](https://github.com/chavarera/PythonScript/blob/master/ErrorHandling/1.BasicOFErrorHandling.py)
+  - [Error Handeling Using Infinite Loop](https://github.com/chavarera/PythonScript/blob/master/ErrorHandling/2.ErrorHandlingusingInfinteloop.py)
