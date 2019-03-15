@@ -1,6 +1,7 @@
 # :snake: PythonScript :page_with_curl:
 Collection of :computer: Cool PythonScript with neat Documentation :page_facing_up: and Example
 
+[Useful Shortcuts In Idle Click Here](https://github.com/chavarera/PythonScript/blob/master/IDLETricks/1.shortcuts.txt)
 ## You Can Learn From Here
 #### 1.Basic Of Python
 - [Datatype](https://github.com/chavarera/PythonScript/blob/master/Basic/datatype.py)
@@ -46,3 +47,27 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 - Error Handeling
   - [Basic of Try Catch](https://github.com/chavarera/PythonScript/blob/master/ErrorHandling/1.BasicOFErrorHandling.py)
   - [Error Handeling Using Infinite Loop](https://github.com/chavarera/PythonScript/blob/master/ErrorHandling/2.ErrorHandlingusingInfinteloop.py)
+
+#### 4.OOPS Concept
+  - [Class](https://github.com/chavarera/PythonScript/tree/master/Class)
+    - [Basic Of Class](https://github.com/chavarera/PythonScript/blob/master/Class/1.BasicOfClass.py)
+    - [Method Of Class](https://github.com/chavarera/PythonScript/blob/master/Class/2.MethodsInClass.py)
+    - [Class Variable And Instance Variable](https://github.com/chavarera/PythonScript/blob/master/Class/3.DifferenceBetweenClassVariableAndInstanceVariable.py)
+    - [Writing Document Inside Class](https://github.com/chavarera/PythonScript/blob/master/Class/4.CreateAndFetchDocuments.py)
+    
+  - [Inheritance] 
+    - [Basic Of Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/5.InheritanceInPythonClass.py)
+    - [Multilevel Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/6.MultilevelInheritance.py)
+    - [Multiple Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/7.Multipleinheritance.py)
+    
+
+
+#### 5.Regular Expression In Python
+  - RE
+    - [Basic of Regular Expression](https://github.com/chavarera/PythonScript/blob/master/Regex/1.BasicOfRegularExpression.py)
+    - [Text manipulation Using RE](https://github.com/chavarera/PythonScript/blob/master/Regex/2.SomeTextManipulation.py)
+    - [Matching Set Of Character](https://github.com/chavarera/PythonScript/blob/master/Regex/3.MatchingSetOfCharacter.py)
+    - [Escaping Metachar](https://github.com/chavarera/PythonScript/blob/master/Regex/4.EscapingMetacharcters.py)
+    - [Single and Multiple Occurences](https://github.com/chavarera/PythonScript/blob/master/Regex/5.FindSingleAndMultipleOccurence.py)
+    - [Regular Expression on File](https://github.com/chavarera/PythonScript/blob/master/Regex/5.FindSingleAndMultipleOccurence.py)
+    
