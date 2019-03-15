@@ -1,3 +1,11 @@
+##------------------------------------------------------------------------------------------------------
+#Created By:Ravishankar Chavare
+#version:python 3.7
+#Date:15/03/2019
+#File_des:Adding And Removing Element From Set
+##------------------------------------------------------------------------------------------------------
+
+
 #Simple Create a set
 myset={1,2,3,4,5,6,7,8,9}
 print(myset)
@@ -51,7 +59,7 @@ print('after popping  one element :',myset)
 #1.Clear the set 
 myset.clear()
 
-2.delete the set this will completely remove the set from refrences
+#2.delete the set this will completely remove the set from refrences
 del myset
 
 
