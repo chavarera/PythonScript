@@ -20,7 +20,10 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - [Loop On List](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/List/2.LoopOnList.py)
   - [Split_List_Using_Missing_denometer](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/List/3.Split_List_Using_Missing_denometer.py)
   
-- [Tuple]() 
+- [Tuple](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Tuple) 
+  - [Basic of Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/1.Basic_of_tuple.py)
+  - [Simple Operation on Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/2.OperationOnTuple.py)
+  
 - [Dictionary](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Dictionary)
   - [Basic Of Dictionary](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/1.BasicOfDictionary.py)
   - [Adding Removing Elements](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/2.AddingRemovingElement.py)
