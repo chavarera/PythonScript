@@ -83,3 +83,5 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
  - ZipFile Handeling
     - [Basic Of ZipFile](https://github.com/chavarera/PythonScript/blob/master/ZipFileHandleing/1.Basicofzipfile.py)
     - [Extract Data From Zip FIles](https://github.com/chavarera/PythonScript/blob/master/ZipFileHandleing/2.ExtractDataFromZipFile.py)
+#### Project Using Python
+  - [Fantasy-Cricket-Game](https://github.com/chavarera/Fantasy-Cricket-Game)
