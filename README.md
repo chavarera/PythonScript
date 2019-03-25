@@ -83,5 +83,25 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
  - ZipFile Handeling
     - [Basic Of ZipFile](https://github.com/chavarera/PythonScript/blob/master/ZipFileHandleing/1.Basicofzipfile.py)
     - [Extract Data From Zip FIles](https://github.com/chavarera/PythonScript/blob/master/ZipFileHandleing/2.ExtractDataFromZipFile.py)
+
+
+
+#### Machine Learning Libraries
+  - [Numpy](https://github.com/chavarera/PythonScript/tree/master/MachineLearning/Numpy)
+    - [Basic Of Numpy](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Numpy/1.BasicOfNumpy.py)
+    - [Indexing and Selection](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Numpy/2.Indexing_Selection_in_Numpy.py)
+    - [Operation on Numpy](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Numpy/3.Operation_on_numpy_array.py)
+    
+ - [Pandas](https://github.com/chavarera/PythonScript/tree/master/MachineLearning/Pandas)
+   - [Basic of Pandas And Installation](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Pandas/1.BasicofPandas.py)
+   - [Introduction](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Pandas/1.IntroductionOfPandas.py)
+   - [Series](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Pandas/2.SeriesInPandas.py)
+   - [DataFrame](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Pandas/3.DataFramesInPandas.py)
+   - [Conditional Selection on DataFrame](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Pandas/4.ConditionalSelectionPandas.py)
+   - [DataFrame Plotting graphs using Matplotlib](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Pandas/5.SingleDataFramePlotUSingMatplotlib.py)
+   - [Modifying Index and Header of Dataframe](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Pandas/6.ChangingIndexAndHeaders.py)
+   - [Import and Export different data structures from files](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Pandas/7.ImportAndExportFiles.py)
+   - [Concatenate,merge,join Dataframe](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Pandas/8.Concatenate%2CMerge%2CJoin.py)
+
 #### Project Using Python
   - [Fantasy-Cricket-Game](https://github.com/chavarera/Fantasy-Cricket-Game)
