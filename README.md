@@ -104,4 +104,10 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
    - [Concatenate,merge,join Dataframe](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Pandas/8.Concatenate%2CMerge%2CJoin.py)
 
 #### Project Using Python
-  - [Fantasy-Cricket-Game](https://github.com/chavarera/Fantasy-Cricket-Game)
+  - Beginer
+    - [Simple Email Send](https://github.com/chavarera/PythonScript/tree/master/UsefulStuffs/Email)
+  - Intermediate
+    - [System Information](https://github.com/chavarera/PythonScript/tree/master/UsefulStuffs/SystemInformer)
+  - Advance
+    - [Fantasy-Cricket-Game](https://github.com/chavarera/Fantasy-Cricket-Game)
+  
