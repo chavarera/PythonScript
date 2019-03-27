@@ -9,7 +9,7 @@ held in a pattern. Regular expressions are widely used in UNIX world.
 IDENTIFIRES:-
 
 \d any number
-\D anytrhing except a number
+\D anything except a number
 
 \s space
 \S anything except a space
@@ -18,7 +18,7 @@ IDENTIFIRES:-
 \W anything except a character
 
 . any character but except new line
-\b white space arround wprds
+\b white space arround words
 \. a period(this will find out . in given string)
 
 
