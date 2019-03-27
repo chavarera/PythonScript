@@ -40,6 +40,8 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 - Function:
   - [Basic Of Function ](https://github.com/chavarera/PythonScript/blob/master/Function/1.BasicOfFunction.py)
   - [Function Examples](https://github.com/chavarera/PythonScript/blob/master/Function/2.ExampleOfFunction.py)
+  - [Lambda Function](https://github.com/chavarera/PythonScript/blob/master/Function/3.LambdaFunction.py)
+  
 - Loops:
   - [For Loop](https://github.com/chavarera/PythonScript/blob/master/Loops/1.ForLoop.py)
   - [Advanced For Loop](https://github.com/chavarera/PythonScript/blob/master/Loops/2.AdavancedForLoop.py)
