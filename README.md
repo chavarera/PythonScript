@@ -113,6 +113,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 #### Project Using Python
   - Beginer
     - [Simple Email Send](https://github.com/chavarera/PythonScript/tree/master/UsefulStuffs/Email)
+    - [Server Ping Manager & Export Result into Excel](https://github.com/chavarera/ServerPingManager)
   - Intermediate
     - [System Information](https://github.com/chavarera/PythonScript/tree/master/UsefulStuffs/SystemInformer)
   - Advance
