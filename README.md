@@ -55,6 +55,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - [Error Handeling Using Infinite Loop](https://github.com/chavarera/PythonScript/blob/master/ErrorHandling/2.ErrorHandlingusingInfinteloop.py)
   
 - Threading
+  - [MultiProcessing And MultiThreading Difference](https://github.com/chavarera/PythonScript/blob/master/Threading/0.MultiprocessingAndMultithreadingDifference.py)
   - [Basic Of Threading](https://github.com/chavarera/PythonScript/blob/master/Threading/1.BasicOfThreading.py)
   - [Return Value from Thread](https://github.com/chavarera/PythonScript/blob/master/Threading/2.GetReturnValueFromThread.py)
 
