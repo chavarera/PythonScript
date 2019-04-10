@@ -10,6 +10,14 @@ MultiThreading
   
   In Python threading Module used to achieve Above Things
   
+  The fact that Python on the CPython interpreter does not support true multi-core execution via multithreading. 
+  However, Python DOES have a Threading library. 
+  So what is the benefit of using the library if we (supposedly) cannot make use of multiple cores?
+  
+  Many programs, particularly those relating to network programming or data input/output (I/O) are often network-bound or I/O bound. 
+  This means that the Python interpreter is awaiting the result of a function call that is manipulating data from a "remote" source such as a network address or hard disk. 
+  Such access is far slower than reading from local memory or a CPU-cache.
+  Hence, one means of speeding up such code if many data sources are being accessed is to generate a thread for each data item needing to be accessed.
   
 '''
 #import threading
