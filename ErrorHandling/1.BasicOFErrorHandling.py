@@ -1,7 +1,11 @@
-#ErrorHAndling in python is similar to other programming languages
-#Why we Need Error HAndler in our programs
-#Asume that you have written a program contains methods functions and some logic you are taking some input from user if that user enter some unethical data then your program create error and all other code from error will not run
-#So recover from this problem we are using error handling mechanism to give user warning or info whats wrong in input and executes other remainng code
+'''
+-ErrorHandling in python is similar to other programming languages
+-Why we Need Error Handler in our programs#Asume that you have written a program contains methods functions and some logic you are 
+taking some input from user if that user enter some unethical data then your program create error and 
+all other code from error will not run
+So recover from this problem we are using error handling mechanism to give user warning or 
+info whats wrong in input and executes other remainng code
+'''
 
 #Error Handling uses following 4 Keywords
 
