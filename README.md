@@ -4,6 +4,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 [Useful Shortcuts In Idle Click Here](https://github.com/chavarera/PythonScript/blob/master/IDLETricks/1.shortcuts.txt)
 ## You Can Learn From Here
 #### 1.Basic Of Python
+- [Basic Introduction and Installation](https://github.com/chavarera/PythonScript/blob/master/Basic/Introduction.md)
 - [Datatype](https://github.com/chavarera/PythonScript/blob/master/Basic/datatype.py)
 - [Comments](https://github.com/chavarera/PythonScript/blob/master/Basic/commentsinpython.py)
 - [Indentation](https://github.com/chavarera/PythonScript/blob/master/Basic/indentation.py)
