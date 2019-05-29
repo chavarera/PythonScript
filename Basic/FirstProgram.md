@@ -1,4 +1,4 @@
-## How To write first Basic Python Program.
+## How To write first Basic Python Program and Run it.
 
 As we have already installed required python version and set up in our machine
 
