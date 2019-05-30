@@ -4,11 +4,17 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 [Useful Shortcuts In Idle Click Here](https://github.com/chavarera/PythonScript/blob/master/IDLETricks/1.shortcuts.txt)
 ## You Can Learn From Here
 #### 1.Basic Of Python
+
 - [Basic Introduction and Installation](https://github.com/chavarera/PythonScript/blob/master/Basic/Introduction.md)
-- [Datatype](https://github.com/chavarera/PythonScript/blob/master/Basic/datatype.py)
-- [Comments](https://github.com/chavarera/PythonScript/blob/master/Basic/commentsinpython.py)
-- [Indentation](https://github.com/chavarera/PythonScript/blob/master/Basic/indentation.py)
-- [Variable](https://github.com/chavarera/PythonScript/blob/master/Basic/variable.py)
+- [Introduction Of PIP](https://github.com/chavarera/PythonScript/blob/master/Basic/PIPIntroduction.md)
+- [Write And Execute Python Program](https://github.com/chavarera/PythonScript/blob/master/Basic/FirstProgram.md)
+- [Useful Some IDLE Shortcuts](https://github.com/chavarera/PythonScript/blob/master/Basic/IdleShortcuts.md)
+- [Variables and Data Types](https://github.com/chavarera/PythonScript/blob/master/Basic/VariableAndDataTypes.md)
+- [Indentation](https://github.com/chavarera/PythonScript/blob/master/Basic/indentation.md)
+- [Comments in Python](https://github.com/chavarera/PythonScript/blob/master/Basic/commentsinpython.py)
+
+##### Conditional Statement
+  - [If Else](https://github.com/chavarera/PythonScript/blob/master/Basic/ConditionalStatementIfelse.md)
 
 #### 2.Comman Data Structure Used in Python
 - [String](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/String)
