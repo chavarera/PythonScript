@@ -15,6 +15,9 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 
 ##### Conditional Statement
   - [If Else](https://github.com/chavarera/PythonScript/blob/master/Basic/ConditionalStatementIfelse.md)
+##### Loop Statement
+  - [For Loop](https://github.com/chavarera/PythonScript/blob/master/Basic/ForLoop.md)
+  - [While Loop](https://github.com/chavarera/PythonScript/blob/master/Basic/WhileLoop.md)
 
 #### 2.Comman Data Structure Used in Python
 - [String](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/String)
