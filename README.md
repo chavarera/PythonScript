@@ -10,6 +10,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 - [Write And Execute Python Program](https://github.com/chavarera/PythonScript/blob/master/Basic/FirstProgram.md)
 - [Useful Some IDLE Shortcuts](https://github.com/chavarera/PythonScript/blob/master/Basic/IdleShortcuts.md)
 - [Variables and Data Types](https://github.com/chavarera/PythonScript/blob/master/Basic/VariableAndDataTypes.md)
+- [Read Input From User](https://github.com/chavarera/PythonScript/blob/master/Basic/UserInput.md)
 - [Indentation](https://github.com/chavarera/PythonScript/blob/master/Basic/indentation.md)
 - [Comments in Python](https://github.com/chavarera/PythonScript/blob/master/Basic/commentsinpython.py)
 
@@ -18,6 +19,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 ##### Loop Statement
   - [For Loop](https://github.com/chavarera/PythonScript/blob/master/Basic/ForLoop.md)
   - [While Loop](https://github.com/chavarera/PythonScript/blob/master/Basic/WhileLoop.md)
+  - [Else in Loop](https://github.com/chavarera/PythonScript/blob/master/Basic/ElseinLoop.md)
 
 #### 2.Comman Data Structure Used in Python
 - [String](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/String)
