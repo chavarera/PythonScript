@@ -33,6 +33,7 @@ Example:
 
 ### How To Run Python :snake: file.
 There are :two: way to run python file
+
 :one: . Normal :shipit: 
   - Open Python file in python IDLE.
   - Now just press **f5** or go to run menu option and select **run** to execute the python file.
