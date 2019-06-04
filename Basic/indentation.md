@@ -1,7 +1,7 @@
 ## Indentation :wrench:
 
 
-### Basic of Indentation 
+### Basic of Indentation  :vhs:
 After completion of data type and variable I hope you understand it now I am going to here to present
  **indentation** concepts which play a vital role in python app development
 
@@ -15,13 +15,13 @@ After completion of data type and variable I hope you understand it now I am goi
 
 ### For example:
 consider if loop
-In C Programing:
+In C Programing :scroll:: 
 ```python
          if(conditions) {
                #main code
         }
 ```
-In python Programing:
+In python Programing :snake: :
 
 ```python
        if(conditions) :
