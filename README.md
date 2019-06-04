@@ -23,7 +23,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 
 #### 2.Comman Data Structure Used in Python
 - [String](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/String)
-  - [Basic of String](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/String/1.BasicOfStrings.py)
+  - [Basic of String](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/String/BasicOfStrings.md)
   - [Find String In String](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/String/3.FindOperatorInString.py)
   - [String Methods](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/String/2.StringMethods.py)
   - [String Formatting](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/String/4.StringFromatting.py)
