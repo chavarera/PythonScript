@@ -1,8 +1,8 @@
-## Variable And DataTypes
+## Variable And DataTypes :snowman:
 
-### Variable
+### Variable :ghost:
 
-- A variable can be thought of as a memory location that can hold values of a specific type.
+- A variable can be thought of as a memory location  :earth_africa: that can hold values of a specific type.
 - The value in a variable may change during the life of the program—hence the name **“variable"**.
 - In c programming or in other some programing while defining variable we need to assign its data type but in python we don't need to write datatype before variable
 
@@ -11,7 +11,7 @@ Syntax to write variable
 Variablename=value
 ```
 
-Example for integer variable
+Example for integer :one: variable 
 ```python
 #In C Program
 int a=2
@@ -21,7 +21,7 @@ a=2
 ```
 here we don't need to write int as data type
 
-Example for character variable  definition
+Example for character :a: variable  definition
 ```python
 #In c Program
 char var='A'
@@ -52,7 +52,7 @@ myset={2, 4,7}
 ```
 
 
-### How to define multiple variable in single line
+### How to define multiple :dolls: variable in single line
 if we want to assign a=5, b=6, c=7
 ```python
 a, b, c=5,6,7
@@ -61,7 +61,7 @@ a, b, c=5,6,7
 Use comma (,)  deliminator to specify multiple variable in single line
 *Note:* both side count should be same other wise it will raise error
 
-### How to assign same value to multiple variable
+### How to assign same value to multiple variable :electric_plug:
 ```python
 a=b=c=3
 
@@ -74,7 +74,7 @@ print(c) #3
 
 Here all three variable a, b, c are assigned to the same memory location
 
-### Some rules while creating variable
+### Some rules while creating variable :pencil2:
 
 - Use variable naming convention means variable name related to real world example
   ```python
@@ -87,23 +87,23 @@ Here all three variable a, b, c are assigned to the same memory location
 - Do not use reserve keyword name as variable name like list,int, str.
 
 
-### How to find out variable data type
+### How to find out variable data type :telescope:
 to find data type of already defined variable there is one default method called **type()**
 
-Example 1
+Example :one:
 ```python
 a=5
 print(type(a))
 #This will give result as int class
 ```
-Example 2
+Example :two:
 ```python
 txt="sample string"
 print(type(txt))
 #This will return string
 ```
 
-### Find out memory location I'd where variable are saved
+### Find out memory location  :earth_asia: I'd where variable are saved
 use python default method **Id()**
 
 ```python
@@ -115,9 +115,9 @@ This will give you int result with memory location
 
 
 
-### Global variable and local variable
+### Global variable :globe_with_meridians: and local variable
 - Every variable has it own scope depending upon variable declaration block
-#### 1 .Global variable
+#### 1 .Global variable :globe_with_meridians:
   - Global variables are the one that are defined and declared outside a function and we need to use them inside a function.
   - If you defined a variable outside of function that can be accessible by other function so this is global variable
  Example:
@@ -131,7 +131,7 @@ def foo():
 foo() 
  ```
 
-#### 2 .Local variable
+#### 2 .Local variable :full_moon:
  - f a variable with same name is defined inside the scope of function as well then it will print the value given inside the function 
  only and not the global value.
  - If  a variable inside a function this is simple example of local variable
