@@ -1,43 +1,43 @@
-## Python
+## Python :snake:
 
-#### What is python?
-- Python is an interpreted,high level,general purpose programming languagecreated by **Guido Van Rossum**.
-- Python is high level language now a days most commonly used by scientists, data analysist, and too 
+#### What is python :snake: ?
+- Python is an interpreted,high level,general purpose programming language created by **Guido Van Rossum** :walking: .
+- Python is high level language now a days most commonly used by scientists :globe_with_meridians: , data analysist :bar_chart:, and too 
 many people to solving real time problems.
 - Python support multiple programming paradigms such as structural programming,procedural,object oriented and functional programming
 - Python is  to be an easily readable language.
 
 
 #### Who can learn python?
-- Anyone.
-- For absolute beginers with no prior programming exprience.
+- Anyone :shipit: .
+- For absolute beginers :beginner: with no prior programming exprience.
 
 
-### Is it easy to learn Python?
-- Python is very readable.
-- You won't waste a lot of time memorizing the arcane syntax that other programming languages present you.
+### Is it easy to learn Python :mega: ?
+- Python is very readable :page_facing_up:.
+- You won't waste a lot of time memorizing :pencil: the complex syntax that other programming languages present you.
 - Python is syntax wise very easy language so i don't think it will take more time to pick it up.
 
 #### Why should use Python?
-- Python is the highest growing programming language in this world currrently.
-- Beginner Friendliness
-- Easy to Understand
-- Very Flexible
-- Scalability
+- Python is the highest growing programming language in this world currrently :loudspeaker:.
+- Beginner Friendliness :art:
+- Easy to Understand 
+- Very Flexible :helicopter: 
+- Scalability :checkered_flag:
 
 #### How many python version?
 There are 2 python version both are developing simultaneously
-  - python 2.x
-  - python 3.x
+  - python 2.x :two:
+  - python 3.x :three:
 
 #### Which version should I use?
-- Although Python 2.7 is still widely used, Python 3 adoption is growing quickly.
-- In 2016, 71.9% of projects used Python 2.7,but by 2017, it had fallen to 63.7%. 
-- This signals that the programming community is turning to Python 3–albeit gradually–when developing real-world applications.
-- Python 2 is Legacy but python 3 is Future.
-- So prefer python 3
+- Although Python 2.7 is still widely used, Python 3 adoption is growing quickly :arrow_upper_right:.
+- In 2016, 71.9% of projects used Python 2.7,but by 2017, it had fallen to 63.7% :arrow_lower_left:. 
+- This signals :traffic_light: that the programming community is turning to Python 3–albeit gradually–when developing real-world applications.
+- Python 2 :two: is Legacy but python 3 :three: is Future.
+- So prefer python 3 :three:
 
-#### Some notable difference between python 2 and python 3
+#### Some notable difference between python 2 :two: and python 3 :three:
 
 - There is better unicode support in python 3
 - Python 3 has improved division integer
