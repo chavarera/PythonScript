@@ -34,13 +34,13 @@ There are 2 python version both are developing simultaneously
 - Although Python 2.7 is still widely used, Python 3 adoption is growing quickly :arrow_upper_right:.
 - In 2016, 71.9% of projects used Python 2.7,but by 2017, it had fallen to 63.7% :arrow_lower_left:. 
 - This signals :traffic_light: that the programming community is turning to Python 3–albeit gradually–when developing real-world applications.
-- Python 2 :two: is Legacy but python 3 :three: is Future.
-- So prefer python 3 :three:
+- Python :two: is Legacy but python  :three: is Future.
+- So prefer python  :three:
 
-#### Some notable difference between python 2 :two: and python 3 :three:
+#### Some notable difference between python:two: and python :three:
 
-- There is better unicode support in python 3
-- Python 3 has improved division integer
+- There is better unicode support in python :three:
+- Python :three: has improved division integer
 
  Example :-
  ```python 
@@ -50,27 +50,27 @@ There are 2 python version both are developing simultaneously
  #python 2:2
  #python 3:2.5
  ```
-- python 2 and python 3 have its own print statement syntax 
+- python :two: and python :three: have its own print statement syntax 
 Example:
 ```python
 Python2:print "add here text"
 python3:print("ass here text")
 ```
 
-#### As a beginer,should i learn Python 2 or Python 3 in 2019
+#### As a beginer,should i learn Python :two: or Python :three: in 2019
 The simple answer? Learn the latest version
 
 
-#### Which ide is best for python learning
--If you are beginner stage of python then do not use any third party ide. use python default idle that will help u to remember the syntaxes and indentation.
+#### Which ide :page_facing_up: is best for python learning
+-If you are beginner stage :baggage_claim: of python then do not use any third party ide. use python default idle that will help u to remember the syntaxes and indentation.
 
 #### Some of the  most widely used idle
-- Pycharam
-- Jupyter notebook
-- spyder
-- Vs code
-- Eclipse
-- Atom
+- Pycharam :baggage_claim: 
+- Jupyter notebook ::book:
+- spyder :pencil:
+- Vs code :tophat:
+- Eclipse :art
+- Atom :trophy:
 
 #### How to install and setup python on your local machine?
 - Before searching exe file first collect your operating system details such as operating system platform(windows)
