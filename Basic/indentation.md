@@ -1,12 +1,12 @@
-## Indentation
+## Indentation :wrench:
 
 
-### Basic of Indentation
+### Basic of Indentation 
 After completion of data type and variable I hope you understand it now I am going to here to present
- *indentation* concepts which play a vital role in python app development
+ **indentation** concepts which play a vital role in python app development
 
 - One of the most distinctive features of Python is its use of indentation to mark blocks of code.
-- Other some languages such as c and c++ uses curly braces({})  to differentiate block of code
+- Other some languages such as c and c++ uses curly braces(**{}**)  to differentiate block of code
 - But in python we use indentation to differentiate block of code (basically tab of some active space)
 - we use colon as starting of code block and after words all code block will placed.
 - Leading whitespace (spaces and tabs) at the beginning of a logical line is used to compute the indentation level of the line, which in turn is used to determine the grouping of statements.
@@ -28,16 +28,16 @@ In python Programing:
                #main code
 ```
 
-### How can we write code block in one line
+### How can we write code block  :bookmark_tabs: in one line
 - Indentation can be ignored in line continuation.
-- But it's a good idea to always indent. It makes the code more readable.
+- But it's a good idea to always indent. It makes the code more readable :bookmark_tabs:.
 
 Example:
 ```python
  if(conditions) :#main code
 ```
 
-### If you give wrong indentation which error will occured*
+### If you give wrong :hotsprings: indentation which error will occured
 
 Consider following code block
 ```python
@@ -46,7 +46,7 @@ if(conditions) :
       print("second line")
 ```
 
-Incorrect indentation will result into
+Incorrect indentation will result into :no_entry:
 ```python
 IndentationError:
 ```
