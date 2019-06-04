@@ -1,6 +1,6 @@
-## While Loop
+## While Loop :performing_arts:
 
-### Introduction
+### Introduction :barber:
 
 - While loops repeat as long as a certain boolean condition is met.
 - The while loop in Python is used to iterate over a block of code as long as the test expression (condition) is true.
@@ -21,14 +21,14 @@ while(a==0):
    print(a)
    a-=1
 ```
-### Interruption of Loop Iteration
+### Interruption :traffic_light: of Loop :loop: Iteration
   - In each example you have seen so far, the entire body of the while loop is executed on each iteration. 
   - Python provides two keywords that terminate a loop iteration prematurely:
     1. break
     2. continue
 
-### 1.break
-- Immediately terminates a loop entirely. 
+### 1.break :construction:
+- Immediately terminates a loop :loop: entirely. 
 - Program execution proceeds to the first statement following the loop body.
 
 Example:
@@ -44,7 +44,7 @@ print('Loop ended.')
 when n becomes 2 the break statement is executed.loop is terminated completely, 
 and program execution jumps to the print()statement on line 7.
 
-### 2. continue
+### 2. continue :fuelpump:
 - Immediately terminates the current loop iteration. 
 - Execution jumps to the top of the loop, and the controlling expression is re-evaluated to determine whether the loop will execute again or terminate.
 
