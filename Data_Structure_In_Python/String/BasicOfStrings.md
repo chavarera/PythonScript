@@ -1,25 +1,25 @@
-## String
+## String :abcd:
 
 ### Basic of String
-  - String is collection of Alphabets numbers and special character.
-  - Python does not support **char**  datatype single character also consider as string.
-  - strings are immutable. This means that we that we can't change any element of a string. 
+  - String is collection of Alphabets :A: numbers and special character :congratulations:.
+  - Python does not support **char**  datatype single :a: character also consider as string.
+  - strings are immutable. This means that we that we can't :no_entry_sign: change any element of a string. 
   ```python
   strings="I am string "
   #So, we can't do strings[2]='b' as we did with lists
   ```
-  - Python strings can be created with single quotes, double quotes, or triple quotes. 
+  - Python strings can be created with single quotes , double quotes , or triple quotes . 
   - When we use triple quotes, strings can span several lines without using the escape character.
-  Define string using single quotes
+  Define string using single quotes  ':a:'
   ```python
   text1='this is simple string defined using single quotes'
   ```
   
-  Define string using double quotes
+  Define string using double quotes ":a:"
   ```python
   text1="this is simple string defined using double quotes"
   ```
-  Define string using triple quotes
+  Define string using triple quotes ''':a:'''
   ```python
   text1=''' using triple quotes
   first line
@@ -66,7 +66,7 @@ print(mystring)
 ```
 
 
-### Accessing String
+### Accessing String :capital_abcd:
 
 - To access substrings, use the square brackets for slicing along with the index or indices to obtain your substring.
 
@@ -78,7 +78,7 @@ print(var1)
 
 
 - String can be accesssed using postive and negative indexing 
-#### 1. Positive Indexing:
+#### 1. Positive Indexing :one: :two: :three: :
   - Start count indexing from 0,1,2,3,4,5.....
   - first character indexed at 0
   - Last Character indexed at string length-1
@@ -105,7 +105,7 @@ print(text1[5854584])
 #result:index out of range
 
  ```
- #### 2. Negative Indexing:
+ #### 2. Negative Indexing -:one: -:two: -:three::
 - Python supports using negative numbers to index into a string: -1 means the last char, -2 is the next to last, and so on. 
 - In other words -1 is the same as the index len(s)-1, -2 is the same as len(s)-2.
 Example:
@@ -130,8 +130,8 @@ print(text1[-4584])
 #result:index out of range
  ```
  
- ### Accessing multiple Characters(substring) from string
- - we can access substring using slicing 
+ ### Accessing multiple Characters(substring) :abc: from string
+ - we can access substring using slicing ([:])
  
  Syntax:
  ```python
@@ -140,7 +140,7 @@ print(text1[-4584])
  #endindex will be consider ending point of string which be excluded from result
  ```
  
- Example Using Positive Index:
+ Example Using Positive Index :ab: :
  ```python
  text1='hello python'
  
@@ -167,7 +167,7 @@ print(text1[-4584])
  substring1=text1[:5458] #result:'hello python'
  ```
  
-Example Using Negative Index:
+Example Using Negative Index :recycle: :
 ```python
  text1='hello python'
 
