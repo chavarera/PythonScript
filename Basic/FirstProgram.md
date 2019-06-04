@@ -1,4 +1,4 @@
-## How To write first Basic Python Program :scroll: and Run :runner: it.
+## How to write first Basic Python Program :scroll: and Run :runner: it.
 
 As we have already installed required python version and set up in our machine :computer:
 
