@@ -14,7 +14,6 @@
 
 If above shows pip version then pip is already installed on your system :computer:.
 
-
 ### How to upgrade PIP
 Open  command prompt :computer: and type the following
 ```python
@@ -33,7 +32,6 @@ You can install packages in :two: different way
   ```
   - Which packagename is showing in the website portal
 
-
 #### 2.use the wheel :ferris_wheel: of that package
    - Just open https://pypi.org
    - Search required packages such as pandas, numpy, opencv.
@@ -42,7 +40,6 @@ You can install packages in :two: different way
    ```python
     >pip install downloadedpackage.whl
   ```
-
 
 ### Get List of installed packages list :orange_book:
 Use the list command to list all the packages installed on your system:
@@ -66,7 +63,6 @@ Example:
 ```
 Keep in mind that in this case, **requirements.txt** file will list all packages that have been installed in system :computer:,
 So before creating any project first create a environment and run above command to list out required pacakagename in **requirements.txt**
-
 
 ### Install project dependencies using requirements.txt :scroll:
 - first go to folder :file_folder: where **requirements.txt** file is placed and type following command in terminal :computer:
