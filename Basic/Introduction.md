@@ -1,13 +1,25 @@
 ## Python
 
 #### What is python?
-Python is high level language now a days most commonly used by scientists, data analysist, and too 
-many people to solving real time problems
+- Python is an interpreted,high level,general purpose programming languagecreated by **Guido Van Rossum**.
+- Python is high level language now a days most commonly used by scientists, data analysist, and too 
+many people to solving real time problems.
+- Python support multiple programming paradigms such as structural programming,procedural,object oriented and functional programming
+- Python is  to be an easily readable language.
+
 
 #### Who can learn python?
-Anyone. Even those people who doesn't know any other programing language.
+- Anyone.
+- For absolute beginers with no prior programming exprience.
+
+
+### Is it easy to learn Python?
+- Python is very readable.
+- You won't waste a lot of time memorizing the arcane syntax that other programming languages present you.
+- Python is syntax wise very easy language so i don't think it will take more time to pick it up.
 
 #### Why should use Python?
+- Python is the highest growing programming language in this world currrently.
 - Beginner Friendliness
 - Easy to Understand
 - Very Flexible
@@ -29,6 +41,7 @@ There are 2 python version both are developing simultaneously
 
 - There is better unicode support in python 3
 - Python 3 has improved division integer
+
  Example :-
  ```python 
  result=5/2
