@@ -12,7 +12,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 - [Variables and Data Types](https://github.com/chavarera/PythonScript/blob/master/Basic/VariableAndDataTypes.md)
 - [Read Input From User](https://github.com/chavarera/PythonScript/blob/master/Basic/UserInput.md)
 - [Indentation](https://github.com/chavarera/PythonScript/blob/master/Basic/indentation.md)
-- [Comments in Python](https://github.com/chavarera/PythonScript/blob/master/Basic/commentsinpython.py)
+- [Comments in Python](https://github.com/chavarera/PythonScript/blob/master/Basic/Comments.md)
 
 ##### Conditional Statement
   - [If Else](https://github.com/chavarera/PythonScript/blob/master/Basic/ConditionalStatementIfelse.md)
