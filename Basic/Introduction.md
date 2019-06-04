@@ -69,7 +69,7 @@ The simple answer? Learn the latest version
 - Jupyter notebook ::book:
 - spyder :pencil:
 - Vs code :tophat:
-- Eclipse :art
+- Eclipse :art:
 - Atom :trophy:
 
 #### How to install and setup python on your local machine?
