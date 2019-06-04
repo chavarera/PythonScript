@@ -30,7 +30,7 @@ char var='A'
 var='A'
 ```
 
-### Following are the some example to define variable in python*
+### Following are the some example to define variable in python
 ```python
 #String variable definition
 myvar="this is simple string"
