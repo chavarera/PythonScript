@@ -7,7 +7,7 @@
 
 ### Using .format() we can archives different things
 
-### 1.string concatenation
+### 1.String concatenation :spider_web:
 Syntax
 ```python
 '{}  {}'.format(list of variables)
@@ -58,7 +58,7 @@ print(value)
 ```
 
 
-###  2.Type Conversion
+###  2.Type Conversion :shinto_shrine:
 - Type conversion int to float
 
 following example showing int to float
@@ -80,7 +80,7 @@ print('2/3 answer is {0:f}'.format(2/3))
 ```
 
 
-### 3.Space around the word
+### 3.Space around the word :part_alternation_mark:
 
 - This is used for giving spacing to integer
 ```python
@@ -104,7 +104,7 @@ print('my name is {0:>8}'.format('abhi'))
 ```python
 print('my name is {0:<8} ....'.format('abhi'))
 ```
-### 4.Asterisk around the text
+### 4.Asterisk :eight_pointed_black_star: around the text
 ```python
 print('{0:*^11s}'.format('rahul'))
 ```
@@ -113,7 +113,7 @@ This will create 11 * but **rahul** string is have 5 length characters so 6 aste
 - if the remaining count of asterisk is odd then half number then the asterisk printed one extra at right side because asterisk 
 printing start from right side to left.
        
-### 5.String Formatting inside a loop    
+### 5.String Formatting inside a loop    :loop: 
 ```python
 for i in range(1,11)                           
 	print('{0:5d}{1:5d}{2:5d}'.format(i,i**2,i**3))
