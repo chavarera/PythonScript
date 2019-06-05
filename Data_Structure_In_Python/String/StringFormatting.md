@@ -1,4 +1,4 @@
-## String Formating
+## String Formating :capital_abcd:
 
 ### Basic of String Formatting
 - String Formatting is one good way to joins and combines two or more string with different data.
