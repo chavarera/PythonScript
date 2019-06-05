@@ -1,7 +1,7 @@
 # :snake: PythonScript :page_with_curl:
 Collection of :computer: Cool PythonScript with neat Documentation :page_facing_up: and Example
 
-[Useful Shortcuts In Idle Click Here](https://github.com/chavarera/PythonScript/blob/master/IDLETricks/1.shortcuts.txt)
+[Useful Shortcuts In Idle Click Here](https://github.com/chavarera/PythonScript/blob/master/Basic/IdleShortcuts.md)
 ## You Can Learn From Here
 #### 1.Basic Of Python
 
