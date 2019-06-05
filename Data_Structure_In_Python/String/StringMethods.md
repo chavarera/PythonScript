@@ -1,11 +1,11 @@
-## String Methods
+## String :abc: Methods
 
-- Python has a set of built in methods that you can use on strings
+- Python :snake: has a set of built in methods that you can use on strings
 - All string methods returns new values.they do not chnage the original string because string is immutable python object.
 
 Following are the most common used method for strings are
 
-## 1. capitalize():
+## 1. capitalize() :a: :
 - The **capitalize()** methodupper case the first letter in the given sequences.
 
 Example:
@@ -16,7 +16,7 @@ print(result)
 #result:Hello
 ```
 
-## 2. count():
+## 2. count() :seven::
 - The **count()** method returns the number of times a specified value appears in the string.
 Example:
 ```python
@@ -43,7 +43,7 @@ res=text1.count('i',6,len(text1))
 print(result) #result:3
 print(res) #result :1
 ```
-## 3. endswith()
+## 3. endswith() :speech_balloon:
 
 - The **endswith()** method returns True if the string ends with the specified value, otherwise False.
 
@@ -68,7 +68,7 @@ print(mystring.index('k')) #result:error
 
 
 
-## 5. find()
+## 5. find() :alembic:
 - To find out position of word or character from given string or paragraph use **find()** method.
 - The **find()** method finds the first occurrence of the specified value.
 - The **find()** method returns -1 if the value is not found.
@@ -116,7 +116,7 @@ search=mystring.find("this")
 print(search)
 #result:-1
 ```
-### To find all occurrence of word
+### To find all occurrence of word :beetle:
 ```python
  for i,j in enumerate(mystring):
           if j=='o':
@@ -125,7 +125,7 @@ print(search)
 
 
 
-## 6. Split()
+## 6. Split() :frog:
 - if you want to separate a string with white space or commas or some special character then split method is used
 ```python
 mystring="india pakistan china america"
@@ -151,7 +151,7 @@ china
 america
 ```
 
-## 7. join()
+## 7. join() :arrows_clockwise:
 - The join() method takes all items in an iterable and joins them into one string.
 - A string must be specified as the separator.
 
@@ -168,7 +168,7 @@ strings=','.join(mylist)
 print(strings) #result:india,pakistan,china,america
 ```
 
-## 8. replace()
+## 8. replace() :clipboard:
 - **replace()** method replaces a specified phrase with another specified phrase.
 
 Syntax:
@@ -194,7 +194,7 @@ print(newstring)
 
 ## For Checking Data types there are following methods are present
 
-### 1. isalnum()
+### 1. isalnum() :1st_place_medal:
 - Returns True if all characters in the string are alphanumeric:
 - True if all the characters are alphanumeric, meaning alphabet letter **(a-z)** and numbers **(0-9)**.
 - False if any one character from non alphanumeric value (space)!#%&?
@@ -207,7 +207,7 @@ print(Res)
 #result: true
 ```
 
-### 2. isalpha()
+### 2. isalpha() :A:
 - **isalpha()** method returns True if all the characters are alphabet letters (a-z).
 - **isalpha()** method return false if one of the characters is special character or number
 
@@ -220,7 +220,7 @@ print(Res)
 #result: false
 ```
 
-### 3. isdecimal()
+### 3. isdecimal() :one:
 - The **isdecimal()** method returns True if all the characters are decimals (0-9).
 
 example:
@@ -232,7 +232,7 @@ print(res)
 #result:True
 ```
 
-### 4. isdigit()
+### 4. isdigit() :moneybag:
 - **isdigit()** method returns True if all the characters are digits, otherwise False.
 
 Example:
@@ -244,7 +244,7 @@ print(res)
 #result : Tries
 ```
 
-### Other some remaining methods
+### Other some remaining methods 
 
 **isidentifier()**
 - Returns True if the string is an identifier
