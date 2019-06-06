@@ -1,16 +1,16 @@
-## Operation on List
+## Operation :electron: on List
 
 As we have already know some basic of list and accessing element from it. Now today here we are going to learn insertion of new element in list, update element from list which is already available, and delete items from list
 
 
-## 1.Insertion
+## 1.Insertion :spiral_notepad:
 
 - There are different ways to insert element in the list
   1. append()
   2. insert()
   3. extend()
 
-### 1.append()
+### 1.append() :penguin:
 - **append()**  method add an element to the end of the list. 
 
 Syntax:
@@ -30,7 +30,7 @@ print(color)
 #Result:['black','red','green']
 ```
 
-#### append a another list 
+#### append a another list :page_with_curl:
 Example:
 ```python
 color=['black','red']
@@ -49,7 +49,7 @@ color=['black','red']
 color.append('brown','green') 
 ```
 
-### 2.insert()
+### 2.insert() :vhs:
 - **append()** method is used for appending element to the end of list to overcome from this problem use insert()  method to insert an element at given particular location. 
 - insert() method inserts the specified value at the specified position.
 -if you inserting new element at 1 position and if one element already present at 1position then old item position will right shifted by one. 
@@ -103,7 +103,7 @@ num.insert(-10,8)
 print(num) 
 #Result:[8,1,3,4,7]
 ```
-### 3.extend()
+### 3.extend() :person_fencing:
 - **extend()**  method add the number of list element to the end of the current list
 
 Syntax:
@@ -121,14 +121,14 @@ print(num1)
 ```
 
 
-## 2.Delete
+## 2.Delete :red_circle:
 
 - There are different ways to delete element from the list. 
 1. del
 2. pop()
 3. remove()
 
-### 1.del
+### 1.del :no_entry:
 - if you removed item using del statement you cant use them for further process. 
 
 Syntax:
@@ -159,7 +159,7 @@ print(number)
 #Result:error because number list is deleted
 ```
 
-### 2.pop()
+### 2.pop() :no_entry_sign:
 
 - **pop()** method remove element from given position. 
 - **pop()** method remove the element from specified position and return the deleted element value. 
@@ -191,7 +191,7 @@ number.pop(100)
 ```
 
 
-### 3.remove()
+### 3.remove() :amphora:
 - **remove()** method remove the first occurence of of given value. 
 - we can not save result of **remove()** method
 
@@ -223,7 +223,7 @@ color.remove("black")
 #Result: Error - x is not in the list 
 ````
 
-## 3.Update
+## 3.Update :drum:
 - for updating the element value 
 
 Syntax:
