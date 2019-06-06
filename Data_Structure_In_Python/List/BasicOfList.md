@@ -47,7 +47,7 @@ ind=country[0]
 print(ind) 
 #result:india
 ```
-Print last element from list
+- Print last element from list
 ```python
 country=['india','america','japan','china']
 ind=country[-1]
@@ -95,10 +95,10 @@ Example
 numbers=[1,4,4,5,6,6,7,[8,9],[10,11]]
 
 #To get 8
-res=numbers [7][0]
+res=numbers[7][0]
 
 #To access 11
-res=numbers [8][1]
+res=numbers[8][1]
 ```
 
 ## Get the length of item available in list
