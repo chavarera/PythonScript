@@ -117,7 +117,7 @@ print (res)
 
 **1.copy()** :wavy_dash:
  
- create copy of list using copy() method
+ create copy of list using **copy()** method
 
 Example:
 ```python
