@@ -116,6 +116,7 @@ print (res)
 - There are two different ways to make a copy of list
 
 **1.copy()** :wavy_dash:
+ 
  create copy of list using copy() method
 
 Example:
@@ -127,6 +128,7 @@ print(numbers2)
 ```
 
 **2.list()** :book:
+
 create copy of list using **list()** method
 ```python
 numbers1=[1,4,4,5,6,6,7]
