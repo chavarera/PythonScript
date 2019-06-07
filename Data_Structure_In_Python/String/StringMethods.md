@@ -207,7 +207,7 @@ print(Res)
 #result: true
 ```
 
-### 2. isalpha() :A:
+### 2. isalpha() :ab: :
 - **isalpha()** method returns True if all the characters are alphabet letters (a-z).
 - **isalpha()** method return false if one of the characters is special character or number
 
