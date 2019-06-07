@@ -80,3 +80,24 @@ print(lst)
 #Result:["odd","Even","odd","Even".....]
 ```
 
+[07/06, 11:03 am] ravishankar chavare: While doing list comprehension we can output only one data type that is string, int, objects
+
+
+
+Multiple variable not accepted
+
+
+Example 
+lst=[i,i*2 for i in range(5)]
+
+This will always generate error *Invalid syntax*
+
+
+Correct way
+
+lst=[(i,i*2) for i in range(5)]
+Or
+lst=[[i,i*2] for i in range(5)]
+[07/06, 11:10 am] ravishankar chavare: *Note*
+
+every list comprehension can be rewritten in for loop, but every for loop can’t be rewritten in the form of list comprehension.
