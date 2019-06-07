@@ -136,9 +136,11 @@ print(text1[-4584])
  Syntax:
  ```python
  stringname[startindex:endindex]
- #start index will be consider the string statring point which be included in result
- #endindex will be consider ending point of string which be excluded from result
+
  ```
+  
+ 1. startindex: will be consider the string statring point which be included in result
+ 2. endindex: will be consider ending point of string which be excluded from result
  
  Example Using Positive Index :ab: :
  ```python
