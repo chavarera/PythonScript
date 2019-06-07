@@ -1,6 +1,6 @@
 ## List Methods
 
-### 1.clear()
+### 1.clear() :no_entry:
 - **clear()** method removes all the elements from a list.
 
 Syntax:
@@ -19,7 +19,7 @@ print(lst)
 #Result:[]
 ```
 
-### 2. count()
+### 2. count() :100:
 - **count()** method returns the number of elements with the specified value.
 - Any type of  (string, number, list, tuple, etc.)  Data can be counted using count() method. 
 
@@ -43,7 +43,7 @@ red_cnt=color.count("red")
 print(red_count) 
 #Result:3
 
-#### count list inside a list
+#### count list inside a list :loop:
 ```python
 lst=[1, 2,3,4,5,1,4,1,1,1,[8,9]]
 
@@ -52,7 +52,7 @@ print(cnt)
 #Result:1
 ```
 
-### 3.index()
+### 3.index() :one:
 
 - **index()** method return the position index of specified value.
 -  **index()** method returns the position at the first occurrence of the specified value
@@ -69,7 +69,7 @@ print(indx)
 #Result:0
 ```
 
-### 4. reverse()
+### 4. reverse() :end:
 - **reverse()** method reverses the given elements from list.
 
 Syntax:
@@ -132,7 +132,7 @@ print(lst)
 ```
 **Note**: After sorting done using **.sort()** method you can not get original list back all position of all element changed we can not recover it. 
 
-**sorted()**
+**sorted()** :bar_chart:
 - Sorting any sequence is very easy in Python using built-in method sorted() which does all the hard work for you.
 
 - Sorted() sorts any sequence (list, tuple) and always returns a list with the elements in sorted manner, without modifying the original sequence.
