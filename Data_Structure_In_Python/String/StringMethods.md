@@ -31,10 +31,10 @@ print(result1) #result:1
 Syntax:
 ```python
   string.count(value, start, end)
-  #value	Required. A String. The string to value to search for
-  #start	Optional. An Integer. The position to start the search. Default is 0
-  #end	Optional. An Integer. The position to end the search. Default is the end of the string
 ```
+1. value:-	Required. A String. The string to value to search for
+2. start:-	Optional. An Integer. The position to start the search. Default is 0
+3. end:-	  Optional. An Integer. The position to end the search. Default is the end of the string
 For Example
 ```python
 text1="This is simple Text"
