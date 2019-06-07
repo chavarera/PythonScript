@@ -85,7 +85,7 @@ print(lst)
 object we can not add element more than one
 
 Example 
-``python
+```python
 lst=[i,i*2 for i in range(5)]
 ```
 This will always generate error **Invalid syntax**
