@@ -16,7 +16,7 @@ print(result)
 #result:Hello
 ```
 
-## 2. count() :seven::
+## 2. count() :seven: :
 - The **count()** method returns the number of times a specified value appears in the string.
 Example:
 ```python
@@ -43,7 +43,7 @@ res=text1.count('i',6,len(text1))
 print(result) #result:3
 print(res) #result :1
 ```
-## 3. endswith() :speech_balloon:
+## 3. endswith() :speech_balloon: :
 
 - The **endswith()** method returns True if the string ends with the specified value, otherwise False.
 
@@ -55,7 +55,7 @@ print(result)
 #result:True
 ````
 
-## 4. index()
+## 4. index() :
 -The **index()** method finds the first occurrence of the specified value.
 -The **index()** method raises an exception if the value is not found.
 
@@ -68,7 +68,7 @@ print(mystring.index('k')) #result:error
 
 
 
-## 5. find() :alembic:
+## 5. find() :alembic: :
 - To find out position of word or character from given string or paragraph use **find()** method.
 - The **find()** method finds the first occurrence of the specified value.
 - The **find()** method returns -1 if the value is not found.
@@ -125,7 +125,7 @@ print(search)
 
 
 
-## 6. Split() :frog:
+## 6. Split() :frog: :
 - if you want to separate a string with white space or commas or some special character then split method is used
 ```python
 mystring="india pakistan china america"
@@ -151,7 +151,7 @@ china
 america
 ```
 
-## 7. join() :arrows_clockwise:
+## 7. join() :arrows_clockwise: :
 - The join() method takes all items in an iterable and joins them into one string.
 - A string must be specified as the separator.
 
@@ -168,7 +168,7 @@ strings=','.join(mylist)
 print(strings) #result:india,pakistan,china,america
 ```
 
-## 8. replace() :clipboard:
+## 8. replace() :clipboard: :
 - **replace()** method replaces a specified phrase with another specified phrase.
 
 Syntax:
@@ -194,7 +194,7 @@ print(newstring)
 
 ## For Checking Data types there are following methods are present
 
-### 1. isalnum() :1st_place_medal:
+### 1. isalnum() :1st_place_medal: :
 - Returns True if all characters in the string are alphanumeric:
 - True if all the characters are alphanumeric, meaning alphabet letter **(a-z)** and numbers **(0-9)**.
 - False if any one character from non alphanumeric value (space)!#%&?
@@ -220,7 +220,7 @@ print(Res)
 #result: false
 ```
 
-### 3. isdecimal() :one:
+### 3. isdecimal() :one: :
 - The **isdecimal()** method returns True if all the characters are decimals (0-9).
 
 example:
@@ -232,7 +232,7 @@ print(res)
 #result:True
 ```
 
-### 4. isdigit() :moneybag:
+### 4. isdigit() :moneybag: :
 - **isdigit()** method returns True if all the characters are digits, otherwise False.
 
 Example:
@@ -246,23 +246,23 @@ print(res)
 
 ### Other some remaining methods 
 
-**isidentifier()**
+**isidentifier()**:
 - Returns True if the string is an identifier
 
-**islower()**
+**islower()**:
 - Returns True if all characters in the string are lower case
 
-**isnumeric()**
+**isnumeric()**:
 - Returns True if all characters in the string are numeric
 
-**isprintable()**
+**isprintable()**:
 - Returns True if all characters in the string are printable
 
-**isspace()**
+**isspace()**:
 - Returns True if all characters in the string are whitespaces
 
-**istitle()**
+**istitle()**:
 - Returns True if the string follows the rules of a title
 
-**isupper()**
+**isupper()**:
 - Returns True if all characters in the string are upper case
