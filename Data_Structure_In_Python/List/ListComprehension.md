@@ -55,7 +55,7 @@ lst=[i for i in range(11)  if i%2==0]
 print(lst) 
 #Result:2,4,6,8,10
 ```
-You can achieve above sequence using range(2,11,2) also. But we need to understand conditional statement inside list comprehension so we use normal range function. 
+You can achieve above sequence using **range(2,11,2)** also. But we need to understand conditional statement inside list comprehension so we use normal range function. 
 
 
 ### If else :bomb: in list comprehension. 
@@ -80,24 +80,23 @@ print(lst)
 #Result:["odd","Even","odd","Even".....]
 ```
 
-[07/06, 11:03 am] ravishankar chavare: While doing list comprehension we can output only one data type that is string, int, objects
-
-
-
-Multiple variable not accepted
-
+### Error In List Comprehenstion
+- expression in list comprehension can only accept single variable of any type(string,list,int,tuple) 
+object we can not add element more than one
 
 Example 
+``python
 lst=[i,i*2 for i in range(5)]
-
-This will always generate error *Invalid syntax*
-
+```
+This will always generate error **Invalid syntax**
 
 Correct way
-
+```python
 lst=[(i,i*2) for i in range(5)]
 Or
 lst=[[i,i*2] for i in range(5)]
-[07/06, 11:10 am] ravishankar chavare: *Note*
+```
 
-every list comprehension can be rewritten in for loop, but every for loop can’t be rewritten in the form of list comprehension.
+**Note**
+every list comprehension can be rewritten in for loop, 
+but every for loop can’t be rewritten in the form of list comprehension.
