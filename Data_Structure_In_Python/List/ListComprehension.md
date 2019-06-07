@@ -88,7 +88,7 @@ Example
 ```python
 lst=[i,i*2 for i in range(5)]
 ```
-This will always generate error **Invalid syntax** :no_entry_sign:
+This will always generate error **Invalid syntax** :microscope:
 
 Correct way
 ```python
@@ -97,6 +97,6 @@ Or
 lst=[[i,i*2] for i in range(5)]
 ```
 
-**Note** :no_entry_sign:
+**Note** :black_nib:
 every list comprehension can be rewritten in for loop, 
 but every for loop can’t be rewritten in the form of list comprehension.
