@@ -28,9 +28,11 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - [String Formatting](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/String/StringFormatting.md)
  
 - [List]( https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/List)
-  - [Basic of List](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/List/1.BasicOfList.py)
-  - [Loop On List](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/List/2.LoopOnList.py)
-  - [Split_List_Using_Missing_denometer](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/List/3.Split_List_Using_Missing_denometer.py)
+  - [Basic of List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/BasicOfList.md)
+  - [Insert,Delete,Update On List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/Insertdeleteupdateonlist.md)
+  - [List Comprehenstion](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ListComprehension.md)
+  - [List Methods](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ListMethods.md)
+ 
   
 - [Tuple](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Tuple) 
   - [Basic of Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/1.Basic_of_tuple.py)
