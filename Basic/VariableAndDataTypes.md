@@ -138,9 +138,11 @@ foo()
 - This variable is accessible only by that function where it defined
 Example:
 ```python
-mytext = "I am from Gloabal variable" # Global scope can be accessible in all function 
+# Global scope can be accessible in all function 
+mytext = "I am from Gloabal variable" 
 def foo():  
-    mytext = "I am from local variable" #loca
+    #local Variable
+    mytext = "I am from local variable" 
     print(mytext)
 
 #print local Value
