@@ -1,8 +1,10 @@
-## List comprehension
-- Help us to reduce number of line code 
-- List comprehension is generally more compact and faster than normal functions and loops for creating list.
+## List comprehension  :bookmark_tabs:
+
+### Introduction
+- Help :snowman: us to reduce number of line code :scroll:. 
+- List comprehension is generally more compact and faster :runner: than normal functions and loops :loop: for creating list.
 - List comprehensions are used for creating new lists from other iterables.
-- List comprehension is an elegant way to define and create lists based on existing lists.
+- List comprehension :moneybag: is an elegant way to define and create lists based on existing lists.
 
 Syntax:
 ```python
@@ -20,14 +22,14 @@ for i in range(1, 11) :
 print(lst) 
 #Result:1, 2,3,4,5,6,7,8,9,10
 ```
-Now using list comprehension
+Now using list comprehension :moneybag:
 ```python
 lst=[i for i in range(1,11)]
 print(lst) 
 #Result:1, 2,3,4,5,6,7,8,9,10
 ```
 
-### list comprehension using conditions
+### list comprehension using conditions :wrench:
 
 Syntax:
 ```python
@@ -56,7 +58,7 @@ print(lst)
 You can achieve above sequence using range(2,11,2) also. But we need to understand conditional statement inside list comprehension so we use normal range function. 
 
 
-### If else in list comprehension.
+### If else :bomb: in list comprehension. 
 Example:
 Find out even or odd number from 1 to 10
 
