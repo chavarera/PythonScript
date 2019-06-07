@@ -80,7 +80,7 @@ print(lst)
 #Result:["odd","Even","odd","Even".....]
 ```
 
-### Error In List Comprehenstion
+### Error :no_entry_sign: In List Comprehenstion
 - expression in list comprehension can only accept single variable of any type(string,list,int,tuple) 
 object we can not add element more than one
 
@@ -88,7 +88,7 @@ Example
 ```python
 lst=[i,i*2 for i in range(5)]
 ```
-This will always generate error **Invalid syntax**
+This will always generate error **Invalid syntax** :no_entry_sign:
 
 Correct way
 ```python
@@ -97,6 +97,6 @@ Or
 lst=[[i,i*2] for i in range(5)]
 ```
 
-**Note**
+**Note** :no_entry_sign:
 every list comprehension can be rewritten in for loop, 
 but every for loop can’t be rewritten in the form of list comprehension.
