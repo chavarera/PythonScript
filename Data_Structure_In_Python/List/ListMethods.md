@@ -107,7 +107,7 @@ print("original list ",lst)
 #original list   ["red","blue","green"]
 ```
 
-### 5.sort()
+### 5.sort() :chart_with_upwards_trend:
 - **sort()**  method sort the list in ascending and descending order
 - **sort()** method sorts the list ascending by default.
 
