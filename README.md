@@ -31,12 +31,14 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - [Basic of List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/BasicOfList.md)
   - [Insert,Delete,Update On List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/Insertdeleteupdateonlist.md)
   - [List Comprehenstion](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ListComprehension.md)
+  - [Extended Slicing on List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ExtendedSlicing.md)
   - [List Methods](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ListMethods.md)
  
   
 - [Tuple](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Tuple) 
-  - [Basic of Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/1.Basic_of_tuple.py)
-  - [Simple Operation on Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/2.OperationOnTuple.py)
+  - [Basic of Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/BasicOfTuple.md)
+  - [Operation on Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/OperationOnTuple.md)
+  -  [Function On Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/FunctionOnTuple.md)
   
 - [Dictionary](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Dictionary)
   - [Basic Of Dictionary](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/1.BasicOfDictionary.py)
