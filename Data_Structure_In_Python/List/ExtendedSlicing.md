@@ -1,32 +1,25 @@
-____________________________
+## Extended Slicing On List
 
-Day 10:Lecture 1
-Content: Extended Slicing
-Author:Ravishankar Chavare
-Date:08-06-2019
-LinkedIn:https://www.linkedin.com/in/ravishankar-chavare-84474a102
-_______________________________
-
-*Extended Slicing On List*
 - Ever since Python 1.4, the slicing syntax has supported an optional third ``step'' or ``stride'' argument
 
 Syntax:
+```python
 Listname[startindex:endindex:step]
-
+```
 Other valid syntax are
 
-#start list from 0 index
-
+- start list from 0 index
+```python
 Listname[:endindex:step]
-
-#here start from 0 index and end at last element with given step
-
+```
+- Here start from 0 index and end at last element with given step
+```python
 Listname[::step]
-
-#here start from startindex index and end at last element with given step
-
+ ```
+- here start from startindex index and end at last element with given step
+```python
 Listname[startindex::step]
-
+```
 
 - *s[i:j:k]* is
 "slice of s from i to j with step k".
