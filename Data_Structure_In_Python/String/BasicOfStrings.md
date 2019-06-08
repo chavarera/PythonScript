@@ -148,21 +148,25 @@ print(text1[-4584])
  
  #to print 'hel' from above string we need to slice using
  start=0
- end=3 #here text[0]:h,text1[1]:e,text1[2]:l,text1[3]:l....
+ #here text[0]:h,text1[1]:e,text1[2]:l,text1[3]:l....
+ end=3 
  substring=text1[start:end]
- substring1=text1[:end]# start can be blank if you are extracing string from starting index
+ 
+ # start can be blank if you are extracing string from starting index
+ substring1=text1[:end]
  print(substring)
  
  #to print 'hon' from above string we need to slice using
  start=-3
  end=-1 #here text[-1]:n,text1[-2]:o,text1[-3]:h....
  substring=text1[start:end]
- substring1=text1[start:]# end can blank if you are extracing string till last charcater index
+ # end can blank if you are extracing string till last charcater index
+ substring1=text1[start:]
  print(substring)
  
  #to print 'pyt' from above string
- substring=text1[6:9] #
- result:pyt
+ substring=text1[6:9] 
+ #result:pyt
  
  #if you give out of range index while slicing it doesn't give any error
  substring=text1[5458:] #result:''
