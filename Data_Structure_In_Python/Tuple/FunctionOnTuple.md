@@ -1,8 +1,8 @@
-## Built in Function For tuple
+## Built in Function For tuple :loudspeaker:
 There are number of built in functions are available to process tuple
 
-### 1.length
-- len() function is used to return number of elements inside in tuple.
+### 1.length :straight_ruler:
+- **len()** function is used to return number of elements inside in tuple.
 
 Syntax:
 ```python
@@ -16,7 +16,7 @@ print(res)
 #Result:7
 ```
 
-### 2.max()
+### 2.max() :truck:
 - The **max()** method returns the largest element in an iterable or largest of two or more parameters.
 Syntax:
 ```python
@@ -31,7 +31,7 @@ res=max(mytuple)
 print(res)
 #Result:8
 ```
-### 3.min()
+### 3.min() :bike:
 - The **min()** method returns the smallest element in an iterable or largest of two or more parameters.
 Syntax:
 ```python
@@ -47,7 +47,7 @@ print(res)
 #Result:1
 ```
 
-### 4.any()
+### 4.any() :performing_arts:
 - Return True if any element of the iterable is true
 - If the iterable is empty, return False.
 
@@ -79,7 +79,7 @@ print(any(tupl5))
 #Result:False
 ```
 
-### 5.all()
+### 5.all() :dolls:
 - Return True if all elements of the iterable are true (or if the iterable is empty)
 
 
