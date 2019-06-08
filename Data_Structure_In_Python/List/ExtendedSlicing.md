@@ -19,9 +19,9 @@ Listname[:endindex:step]
 #start index and end index leave it blank
 Listname[::step]
  ```
-- here start from startindex :start: and end at last element with given step
+- here start from startindex :arrow_right: and end at last element with given step
 ```python
-#start index and end index leave it blank
+# end index leave it blank
 Listname[startindex::step]
 ```
 
