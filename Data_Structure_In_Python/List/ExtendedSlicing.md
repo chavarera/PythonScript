@@ -1,6 +1,6 @@
-## Extended Slicing On List
+## Extended Slicing :scissors: On List :scroll:
 
-- Ever since Python 1.4, the slicing syntax has supported an optional third ``step'' or ``stride'' argument
+- Ever since Python 1.4, the slicing syntax has supported an optional third **step** :racehorse: or **stride** argument.
 
 Syntax:
 ```python
@@ -10,23 +10,23 @@ Other valid syntax are
 
 - start list from 0 index
 ```python
+#start index field leave it blank
 Listname[:endindex:step]
+
 ```
-- Here start from 0 index and end at last element with given step
+- Here start from 0 index and end :end: at last element with given step
 ```python
+#start index and end index leave it blank
 Listname[::step]
  ```
-- here start from startindex index and end at last element with given step
+- here start from startindex :start: and end at last element with given step
 ```python
+#start index and end index leave it blank
 Listname[startindex::step]
 ```
 
 - s[i:j:k] is
-"slice of s from i to j with step k".
-
-When i and jare absent, the whole sequence is assumed and
-
-thus **s[::k]** means "every k-th item".
+**"slice of s from i to j with step k".** When i and jare absent, the whole sequence is assumed and thus **s[::k]** means "every k-th item".
 
 
 Examples:
