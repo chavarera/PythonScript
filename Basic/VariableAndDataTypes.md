@@ -14,7 +14,7 @@ Variablename=value
 Example for integer :one: variable 
 ```python
 #In C Program
-int a=2
+int a=2;
 
 #In Python Program
 a=2 
@@ -24,7 +24,7 @@ here we don't need to write int as data type
 Example for character :a: variable  definition
 ```python
 #In c Program
-char var='A'
+char var='A';
 
 #In Python Program
 var='A'
