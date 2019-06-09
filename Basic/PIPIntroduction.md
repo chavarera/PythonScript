@@ -1,7 +1,7 @@
-## Python Package Index(PIP) :postal_horn:.
+## Python Package installet(PIP) :postal_horn:.
 
 ### What is pip :postal_horn: ?
-- PIP stands for 'Python Package Index'
+- PIP stands for 'Python Package installer'
 - PIP is a package manager for Python packages :briefcase: , or modules.
 - pip is a package-management system used to install and manage software packages :handbag: written in Python.
 - Many packages can be found in the default source for packages and their dependencies
