@@ -38,6 +38,7 @@ Note:python :three: consider number and string as data type string while reading
 Python :two:
 ```python
 nm1=input()
+#when user input 5 as nm1
 print(type(nm1))
 # this will print *int* as data type
 ```
@@ -45,6 +46,7 @@ print(type(nm1))
 Python :three:
 ```python
 nm1=input()
+#when user input 5 as nm1
 print(type(nm1))
 #this will print *Str* as data type
 ```
@@ -55,3 +57,55 @@ Read string
 mystring=input("Enter string")
 print(mystring)
 ```
+### For Printing Output on Console
+- The **print()** function prints the given object to the standard output device (screen) or to the text stream file.
+
+Syntax:
+```python
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+```
+**objects**: object to the printed. * indicates that there may be more than one object
+**sep**: objects are separated by sep. Default value: ' '
+**end**: end is printed at last
+**file**:  must be an object with write(string) method. If omitted it, sys.stdout will be used which prints objects on the screen.
+**flush**: If True, the stream is forcibly flushed. Default value: False.
+
+Example:
+Normaal single object print
+```python
+mystring="i am python"
+number=5
+
+#print mystring and number
+print(mystring)
+print(number)
+
+#Result:i am python
+#Result:5
+```
+
+Pass Multiple Objects to print()
+```python
+mystring="i am python"
+number=5
+
+#print mystring and number
+print(mystring,number)
+
+#Result:i am python 5
+
+```
+#### Using Seperator
+syntax:
+```python
+print(element, sep='seperator')
+```
+
+Example:
+```python
+a=5
+print(a, sep='--')
+
+#Result:--5
+```
+
