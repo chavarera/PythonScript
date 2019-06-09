@@ -48,10 +48,6 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - [Adding And Removing Element](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/2.AddingAndRemovingElement.py)
   
 #### 3.Important Concepts in Python
-- Reading User Input
-  - [Basic Of User Input](https://github.com/chavarera/PythonScript/blob/master/UserInput/1.UserInput.py)
-  - [Example OF User Inptut](https://github.com/chavarera/PythonScript/blob/master/UserInput/2.UserInputExamples.py)
-  
 - Function:
   - [Basic Of Function ](https://github.com/chavarera/PythonScript/blob/master/Function/1.BasicOfFunction.py)
   - [Function Examples](https://github.com/chavarera/PythonScript/blob/master/Function/2.ExampleOfFunction.py)
