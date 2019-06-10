@@ -28,7 +28,7 @@ Or without braces
 For example
 ```python
  a=5
- if (a==5):
+ if a==5:
      print(" A value is 5")
 ```
 
@@ -37,7 +37,7 @@ For example
 
 Syntax:
 ```python
-if (condition) :
+if condition :
          #exexute this block
 else:
        #execute this else block
@@ -65,9 +65,9 @@ if a==5:
 
 Syntax:
 ```PYTHON
-if(condition):
+if condition:
     #code
-    if(condition):
+    if condition:
          #code here for inner if
      else:
          #else code
@@ -80,11 +80,11 @@ When you want to execute multiple condition you can use **elif**
 
 Santax:
 ```python
-if(condition):
+if condition:
      #add code here
-elif(second condition): 
+elif second condition: 
      #add another code block
-elif(third condition): 
+elif third_condition: 
      #add another code block
 else:
      #add final else block
@@ -96,7 +96,7 @@ Use logical operator **and(&), or(|)** to checking multiple conditions
 
 syntax
 ```python
-if (condition) and (condition2) and (condition 3):
+if condition and condition2 and condition3:
        #code block
 ```
 
@@ -106,9 +106,9 @@ a=5
 b=6
 c=3
 large=0
-if(a>b) and (a>c) :
+if a>b and a>c :
    large=a
-elif(b>a) and (b>c) :
+elif b>a and b>c :
    large=b
 else:
    large=c
