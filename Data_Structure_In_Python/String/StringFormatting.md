@@ -34,8 +34,8 @@ Normal way
 a=10
 b=20
 c=39
-result='a value is '+str(a)+' and b value is '+str(b)+' and c value is '+str(c)
-print(result)
+res='a value is '+str(a)+' and b value is '+str(b)+' and c value is '+str(c)
+print(res)
 
 #Result:a value is 10 and b value is 20 and c value is 39
 ```
