@@ -110,7 +110,7 @@ print(text1[5854584])
 
  ```
  #### 2. Negative Indexing -:one: -:two: -:three::
-- Python supports using negative numbers to index into a string: -1 means the last char, -2 is the next to last, and so on. 
+- Python supports  negative numbers to index a string: -1 means the last char, -2 is the next to last, and so on. 
 - In other words -1 is the same as the index len(s)-1, -2 is the same as len(s)-2.
 Example:
  ```python
@@ -119,19 +119,19 @@ Example:
  #print first Character
  length=len(text1)
  print(text1[-length])
- #result:h
+ #Result:h
  
  #print last Character
  print(text1[-1])
- #result:g
+ #Result:g
 
 #print character at -8
 print(text1[-8])
-#result:e
+#Result:e
 
 #if we give index which is not present the error will occure
 print(text1[-4584])
-#result:index out of range
+#Result:index out of range
  ```
  
  ### Accessing multiple Characters(substring) :abc: from string
@@ -167,14 +167,18 @@ print(text1[-4584])
  # end can blank if you are extracing string till last charcater index
  substring1=text1[start:]
  print(substring)
+ #Result:hon
  
  #to print 'pyt' from above string
  substring=text1[6:9] 
- #result:pyt
+ #Result:pyt
  
  #if you give out of range index while slicing it doesn't give any error
- substring=text1[5458:] #result:''
- substring1=text1[:5458] #result:'hello python'
+ substring=text1[5458:] 
+ #Result:''
+ 
+ substring1=text1[:5458] 
+ #Result:'hello python'
  ```
  
 Example Using Negative Index :recycle: :
@@ -186,12 +190,17 @@ Example Using Negative Index :recycle: :
  print(substring)
  
  #to print 'pyt' from above string
- substring=text1[-6:-3] #
- result:pyt
+ substring=text1[-6:-3] 
+ #Result:pyt
  
  #if you give out of range index while slicing it doesn't give any error
- substring=text1[-5458:] #result:'hello python'
- substring1=text1[:-458] #result:''
+ substring=text1[-5458:]
+ print(substring)
+ #Result:'hello python'
+ 
+ substring1=text1[:-458] 
+ print(substring)
+ #Result:''
 
 ```
 
