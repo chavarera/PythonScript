@@ -1,11 +1,12 @@
 ## String :abcd:
 
 ### Basic of String
-  - String is collection of Alphabets :A: numbers and special character :congratulations:.
-  - Python does not support **char**  datatype single :a: character also consider as string.
-  - strings are immutable. This means that we that we can't :no_entry_sign: change any element of a string. 
+  - String is collection of Alphabets :a: numbers and special character :congratulations:.
+  - Python does not support **char**  datatype. single (length of one ) :a: character also consider as string.
+  - strings are immutable. This means that we that we can't :no_entry_sign: change any element of a string after creation of strings. 
+  
   ```python
-  strings="I am string "
+  strings="I am string"
   #So, we can't do strings[2]='b' as we did with lists
   ```
   - Python strings can be created with single quotes , double quotes , or triple quotes . 
@@ -74,10 +75,13 @@ print(mystring)
 var1="Hello I am python learning"
 #To print string
 print(var1)
+
+#Result:Hello I am python learning
 ```
 
 
-- String can be accesssed using postive and negative indexing 
+- String can be accesssed using positive and negative indices
+
 #### 1. Positive Indexing :one: :two: :three: :
   - Start count indexing from 0,1,2,3,4,5.....
   - first character indexed at 0
@@ -89,20 +93,20 @@ print(var1)
  
  #print first Character
  print(text1[0])
- #result:h
+ #Result:h
  
  #print last Character
  length=len(text1)
  print(text1[length-1])
- #result:g
+ #Result:g
 
 #print character at 8
 print(text1[8])
-#result:i
+#Result:i
 
 #if we give index which is not present the error will occure
 print(text1[5854584])
-#result:index out of range
+#Result:index out of range
 
  ```
  #### 2. Negative Indexing -:one: -:two: -:three::
