@@ -33,9 +33,10 @@ print(tupl3)
 
 For Example:
 ```python
- mytple=(1,2,3,4,5,["red", "green"]) 
+mytple=(1,2,3,4,5,["red", "green"]) 
 # change 2 element with 9
 mytple[1]=9
+print(mytple)
 #Result:Error tuple object does not support item assignments
 ````
 
@@ -66,12 +67,12 @@ mytple=(1,2,3,4,5,["red", "green"])
 
 del mytple
 print(mytple)
-#Error mytple is not defined
+#Result Error:- name 'mytple' is not defined
 ```
 
 
 ### 5. Counting Frequencey of Element
-- get the frequency of particular element appears in tuple
+Get the frequency of particular element appears in tuple.
 
 Synatx:
 ```python
@@ -87,7 +88,7 @@ print(res)
 
 ### 6. Find Position index of element :mag_right:.
 
-- get the first index of specified value. 
+Get the first index of specified value. 
 
 Syntax:
 ```python
@@ -118,4 +119,6 @@ if 4 in tpl:
     print("present") 
 else:
     print("Not present")
+
+#Result:present
 ```
