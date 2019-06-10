@@ -1,6 +1,6 @@
 ## Else in Loop :checkered_flag:
 
-### Basic:
+### Introduction :
 - In most :eight_pointed_black_star: of the programming languages (C/C++, Java, etc), the use of else :busstop: statement has been restricted with the if conditional statements. 
 But Python also allows us to use the else condition with for loops.
 - Such type of else is useful only if there is an if condition present inside the loop which somehow depends on the loop variable.
@@ -14,6 +14,13 @@ for i in range(1, 4):
     print(i)
 else:
     print("this will be executed")
+#Result:
+'''
+1
+2
+3
+this will be executed
+'''
 ```
 
 Here else block will not executed because for loop contains **break** :vertical_traffic_light: statement
@@ -23,6 +30,7 @@ for i in range(1, 4):
     break
 else:
     print("this will not executed")
+#Result:1
 ```
 
 #### Note :information_source: :
@@ -42,5 +50,5 @@ for i in strings:
         break
 else:
        print("5 not found")
-#result is 5 not found
+#Result: 5 not found
 ```
