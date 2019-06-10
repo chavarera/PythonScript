@@ -6,42 +6,51 @@
 Following are the most common used method for strings are
 
 ## 1. capitalize() :a: :
-- The **capitalize()** methodupper case the first letter in the given sequences.
+- The **capitalize()** method upper case the first letter in the given sequences(string).
 
 Example:
 ```python
 text="hello"
 result=txt.capitalize()
 print(result)
-#result:Hello
+#Result:Hello
 ```
 
 ## 2. count() :seven: :
 - The **count()** method returns the number of times a specified value appears in the string.
+- Returns the frequency of given element inside string.
+
 Example:
 ```python
 text1="Hello"
 result=text1.count('l')
 result1=text1.count('H')
 
-print(result) #result:2
-print(result1) #result:1
+print(result) 
+#Result:2
+
+print(result1) 
+#Result:1
 
 ```
 Syntax:
 ```python
-  string.count(value, start, end)
+string.count(value, start, end)
 ```
-1. value:-	Required. A String. The string to value to search for
-2. start:-	Optional. An Integer. The position to start the search. Default is 0
-3. end:-	  Optional. An Integer. The position to end the search. Default is the end of the string
+1. value:-	element which do you want to find count.
+2. start:-	Default is 0,starting position of an element.
+3. end:-	  Defualt is len(string) ,ending position of an element.
+
 For Example
 ```python
 text1="This is simple Text"
 result=text1.count('i')
 res=text1.count('i',6,len(text1))
-print(result) #result:3
-print(res) #result :1
+print(result) 
+#Result:3
+
+print(res) 
+#Result :1
 ```
 ## 3. endswith() :speech_balloon: :
 
@@ -52,18 +61,22 @@ Example:
 text1="This is simple Text."
 result=text1.endswith('.')
 print(result)
-#result:True
+#Result:True
 ````
 
 ## 4. index() :
--The **index()** method finds the first occurrence of the specified value.
--The **index()** method raises an exception if the value is not found.
+- The **index()** method finds the first occurrence of the specified value.
+- The **index()** method raises an exception if the value is not found.
 
 Example:
 ```python
 mystring="I am python"
-print(mystring.index('a')) #result:2
-print(mystring.index('k')) #result:error
+print(mystring.index('a')) 
+#Result:2
+
+print(mystring.index('k')) 
+#Result:error:-substring not found
+
 ```
 
 
@@ -76,28 +89,29 @@ print(mystring.index('k')) #result:error
 Syntax
 ```python
 string.find(str, startpoint, endpoint)
-#str:-which string to find
-#startpoint:-the starting  index from where you want to find string
-#endpoint:-Ending index
 ```
+**str**:-which string to find
+**startpoint**:-the starting  index from where you want to find string
+**endpoint**:-Ending index
+
 Example :one::
 ```python
 text="Python"
 result=text.find("t")
 print(result)
-#result:2
+#Result:2
 ```
 Example :two:
 ```python
 mystring="i love to play cricket and football"
 print(mystring.find("o"))
-#result:3
+#Result:3
 ```
 Example :three: :
 ```python
 mystring="i love to play cricket and football"
 print(mystring.find("cric"))
-#result:15
+#Result:15
 ```
 When you give multiple character string it will find out the starting point of string where it founds.
 
@@ -105,11 +119,13 @@ When you give multiple character string it will find out the starting point of s
 - if we want to find out second  occurence of of required string
 ```python
 mystring="i love to play cricket and football"
-first=(mystring.find("o")) second=(mystring.find("o",first+1)) print(second)
-#result:8
+first=(mystring.find("o")) 
+second=(mystring.find("o",first+1)) 
+print(second)
+#Result:8
 ```
 
-- If searching string not present in input string
+- If searching string not present in input string it return -1.
 ```python 
 mystring="I am python Expert"
 search=mystring.find("this")
@@ -118,26 +134,31 @@ print(search)
 ```
 ### To find all occurrence of word :beetle:
 ```python
- for i,j in enumerate(mystring):
-          if j=='o':
-              print(i)
+mystring="I am python Expert"
+for i,j in enumerate(mystring):
+    if j=='t':
+         print(i)
+#Result:7 17
 ```
 
 
 
 ## 6. Split() :frog: :
 - if you want to separate a string with white space or commas or some special character then split method is used
+- **split()** method returns the list object.
+
 ```python
 mystring="india pakistan china america"
 #split a string with whitespace
 splitstring=mystring.split(' ') #or mystring.split()
 print(splitstring)
 
-#result: ['india', 'pakistan', 'china', 'america']
+#Result: ['india', 'pakistan', 'china', 'america']
 ```
 
-- if you want to split that string and store it in different variable 
+- if you want to split a string and store its values in different variable. 
 ```python
+mystring="india pakistan china america"
 a,b,c,d=mystring.split(' ')
 print(a)
 print(b)
@@ -145,27 +166,30 @@ print(c)
 print(d)
 
 #Result :
+'''
 india
 pakistan
 china
 america
+'''
 ```
 
 ## 7. join() :arrows_clockwise: :
-- The join() method takes all items in an iterable and joins them into one string.
+- The **join()** method takes all items in an iterable and joins them into one string.
 - A string must be specified as the separator.
 
 Syntax:
 ```python
 Sepeartor.join(iterable objects)
 ```
-**Sepeartor**:any thing that you want to use as  sepeartor such as -,, ', -,  whitespaces, numbers alphabets, special characters
+**Sepeartor**:any thing that you want to use as  sepeartor such as '-',',',''','-',  whitespaces, numbers alphabets, special characters
 
 Example:
 ```python
 mylist=['india', 'pakistan', 'china', 'america']
 strings=','.join(mylist)
-print(strings) #result:india,pakistan,china,america
+print(strings) 
+#Result:india,pakistan,china,america
 ```
 
 ## 8. replace() :clipboard: :
@@ -181,7 +205,7 @@ stat='kat is good girl'
 newstring=stat.replace('is','was')
 print(newstring)
 
-#result : kat was good girl
+#Result : kat was good girl
 ```
 - Replace the 'n' first occurrence of the word 'is'
 Example:
