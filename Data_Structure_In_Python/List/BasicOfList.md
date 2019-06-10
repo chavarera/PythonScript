@@ -45,7 +45,7 @@ To print **"india"** :earth_asia: First element from list
 country=['india','america','japan','china']
 ind=country[0]
 print(ind) 
-#result:india
+#Result:india
 ```
 - Print last element from list :end:
 ```python
@@ -54,7 +54,7 @@ ind=country[-1]
 #Or
 Ind=country [3]
 print(ind) 
-#result:china
+#Result:china
 ```
 
 ### list index out of range :warning:
@@ -67,7 +67,7 @@ Example:
 numbers=[1,4,4,5,6,6,7]
 res=numbers[56]
 
-#result:Error-list index out of range
+#Result:Error-list index out of range
 ```
 ### Accessing multiple element from list :diamond_shape_with_a_dot_inside:
 
@@ -79,7 +79,7 @@ To print america, japan
 country=['india','america','japan','china']
 res=country[1:3]
 print(res) 
-#result:['america','japan']
+#Result:['america','japan']
 ```
 ### Nested List :loop:
 - we can add a another list inside a list as follows
@@ -109,7 +109,7 @@ Example:
 numbers=[1,4,4,5,6,6,7]
 res=len(numbers) 
 print (res) 
-#result:7
+#Result:7
 ```
 ### Copy :beginner: a list into another list
 - You cannot copy a list simply by typing *list2 = list1*, because: list2 will only be a reference to list1, and changes made in list1 will automatically also be made in list2.
@@ -124,7 +124,7 @@ Example:
 numbers1=[1,4,4,5,6,6,7]
 numbers2=numbers1.copy() 
 print(numbers2) 
-#result:[1,4,4,5,6,6,7]
+#Result:[1,4,4,5,6,6,7]
 ```
 
 **2.list()** :book:
@@ -134,8 +134,5 @@ create copy of list using **list()** method
 numbers1=[1,4,4,5,6,6,7]
 numbers2=list(numbers1) 
 print(numbers2) 
-#result:[1,4,4,5,6,6,7]
+#Result:[1,4,4,5,6,6,7]
 ```
-
-In next tutorial we will be going to learn insert ,update, delete operation on given list
-So stay tuned with us😎
