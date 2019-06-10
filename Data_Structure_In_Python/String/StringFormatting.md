@@ -95,12 +95,12 @@ Example:
 print('my name is {}'.format('abhi'))
 ```
 
--To give space before name we use right chevron
+- To give space before name we use right chevron
 ```python
 print('my name is {0:>8}'.format('abhi'))
 ```
 
--To give space after name we use right chevron
+- To give space after name we use right chevron
 ```python
 print('my name is {0:<8} ....'.format('abhi'))
 ```
@@ -115,6 +115,19 @@ printing start from right side to left.
        
 ### 5.String Formatting inside a loop    :loop: 
 ```python
-for i in range(1,11)                           
+for i in range(1,11):                           
 	print('{0:5d}{1:5d}{2:5d}'.format(i,i**2,i**3))
+'''
+#Result:
+    1    1    1
+    2    4    8
+    3    9   27
+    4   16   64
+    5   25  125
+    6   36  216
+    7   49  343
+    8   64  512
+    9   81  729
+   10  100 1000
+'''
 ```                                
