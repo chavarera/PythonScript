@@ -19,11 +19,13 @@ Normal way to write
 ```python
 a=10
 print('a value is '+str(a))
+#Result:a value is 10
 ```
 Using String Formatting
 ```python
 a=10
 print('a value is {}'.format(a))
+#Result:a value is 10
 ```
 if we want to print **"a value is 10 and b value is 20 and c value is 39"**
 
@@ -33,6 +35,8 @@ a=10
 b=20
 c=39
 print('a value is '+str(a)+' and b value is '+str(b)+' and c value is '+str(c))
+
+#Result:a value is 10 and b value is 20 and c value is 39
 ```
 
 Using string Formatting
@@ -41,50 +45,72 @@ a=10
 b=20
 c=39
 print('a value is {} and b value is {} and c value is {}'.format(a,b,c))
+#Result:a value is 10 and b value is 20 and c value is 39
 ```
+
 - You can also give position inside {} block like {1} then this will get value from **.format(0position,1position,2postion)**
 ```python
 a=10
 b=20
 c=39
 print('a value is {2} and b value is {1} and cvalue is {0}'.format(a,b,c))
+#Result:a value is 39 and b value is 20 and cvalue is 10
+
 ```
 - here **{2}** get value from format and get value whose position is 2 in formatting.
 
 - We can also use variable name inside a braces also as following
 ```python
+a=10
+b=20
+c=39
 value='a value is {a} and b value is {b} and cvalue is {c}'.format(a=10,b=20,c=39)
 print(value)
+
+#Result:a value is 10 and b value is 20 and cvalue is 39
 ```
 
 
 ###  2.Type Conversion :shinto_shrine:
 - Type conversion int to float
 
-following example showing int to float
+following example showing conversion of int datatype to float datatype.
+
 ```python
+a=10
 print('a value is {0:f}'.format(a))
+#Result:a value is 10.000000
 ```
-for 2 digit
+conversion int datatype to float datatype with **2** precision point.
+Example
 ```python
+a=10
 print('a value is {0:.2f}'.format(a))
+#Result:a value is 10.00
 ```
 - type conversion double to float
--By default in python the datatype is double for calculation
+- while calulation in python 3 the defualt return type of calculation is **double**
+Example
 ```python
 print('2/3 answer is {}'.format(2/3))
+#Result:2/3 answer is 0.6666666666666666
+
 ```
-- To convert into float
+- To conversion of double daatatype to float datatpe.
+Example:
 ```python
 print('2/3 answer is {0:f}'.format(2/3))
+#Result:2/3 answer is 0.666667
 ```
 
 
 ### 3.Space around the word :part_alternation_mark:
 
-- This is used for giving spacing to integer
+- This is used for giving spacing for integer variables
 ```python
 print('answer is {0:3d}'.format(2))
+
+#Result:answer is   2
 ```
 here the given element is length of 1 digit and we give space for 3 digit means only 2 digit space will displayed.
 
@@ -93,26 +119,37 @@ here the given element is length of 1 digit and we give space for 3 digit means 
 Example:
 ```python
 print('my name is {}'.format('abhi'))
+#Result:my name is abhi
 ```
 
 - To give space before name we use right chevron
 ```python
 print('my name is {0:>8}'.format('abhi'))
+#Result:my name is     abhi
 ```
 
 - To give space after name we use right chevron
 ```python
 print('my name is {0:<8} ....'.format('abhi'))
+#Result:my name is abhi     ....
 ```
 ### 4.Asterisk :eight_pointed_black_star: around the text
+Example:
 ```python
 print('{0:*^11s}'.format('rahul'))
+#Result:***rahul***
+
 ```
 This will create 11 * but **rahul** string is have 5 length characters so 6 asterisk(*) will be printed at 3 left side and 3 right side.
                              
 if the remaining count of asterisk is odd then half number then the asterisk printed one extra at right side because asterisk 
 printing start from right side to left.
-       
+Example:
+```python
+print('{0:*^12s}'.format('rahul'))
+#Result:***rahul****
+```
+
 ### 5.String Formatting inside a loop    :loop: 
 ```python
 for i in range(1,11):                           
