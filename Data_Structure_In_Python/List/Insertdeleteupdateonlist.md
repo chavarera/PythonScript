@@ -1,17 +1,17 @@
 ## Operation :electron: on List
 
-As we have already know some basic of list and accessing element from it. Now today here we are going to learn insertion of new element in list, update element from list which is already available, and delete items from list
+As we have already know some basic of list and accessing element from it. Now today here we are going to learn insertion of new element in list, update element from list which is already available, and delete items from list.
 
 
 ## 1.Insertion :spiral_notepad:
 
-- There are different ways to insert element in the list
+There are different ways to insert element in the list
   1. append()
   2. insert()
   3. extend()
 
 ### 1.append() :penguin:
-- **append()**  method add an element to the end of the list. 
+**append()**  method add an element to the end of the list. 
 
 Syntax:
 ```python
@@ -41,19 +41,19 @@ color.append(color2)
 print(color)
 #result:['black','red',['brown','green']]
 ```
-- You can not append more than one element at a time using append 
+You can not append more than one element at a time using append 
 
 This is wrong example:
 ```python
 color=['black','red']
 color.append('brown','green') 
+#Result Error:-append() takes exactly one argument (2 given)
 ```
 
 ### 2.insert() :vhs:
 - **append()** method is used for appending element to the end of list to overcome from this problem use insert()  method to insert an element at given particular location. 
-- insert() method inserts the specified value at the specified position.
--if you inserting new element at 1 position and if one element already present at 1position then old item position will right shifted by one. 
-
+- **insert()** method inserts the specified value at the specified position.
+- if you inserting new element at 1 index position and if one element already present at 1 index position then old item position will be  right shifted by one index. 
 
 
 Syntax:
@@ -79,7 +79,6 @@ print(color)
 #Result:['black','green','red','brown']
 ```
 
-- you can also use negative index for inserting element
 - while inserting element if you have give positive integer index which is not present in the current list then item will automatically added at last position. 
 
 Example:
@@ -91,7 +90,7 @@ num.insert(10,8)
 print(num) 
 #Result:[1,3,4,7,8]
 ```
-
+- you can also use negative index for inserting element
 - similarly if you have give negative index which is not present in current list the item will added at 0th index
 
 Example:
