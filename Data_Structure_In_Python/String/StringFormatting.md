@@ -65,8 +65,8 @@ print('a value is {2} and b value is {1} and cvalue is {0}'.format(a,b,c))
 a=10
 b=20
 c=39
-val='a value is {a} and b value is {b} and cvalue is {c}'.format(a=10,b=20,c=39)
-print(val)
+v='a value is {a} and b value is {b} and cvalue is {c}'.format(a=10,b=20,c=39)
+print(v)
 
 #Result:a value is 10 and b value is 20 and cvalue is 39
 ```
