@@ -1,7 +1,7 @@
 ## List comprehension  :bookmark_tabs:
 
 ### Introduction
-- Help :snowman: us to reduce number of line code :scroll:. 
+- List comprehension Help :snowman: us to reduce number of line code :scroll:. 
 - List comprehension is generally more compact and faster :runner: than normal functions and loops :loop: for creating list.
 - List comprehensions are used for creating new lists from other iterables.
 - List comprehension :moneybag: is an elegant way to define and create lists based on existing lists.
@@ -81,7 +81,8 @@ print(lst)
 ```
 
 ### Error :no_entry_sign: In List Comprehenstion
-- expression in list comprehension can only accept single variable of any type(string,list,int,tuple) 
+
+expression in list comprehension can only accept single variable of any type(string,list,int,tuple) 
 object we can not add element more than one
 
 Example 
