@@ -1,4 +1,4 @@
-## Condtional Statement :scissors:
+## Conditional Statement :scissors:
 
 ### if :pushpin:
 
