@@ -90,7 +90,7 @@ num.insert(10,8)
 print(num) 
 #Result:[1,3,4,7,8]
 ```
-- you can also use negative index for inserting element
+**you can also use negative index for inserting element**
 - similarly if you have give negative index which is not present in current list the item will added at 0th index
 
 Example:
@@ -103,7 +103,7 @@ print(num)
 #Result:[8,1,3,4,7]
 ```
 ### 3.extend() :person_fencing:
-- **extend()**  method add the number of list element to the end of the current list
+**extend()**  method add the number of list element to the end of the current list
 
 Syntax:
 ```python
@@ -122,13 +122,13 @@ print(num1)
 
 ## 2.Delete :red_circle:
 
-- There are different ways to delete element from the list. 
+There are different ways to delete element from the list. 
 1. del
 2. pop()
 3. remove()
 
 ### 1.del :no_entry:
-- if you removed item using del statement you cant use them for further process. 
+if you removed item using del statement you cant use them for further process. 
 
 Syntax:
 ```python
@@ -156,6 +156,7 @@ del number
 print(number) 
 
 #Result:error because number list is deleted
+#ERROR:name 'number' is not defined
 ```
 
 ### 2.pop() :no_entry_sign:
@@ -223,7 +224,7 @@ color.remove("black")
 ````
 
 ## 3.Update :drum:
-- for updating the element value 
+For updating the element value 
 
 Syntax:
 ```python
@@ -232,10 +233,13 @@ list[index]="new value"
 Example:
 ```python
 color=["blue","green","red"]
+
 #update blue with *black*
 color[0]="black"
+
 #print new updated list
 print(color) 
+
 #Result:["black","green","red"]
 ```
 
