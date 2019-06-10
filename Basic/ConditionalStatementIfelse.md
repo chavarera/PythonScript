@@ -29,7 +29,9 @@ For example
 ```python
  a=5
  if a==5:
-     print(" A value is 5")
+     print("A value is 5")
+     
+ #Result:A value is 5
 ```
 
 ### If else :interrobang:
@@ -47,16 +49,18 @@ For example
 ```python
  a=5
  if (a==5):
-     print(" A value is 5")
+     print("A value is 5")
  else:
      print("A value is not 5") 
+ #Result:A value is 5
 ```
 Or you can simple write
 ```python
 if a==5:
      print(" A value is 5")
  else:
-     print("A value is not 5") 
+     print("A value is not 5")
+ #Result:A value is 5
 ```
 
 ### Nested if else :wavy_dash:
@@ -114,4 +118,5 @@ else:
    large=c
 
 print(large) 
+#Resukt:6
 ```
