@@ -76,12 +76,14 @@ print(value)
 
 following example showing conversion of int datatype to float datatype.
 
+Example
 ```python
 a=10
 print('a value is {0:f}'.format(a))
 #Result:a value is 10.000000
 ```
 conversion int datatype to float datatype with **2** precision point.
+
 Example
 ```python
 a=10
@@ -90,6 +92,7 @@ print('a value is {0:.2f}'.format(a))
 ```
 - type conversion double to float
 - while calulation in python 3 the defualt return type of calculation is **double**
+
 Example
 ```python
 print('2/3 answer is {}'.format(2/3))
@@ -116,6 +119,7 @@ here the given element is length of 1 digit and we give space for 3 digit means 
 
 
 - For string we use left **chevron(<)** and right **chevron(>)** for giving space
+
 Example:
 ```python
 print('my name is {}'.format('abhi'))
@@ -135,6 +139,7 @@ print('my name is {0:<8} ....'.format('abhi'))
 ```
 ### 4.Asterisk :eight_pointed_black_star: around the text
 Example:
+
 ```python
 print('{0:*^11s}'.format('rahul'))
 #Result:***rahul***
@@ -151,6 +156,8 @@ print('{0:*^12s}'.format('rahul'))
 ```
 
 ### 5.String Formatting inside a loop    :loop: 
+
+Example
 ```python
 for i in range(1,11):                           
 	print('{0:5d}{1:5d}{2:5d}'.format(i,i**2,i**3))
