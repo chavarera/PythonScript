@@ -4,10 +4,10 @@
 
 - While loops repeat as long as a certain boolean condition is met.
 - The while loop in Python is used to iterate over a block of code as long as the test expression (condition) is true.
-- Mostly while loop is used when we want to iterate a dynamically number of times repeation
+- Mostly while loop is used when we want to iterate a dynamically number of times repeation.
 - The loop iterates while the condition is true.
 - When the condition becomes false, program control passes to the line immediately following the loop.
-- Iteration means executing the same block of code over and over, potentially many times
+- Iteration means executing the same block of code over and over, potentially many times.
 
 Syntax:
 ```python
@@ -17,7 +17,7 @@ while [condition]:
 Example:
 ```python
 a=10
-while(a==0):
+while a==0:
    print(a)
    a-=1
 ```
@@ -42,7 +42,7 @@ while n > 0:
 print('Loop ended.')
 ```
 when n becomes 2 the break statement is executed.loop is terminated completely, 
-and program execution jumps to the print()statement on line 7.
+and program execution jumps to the **print()** statement on line 7.
 
 ### 2. continue :fuelpump:
 - Immediately terminates the current loop iteration. 
