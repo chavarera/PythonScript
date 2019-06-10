@@ -3,7 +3,7 @@
 ### Basic of String Formatting
 - String Formatting is one good way to joins and combines two or more string with different data.
 - Formats specified values in a string.
-- format()  string method is used for string Formating.
+- **format()**  string method is used for string Formating.
 
 ### Using .format() we can archives different things
 
@@ -110,7 +110,7 @@ print('{0:*^11s}'.format('rahul'))
 ```
 This will create 11 * but **rahul** string is have 5 length characters so 6 asterisk(*) will be printed at 3 left side and 3 right side.
                              
-- if the remaining count of asterisk is odd then half number then the asterisk printed one extra at right side because asterisk 
+if the remaining count of asterisk is odd then half number then the asterisk printed one extra at right side because asterisk 
 printing start from right side to left.
        
 ### 5.String Formatting inside a loop    :loop: 
