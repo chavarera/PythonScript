@@ -29,9 +29,9 @@ print(type(myset))
 ```
 Create a set with 1,2,3,4 elements
 ```python
-myset=(1,2,3,4)
+myset={1,2,3,4}
 print(myset)
-#Result:(1,2,3,4)
+#Result:{1,2,3,4}
 ```
 - Set Can not Contain any mutable object such as list :bookmark_tabs:
 Example:
