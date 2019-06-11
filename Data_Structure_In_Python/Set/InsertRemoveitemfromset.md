@@ -1,13 +1,13 @@
 ## Insert,Delete Update Element In Set
 
-### Add and Remove Element in Set
+
 
 ## 1.Add Items to Set
 To add element inside set there are two built in function
-1. add()
-2. update()
+1. add() :heavy_plus_sign:
+2. update() :ballot_box_with_check:
 
-#### 1.add()
+#### 1.add() :heavy_plus_sign:
 - To add one item to a set use the **add()** method.
 - The set **add()** method adds a given element to a set if the element is not present in the set
 Syntax:
@@ -34,7 +34,7 @@ print(color)
 #Result:{"red","green","blue"}
 ```
 
-#### 2.update()*
+#### 2.update() :ballot_box_with_check:
 - Add multiple items to a set, using the **update()** method
 Syntax:
 ```python
@@ -51,11 +51,11 @@ print(color)
 ```
 ## 2.Remove Items from list
 To remove element from set there are following built in function
-1. remove()
-2. discard()
-3. pop()
+1. remove() :heavy_minus_sign:
+2. discard() :heavy_multiplication_x:
+3. pop() :x:
 
-#### 1.remove()
+#### 1.remove() :heavy_minus_sign:
 - remove() method  removes the element from the set only if the element is present in the set.
 - If the element is not present in the set, then an error or exception is raised.
 
@@ -74,7 +74,7 @@ color={"red","green","blue"}
 color.remove("black")
 #Result:KeyError: 'black'
 ```
-#### 2.discard()
+#### 2.discard() :heavy_multiplication_x:
 - **discard()** method removes the element from set only if the element is present in the set.
 -  If the element is not present in the set, then no error or exception is raised.
 
@@ -89,7 +89,7 @@ color={"red","green","blue"}
 color.remove("black")
 #Result:KeyError:{"red","green","blue"}
 ```
-#### 3.pop()
+#### 3.pop() :x:
 - **pop()** removes any orbitary elemnt and return it.
 Example:
 ```python
@@ -99,5 +99,5 @@ print(color)
 #Result:{'red', 'green'}
 ```
 
-## 3.Change Items in set
+## 3.Change Items in set :recycle:
 - Once a set is created, you cannot change its items.
