@@ -7,6 +7,7 @@ Sets can be used to carry out mathematical set operations following different op
 3. difference (-)
 4. symmetric difference (^)
 
+![Basic operation](https://www.sketch.com/images/pages/docs/04-shapes/operations.jpg)
 
 ### 1.union() :briefcase:
 - Two sets can be **added** together.
