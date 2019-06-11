@@ -5,7 +5,7 @@
 - PIP is a package manager for Python packages :briefcase: , or modules.
 - pip is a package-management system used to install and manage software packages :handbag: written in Python.
 - Many packages can be found in the default source for packages and their dependencies
-- Python Package Index. Python 2.7.9 and later, and Python 3.4 and later include pip by default.
+- Python Package installer. Python 2.7.9 and later, and Python 3.4 and later include pip by default.
 
 ### Check if PIP is Installed?
 -Open  command prompt :white_square_button: and type the following
