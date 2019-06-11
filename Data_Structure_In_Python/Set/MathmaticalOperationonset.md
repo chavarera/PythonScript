@@ -1,4 +1,4 @@
-## Set Operation
+## Set Operation :wrench:
 
 Sets can be used to carry out mathematical set operations following different operation on set can be performed 
 
@@ -8,7 +8,7 @@ Sets can be used to carry out mathematical set operations following different op
 4. symmetric difference (^)
 
 
-### 1.union()
+### 1.union() :briefcase:
 - Two sets can be **added** together.
 - Union is performed using | operator same can be achived using built in function **union()**.
 
@@ -41,7 +41,7 @@ print(result1)
 ```
 
 
-### 2.Intersection
+### 2.Intersection  :x:
 - A new set can also be constructed by determining which members two sets have **in common**.
 - Intersection is performed using **&** operator same can be achived using built in function **intersection()**.
 
@@ -74,7 +74,7 @@ print(result1)
 #Result:{1, 2}
 ```
 
-### 3. Difference*
+### 3. Difference :no_entry:
 - Two sets can also be **subtracted**.
 - Difference can be performed using **-** operator or same thing can be achieved using **difference()**.
 - Here **A-B** Result is Different result than **B-A**.
@@ -111,7 +111,7 @@ print(result1)
 ```
 
 
-### 4. symmetric Difference*
+### 4. symmetric Difference :no_entry_sign:
 - The **symmetric_difference()** method returns a set that contains all items from both set, but not the items that are present in both sets.
 - symmetric Difference can be performed using **^** operator or same thing can be achieved using **symmetric_difference()**.
 
