@@ -17,9 +17,22 @@ while [condition]:
 Example:
 ```python
 a=10
-while a==0:
+while a!=0:
    print(a)
    a-=1
+'''
+#Result
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+'''
 ```
 ### Interruption :traffic_light: of Loop :loop: Iteration
   - In each example you have seen so far, the entire body of the while loop is executed on each iteration. 
@@ -40,6 +53,12 @@ while n > 0:
       break
    print(n)
 print('Loop ended.')
+'''
+Result
+4
+3
+Loop ended.
+'''
 ```
 when n becomes 2 the break statement is executed.loop is terminated completely, 
 and program execution jumps to the **print()** statement on line 7.
@@ -57,6 +76,14 @@ while n > 0:
          continue
      print(n)
 print('Loop ended.')
+'''
+#Result
+4
+3
+1
+0
+Loop ended.
+'''
 ```
 when n is 2, the continue statement causes termination of that iteration. 
 Thus, 2 isn’t printed.
