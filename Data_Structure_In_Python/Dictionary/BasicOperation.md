@@ -41,41 +41,49 @@ print(mydict)
 use built in method **pop()** to remove element from dictionary
 
 Syntax:
+```python
 dictname.pop("keyname")
-
+```
 
 Example:
+```python
 mydict={"name":"ravi","age":20}
 #remove age
 mydict.pop("age")
 
 print(mydict)
 #Result:{"name":"ravi"}
+```
 
+### Clear all element of dictionary
 
-*Clear all element of dictionary*
-
-- clear() in built method is used to empty the dictionary.
+**clear()** in built method is used to empty the dictionary.
 
 Syntax:
+```python
 dictname.clear()
-
+```
 
 Example:
-
+```python
 mydict={"name":"ravi","age":20}
 #clear all element 
 mydict.clear()
 
 print(mydict)
 #Result:{}
+```
 
-*Deleting dictionary*
-- *del* keyword used to delete complete dictionary.
+### Deleting dictionary
+**del** keyword used to delete complete dictionary.
 
 Syntax:
+```python
 del dictionary_name
-
+```
 Example
+```python
 mydict={"name":"ravi","age":20}
 del mydict
+print(mydict)
+#Result:mydict is not defined
