@@ -1,34 +1,32 @@
-____________________________
+## Basic operation on dictionary
 
-Day 12:Lecture 2
-Content: Basic operation on dictionary
-Author:Ravishankar Chavare
-Date:12-06-2019
-LinkedIn:https://www.linkedin.com/in/ravishankar-chavare-84474a102
-_______________________________
 
-*Add new key value element in dictionary*
+### Add new key value element in dictionary
 
-- we can add key and value in dictionary using key.
+ we can add key and value in dictionary using key.
 
 Syntax:
+```python
 dictname[key]=value
-
+```
 Example:
+```python
 mydict={"name":"ravi","age":20}
 mydict["bdate"]="26/01/1993"
 
 print(mydict)
 #Result:{"name":"ravi","age":20,"bdate":"26/01/1993"}
+```
 
 
-
-*Updating value in dictionary*
+### Updating value in dictionary
 Syntax:
+```python
 dictname[existed key]="new value"
-
+```
 
 Example:
+```python
 mydict={"name":"ravi","age":20}
 #update name with jhon
 
@@ -36,11 +34,11 @@ mydict["name"]="jhon"
 
 print(mydict)
 #Result : {"name":"jhon","age":20}
+```
 
+### Removing key value pair from dictionary
 
-*Removing key value pair from dictionary*
-
-- use built in method pop() to remove element from dictionary
+use built in method **pop()** to remove element from dictionary
 
 Syntax:
 dictname.pop("keyname")
