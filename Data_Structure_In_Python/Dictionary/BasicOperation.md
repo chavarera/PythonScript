@@ -1,7 +1,7 @@
 ## Basic operation on dictionary
 
 
-### Add new key value element in dictionary
+### 1. Add new key value element in dictionary
 
  we can add key and value in dictionary using key.
 
@@ -19,7 +19,7 @@ print(mydict)
 ```
 
 
-### Updating value in dictionary
+### 2. Updating value in dictionary
 Syntax:
 ```python
 dictname[existed key]="new value"
@@ -36,7 +36,7 @@ print(mydict)
 #Result : {"name":"jhon","age":20}
 ```
 
-### Removing key value pair from dictionary
+### 3. Removing key value pair from dictionary
 
 use built in method **pop()** to remove element from dictionary
 
@@ -55,7 +55,7 @@ print(mydict)
 #Result:{"name":"ravi"}
 ```
 
-### Clear all element of dictionary
+### 4. Clear all element of dictionary
 
 **clear()** in built method is used to empty the dictionary.
 
@@ -74,7 +74,7 @@ print(mydict)
 #Result:{}
 ```
 
-### Deleting dictionary
+### 5. Deleting dictionary
 **del** keyword used to delete complete dictionary.
 
 Syntax:
