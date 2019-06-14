@@ -22,12 +22,12 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - [Else in Loop](https://github.com/chavarera/PythonScript/blob/master/Basic/ElseinLoop.md)
 
 #### 2.Comman Data Structure Used in Python
-- [String](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/String)
+- [String]()
   - [Basic of String](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/String/BasicOfStrings.md)
   - [String Methods](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/String/StringMethods.md)
   - [String Formatting](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/String/StringFormatting.md)
  
-- [List]( https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/List)
+- [List]()
   - [Basic of List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/BasicOfList.md)
   - [Insert,Delete,Update On List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/Insertdeleteupdateonlist.md)
   - [List Comprehenstion](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ListComprehension.md)
@@ -35,19 +35,19 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - [List Methods](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ListMethods.md)
  
   
-- [Tuple](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Tuple) 
+- [Tuple]() 
   - [Basic of Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/BasicOfTuple.md)
   - [Operation on Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/OperationOnTuple.md)
   -  [Function On Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/FunctionOnTuple.md)
 
-- [Set](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Set)
+- [Set]()
   - [Basic of Set](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/BasicOfSet.md)
   - [Adding And Removing Element](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/InsertRemoveitemfromset.md)
   - [Union,Intersection,Difference](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/MathmaticalOperationonset.md)
 
-- [Dictionary](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Dictionary)
-  - [Basic Of Dictionary](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/1.BasicOfDictionary.py)
-  - [Adding Removing Elements](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/2.AddingRemovingElement.py)
+- [Dictionary]()
+  - [Basic Of Dictionary](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/BasicOfDictionary.md)
+  - [Adding Removing Elements](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/BasicOperation.md)
   
 #### 3.Important Concepts in Python
 - Function:
