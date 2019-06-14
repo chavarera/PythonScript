@@ -39,13 +39,15 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - [Basic of Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/BasicOfTuple.md)
   - [Operation on Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/OperationOnTuple.md)
   -  [Function On Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/FunctionOnTuple.md)
-  
+
+- [Set](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Set)
+  - [Basic of Set](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/BasicOfSet.md)
+  - [Adding And Removing Element](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/InsertRemoveitemfromset.md)
+  - [Union,Intersection,Difference](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/MathmaticalOperationonset.md)
+
 - [Dictionary](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Dictionary)
   - [Basic Of Dictionary](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/1.BasicOfDictionary.py)
   - [Adding Removing Elements](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/2.AddingRemovingElement.py)
-- [Set](https://github.com/chavarera/PythonScript/tree/master/Data_Structure_In_Python/Set)
-  - [Basic of Set](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/1.BasicOfSet.py)
-  - [Adding And Removing Element](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/2.AddingAndRemovingElement.py)
   
 #### 3.Important Concepts in Python
 - Function:
