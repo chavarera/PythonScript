@@ -1,9 +1,10 @@
-## Dictionary*
+## Dictionary
 
 - Dictionary holds **key:value** pair which unlike other data types that hold only single element.
 - A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
 
 **Keys** are unique within a dictionary while values may not be. 
+
 **values** of a dictionary can be of any type, but the keys must be of an immutable data type such as strings, numbers, or tuples.
 
 - Key value is provided in the dictionary to make it more optimized. 
@@ -83,7 +84,6 @@ Syntax:
 ```python
 name=dictname[key]
 ```
-Example:
 
 Get **ravi** from mydict using key *name*
 ```python
