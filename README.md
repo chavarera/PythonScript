@@ -23,31 +23,31 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 
 #### 2.Comman Data Structure Used in Python
 1. String
-  - [Basic of String](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/String/BasicOfStrings.md)
-  - [String Methods](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/String/StringMethods.md)
-  - [String Formatting](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/String/StringFormatting.md)
+    - [Basic of String](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/String/BasicOfStrings.md)
+    - [String Methods](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/String/StringMethods.md)
+    - [String Formatting](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/String/StringFormatting.md)
  
 2. List
-  - [Basic of List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/BasicOfList.md)
-  - [Insert,Delete,Update On List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/Insertdeleteupdateonlist.md)
-  - [List Comprehenstion](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ListComprehension.md)
-  - [Extended Slicing on List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ExtendedSlicing.md)
-  - [List Methods](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ListMethods.md)
+    - [Basic of List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/BasicOfList.md)
+    - [Insert,Delete,Update On List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/Insertdeleteupdateonlist.md)
+    - [List Comprehenstion](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ListComprehension.md)
+    - [Extended Slicing on List](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ExtendedSlicing.md)
+   - [List Methods](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/List/ListMethods.md)
  
   
  3. Tuple
-  - [Basic of Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/BasicOfTuple.md)
-  - [Operation on Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/OperationOnTuple.md)
-  -  [Function On Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/FunctionOnTuple.md)
+    - [Basic of Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/BasicOfTuple.md)
+    - [Operation on Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/OperationOnTuple.md)
+    -  [Function On Tuple](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Tuple/FunctionOnTuple.md)
 
 4. Set
-  - [Basic of Set](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/BasicOfSet.md)
-  - [Adding And Removing Element](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/InsertRemoveitemfromset.md)
-  - [Union,Intersection,Difference](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/MathmaticalOperationonset.md)
+    - [Basic of Set](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/BasicOfSet.md)
+    - [Adding And Removing Element](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/InsertRemoveitemfromset.md)
+    - [Union,Intersection,Difference](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Set/MathmaticalOperationonset.md)
 
 5. Dictionary
-  - [Basic Of Dictionary](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/BasicOfDictionary.md)
-  - [Adding Removing Elements](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/BasicOperation.md)
+    - [Basic Of Dictionary](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/BasicOfDictionary.md)
+   - [Adding Removing Elements](https://github.com/chavarera/PythonScript/blob/master/Data_Structure_In_Python/Dictionary/BasicOperation.md)
   
 #### 3.Important Concepts in Python
 - Function:
