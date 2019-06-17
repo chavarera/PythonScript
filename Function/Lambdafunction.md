@@ -3,8 +3,8 @@
 ### Lambda Function
 - A Python lambda is just a Python function.But may be like a special type of function that have limited capabilities
 - Lambda function is a small anonymous function.
--lambda function can have any number of arguments but only one expression, which is evaluated and returned.
-- Normally we use the *def* keyword to define a function with a name. The *lambda* keyword is used to create anonymous functions.
+- lambda function can have any number of arguments but only one expression, which is evaluated and returned.
+- Normally we use the **def** keyword to define a function with a name. The *lambda* keyword is used to create anonymous functions.
 - Lambda functions can accept zero or morearguments but only one expression.
 
 ### Why Use Lambda Functions?
