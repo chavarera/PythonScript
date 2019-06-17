@@ -122,8 +122,6 @@ There are two special symbols:
 1. *args(Non Keyword Arguments)
 2. \*\*kwargs (Keyword Arguments)
 
--------------------------------------------------------------
-
 #### 1. \*args
 - Python has *args which allow us to pass the variable number of non keyword arguments to function.
 - Use an asterisk * before the parameter name to pass variable length arguments.
@@ -131,18 +129,20 @@ There are two special symbols:
 
 
 Syntax:
-When calling function
+```python
+#When calling function
 functionname(V1,V2,V3.....)
 
 
-Inside Function
+#Inside Function
 def functioname(*varname):
        for i in varname:
            #do your computation on i variable
-
+```
 
 
 Example:
+```python
 def Addition(*numb):
    add=0
    for i in numb:
@@ -160,30 +160,31 @@ res=Addition(5,6,7)
 print(res)
 #Result:18
 
-
 #send 4 arguments
 res=Addition(5,6,7,1)
 print(res)
 #Result:19
-
+```
 -------------------------------------------------------------
 
-2.**kwargs 
+### 2.**kwargs 
 - **kwargs, it allows us to pass the variable length of keyword arguments to the function.
 - The arguments are passed as a dictionary and these arguments make a dictionary inside function with name same as the parameter excluding double asterisk **.
 
 Syntax:
-Syntax:
-When calling function
+```python
+#When calling function
 functionname(k1=V1,k2=V2,k3=V3.....)
 
 
-Inside Function
+#Inside Function
 def functioname(**varname):
        for key,value in varname.items():
            # do operation on key and value
+```
 
 Example:
+```python
 def Addition(**numb):
      add=0
      for key,value in numb:
@@ -199,4 +200,4 @@ print(res)
 res=Addition(a=5,b=6,c=7)
 print(res)
 #Result:18
-
+```
