@@ -43,6 +43,7 @@ def sums(a,b):
 #Result:name 'sums' is not defined
 ```
 Correct way to Write function
+
 Example:
 ```python
 a=5
