@@ -11,7 +11,7 @@ Following are the most common used method for strings are
 Example:
 ```python
 text="hello"
-result=txt.capitalize()
+result=text.capitalize()
 print(result)
 #Result:Hello
 ```
@@ -211,7 +211,7 @@ print(newstring)
 Example:
 ```python
 mystring="is he is was he in too is"
-newstring=stat.replace('is','was' ,2)
+newstring=mystring.replace('is','was' ,2)
 print(newstring)
 #Result: "was he was was he in too is"
 ```
@@ -265,7 +265,7 @@ number="63663"
 res=number.isdigit()
 print(res)
 
-#result : Tries
+#result : True
 ```
 
 ### Other some remaining methods 
