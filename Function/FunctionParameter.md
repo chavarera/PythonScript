@@ -187,7 +187,7 @@ Example:
 ```python
 def Addition(**numb):
      add=0
-     for key,value in numb:
+     for key,value in numb.items():
            add=add+value
      return add
 
