@@ -3,6 +3,7 @@
 ### Function arguments
 
 **What is mean by argument's**
+
 A value passed to a function (or method) when calling the function called as arguments.
 
 Python support following types of arguments for function
@@ -22,7 +23,7 @@ Syntax:
 ```python
 Functionname(element1,element2)
 
-#Or
+#Or using Tuple Data
 Functionname(*(element1,element2))
 ```
 
