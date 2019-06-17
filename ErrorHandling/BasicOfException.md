@@ -20,16 +20,14 @@ you can use exception handling.
 Following four Keywords are used to Achieve exception handelling.
 
 #### 1. try
-	 A critical operation which can raise exception is placed inside the try block.
-
+A critical operation which can raise exception is placed inside the try block.
 #### 2. except
-	 Exception is handeled in the except block which is occured by try block.
-	 A try clause can have any number of except clause to handle them differently but only one will be executed in case an exception occurs.
-
+Exception is handeled in the except block which is occured by try block.
+A try clause can have any number of except clause to handle them differently but only one will be executed in case an exception occurs.
 #### 3. else
-	 If try block couldn't capture any exception error at that time else block is executed
+If try block couldn't capture any exception error at that time else block is executed
 #### 4. finally
-	 Finally block is  executed  in  situation when the errors occurs or error not occures
+Finally block is  executed  in  situation when the errors occurs or error not occures
 
 Syntax:
 ```python
