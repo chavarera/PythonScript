@@ -51,14 +51,13 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   
 #### 3.Important Concepts in Python
 - Function:
-  - [Basic Of Function ](https://github.com/chavarera/PythonScript/blob/master/Function/1.BasicOfFunction.py)
-  - [Function Examples](https://github.com/chavarera/PythonScript/blob/master/Function/2.ExampleOfFunction.py)
-  - [Lambda Function](https://github.com/chavarera/PythonScript/blob/master/Function/3.LambdaFunction.py)
+  - [Basic Of Function ](https://github.com/chavarera/PythonScript/blob/master/Function/BasicOfFunction.md)
+  - [Function Arguments](https://github.com/chavarera/PythonScript/blob/master/Function/FunctionParameter.md)
+  - [Lambda Function](https://github.com/chavarera/PythonScript/blob/master/Function/Lambdafunction.md)
   
   
 - Error Handeling
-  - [Basic of Try Catch](https://github.com/chavarera/PythonScript/blob/master/ErrorHandling/1.BasicOFErrorHandling.py)
-  - [Error Handeling Using Infinite Loop](https://github.com/chavarera/PythonScript/blob/master/ErrorHandling/2.ErrorHandlingusingInfinteloop.py)
+  - [Basic of Exception Handeling](https://github.com/chavarera/PythonScript/blob/master/ErrorHandling/BasicOfException.md)
   
 - Threading
   - [MultiProcessing And MultiThreading Difference](https://github.com/chavarera/PythonScript/blob/master/Threading/0.MultiprocessingAndMultithreadingDifference.py)
