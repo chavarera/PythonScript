@@ -1,15 +1,15 @@
 ## File Handeling
 ### File
 - A file is some information or data which stays in the computer storage devices.
--Generally we divide files in two categories, text file and binary file. 
+- Generally we divide files in two categories, text file and binary file. 
 **Text** files are simple text where as the **binary** files contain binary data which is only readable by computer
 
 - Python has several functions for creating, reading, updating, and deleting files.
 
 There are mainly different 3 operation can be performed on file.
- - 1.Open file
- - 2.Read or write file
- - 3.close file.
+ - Open file
+ - Read or write file
+ - close file.
 
 ### 1.Opening File
 - for opening a file in Python one named **open()** methods is available.
