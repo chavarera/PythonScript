@@ -91,9 +91,8 @@ fileobj=open("myfile.txt","x")
 
 the file should be handled as binary or text mode using following 2 modes
 
-**b** binary file
-
-**t** text fil
+1. **b** binary file
+2. **t** text file
 
 
 Example 1:
