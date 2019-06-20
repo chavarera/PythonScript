@@ -7,16 +7,16 @@
 - Python has several functions for creating, reading, updating, and deleting files.
 
 There are mainly different 3 operation can be performed on file.
- 1.Open file
- 2.Read or write file
- 3.close file.
+ - 1.Open file
+ - 2.Read or write file
+ - 3.close file.
 
 ### 1.Opening File
 - for opening a file in Python one named *open()* methods is available.
 
 - The open function takes two arguments
-  1.filename
-  2.mode of file
+  - 1.filename
+  - 2.mode of file
 
 
 Syntax:
@@ -80,22 +80,24 @@ fileobj=open("myfile.txt","w")
 - If file is already exists then it will give an error
 
 Syntax:
+```python
 fileobj=open(filename,"x")
-
+```
 
 Example:
+```python
 fileobj=open("myfile.txt","x")
-
+```
 
 the file should be handled as binary or text mode using following 2 modes
 
-*b* binary file
-*t* text fil
+**b** binary file
+**t** text fil
 
 
 Example 1:
-Consider *mylog.txt* file in your current directory and you want to open it
-
+Consider **mylog.txt** file in your current directory and you want to open it
+```python
 #defualt read mode
 fil=open("mylog.txt")
 
@@ -104,47 +106,55 @@ fil=open("mylog.txt","r")
 
 #using read and text mode
 fil=open("mylog.txt","rt")
+```
 
 Above all example open text file for reading purpose
 
 
 Example 2:
 Open file for writing purpose
-
+```python
 fil=open("mylog.txt","w")
+```
 
-*How to add multiple mode to fileobject*
+### How to add multiple mode to fileobject
 
 When you want to read and write on same file you can pass both mode to open() function
 
 Syntax:
+```python
 fileobj=open(filename,"mode1mode2")
-
+```
 Example:
+```python
 fileobj=open("myfile.txt","rwt")
-
+```
 Here file is opened in three different mode for reading,writing a text file
 
-*Note*:after completion of file operation don't forgot to close file using 
+**Note**:after completion of file operation don't forgot to close file using 
 filename.close()
 
-*Open a file with "with" statement*
+### Open a file with "with" statement
 
-- With the "With" statement, you get better syntax and exceptions handling.
+- With the **with** statement, you get better syntax and exceptions handling.
 - Using with keyword the file is automatically closed when operation are completed.we don't need to write 
+```python
 fileobj.close()
-
+```
 Syntax:
+```python
 with open(filename,mode) as fileobj:
          #do operation on fileobj
-
+```
 
 Example:
-Consider *mytext.txt* contains
+Consider **mytext.txt** contains
 Hello I am from file
 
+```python
 with open("mytext.txt","r") as file:
           content=file.read()
           print(content)
 
 #Result :Hello I am from file
+```
