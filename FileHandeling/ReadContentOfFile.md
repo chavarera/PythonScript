@@ -166,10 +166,13 @@ with open("mylog.txt","r") as fil:
 
 ### How to use for loop for read all multi line
 
+Example:
+```python
 fil=open("mydata.txt","r")
 for line in fil:
       print(line)
 
+'''
 # Result:
 First line data 1
 
@@ -178,3 +181,5 @@ Second line data 2
 Third line data 3
 
 Fourth line data 4
+'''
+```
