@@ -7,8 +7,8 @@
 - **flush()** method is used for flushes the internal buffer.
 - While wrting the file operating system store the content of file in the buffer
 and buffer content should be write into file using 
- 1.flush() method 
- 2.when buffer is full
+ - flush() method 
+ - when buffer is full
 - python automatically flushes th files when when closing them.
 but when we want to flush the data before closing them then the python built in function .*flush()* is used
 
