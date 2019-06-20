@@ -151,8 +151,9 @@ with open(filename,mode) as fileobj:
 
 Example:
 Consider **mytext.txt** contains
+```
 Hello I am from file
-
+```
 ```python
 with open("mytext.txt","r") as file:
           content=file.read()
