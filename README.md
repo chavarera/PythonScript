@@ -58,6 +58,12 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   
 - Error Handeling
   - [Basic of Exception Handeling](https://github.com/chavarera/PythonScript/blob/master/ErrorHandling/BasicOfException.md)
+
+- File Handeling
+  - [Basic Of File (OpenFile)](https://github.com/chavarera/PythonScript/blob/master/FileHandeling/BasicOpenFile.md)
+  - [Read Content of File](https://github.com/chavarera/PythonScript/blob/master/FileHandeling/ReadContentOfFile.md)
+  - [Write content to file](https://github.com/chavarera/PythonScript/blob/master/FileHandeling/WriteContetToFile.md)
+  - [File Methods](https://github.com/chavarera/PythonScript/blob/master/FileHandeling/FileMethods.md)
   
 - Threading
   - [MultiProcessing And MultiThreading Difference](https://github.com/chavarera/PythonScript/blob/master/Threading/0.MultiprocessingAndMultithreadingDifference.py)
