@@ -150,6 +150,7 @@ with open(filename,mode) as fileobj:
 ```
 
 Example:
+
 Consider **mytext.txt** contains
 ```
 Hello I am from file
