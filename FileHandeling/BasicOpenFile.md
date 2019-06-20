@@ -92,10 +92,12 @@ fileobj=open("myfile.txt","x")
 the file should be handled as binary or text mode using following 2 modes
 
 **b** binary file
+
 **t** text fil
 
 
 Example 1:
+
 Consider **mylog.txt** file in your current directory and you want to open it
 ```python
 #defualt read mode
@@ -112,6 +114,7 @@ Above all example open text file for reading purpose
 
 
 Example 2:
+
 Open file for writing purpose
 ```python
 fil=open("mylog.txt","w")
