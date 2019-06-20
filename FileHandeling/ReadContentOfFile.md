@@ -52,8 +52,9 @@ print(content)
 
 
 **mylog.txt** contains
+```
 Hi, hello i am from python file.
-
+```
 Example:
 ```python
 # initialize file for reading purpose
