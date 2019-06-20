@@ -2,7 +2,7 @@
 ### File
 - A file is some information or data which stays in the computer storage devices.
 -Generally we divide files in two categories, text file and binary file. 
-**Text** files are simple text where as the *binary* files contain binary data which is only readable by computer
+**Text** files are simple text where as the **binary** files contain binary data which is only readable by computer
 
 - Python has several functions for creating, reading, updating, and deleting files.
 
@@ -12,11 +12,11 @@ There are mainly different 3 operation can be performed on file.
  - 3.close file.
 
 ### 1.Opening File
-- for opening a file in Python one named *open()* methods is available.
+- for opening a file in Python one named **open()** methods is available.
 
 - The open function takes two arguments
-  - 1.filename
-  - 2.mode of file
+  - filename
+  - mode of file
 
 
 Syntax:
