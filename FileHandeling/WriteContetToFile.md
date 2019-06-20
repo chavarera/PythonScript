@@ -6,17 +6,17 @@
 For writing content to a file there are two scenarios
 
 #### 1.write on existing file.
-- for writing content to a file use following two modes in **open()** function
+for writing content to a file use following two modes in **open()** function
 
 **Modes for writing file**
 
 #### 1. a
-- This will append the content at the end of file.
+This will append the content at the end of file.
 
 #### 2. w 
-- This will overwrite any existing content to a file.
+This will overwrite any existing content to a file.
 
-- **write()** function is used to writing the content to a file
+**write()** function is used to writing the content to a file
 
 Syntax:
 ```python
@@ -70,7 +70,7 @@ I am from fileI am new text
 
 ### 2.write on new file after file creating.
 
-- To create a new file in Python, use the **open()** method, with one of the following parameters:
+To create a new file in Python, use the **open()** method, with one of the following parameters:
 
 **1.x**
 - Exclusive create.
