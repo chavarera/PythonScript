@@ -33,6 +33,7 @@ print(color)
 #### append a another list :page_with_curl:
 Example:
 ```python
+#initilize two list
 color=['black','red']
 color2=['brown','green']
 
@@ -45,7 +46,10 @@ You can not append more than one element at a time using append
 
 This is wrong example:
 ```python
+#initilize list
 color=['black','red']
+
+#Try to Append Two element at time
 color.append('brown','green') 
 #Result Error:-append() takes exactly one argument (2 given)
 ```
@@ -68,6 +72,7 @@ Both position and element are required element
 
 Example:
 ```python
+#initilize list
 color=['black','red','brown']
 
 #insert 'green' element at 1 st position
@@ -95,7 +100,9 @@ print(num)
 
 Example:
 ```python
+#initialize num list
 num=[1,3,4,7]
+
 #insert 8 element at -10th position
 num.insert(-10,8) 
 
@@ -111,8 +118,11 @@ list1.extend(lst2)
 ```
 Example:
 ```python
+#initilize two list
 num1=[1,3,4,7]
-nun2=[8, 9]
+num2=[8, 9]
+
+#add num2 list to num1 
 num1.extend(num2) 
 print(num1) 
 
@@ -138,6 +148,7 @@ del list or element position
 
 Example:
 ```python
+#initilize list
 number=[1,3,4,7,8, 9]
 #Delete 4 from above list
 del number[2]
@@ -150,7 +161,10 @@ print(number)
 
 ### How to delete list
 ```python
+#initilize list
 number=[1,3,4,7,8, 9]
+
+#delete total list
 del number
 
 print(number) 
@@ -170,6 +184,7 @@ listname.pop(position)
 ```
 Example:
 ```python
+#initilize list
 number=[1,3,4,7,8, 9]
 #remove 8 element which present 4 or -2 index
 del_val=number.pop(4) 
@@ -187,7 +202,7 @@ Example
 number=[1,3,4,7,8, 9]
 number.pop(100) 
 
-#Result:error will occured. 
+#Result:error will occured.  pop index out of range
 ```
 
 
@@ -201,6 +216,7 @@ listname.remove(value)
 ```
 Example:
 ```python
+#initilize list
 color=['red', 'green', 'blue']
 
 #Remove "green " From list
@@ -216,7 +232,9 @@ print(color)
 
 Example:
 ```python
+#initilize list
 color=['red', 'green', 'blue']
+
 #remove "black" From above list
 color.remove("black")
 
@@ -232,6 +250,7 @@ list[index]="new value"
 ```
 Example:
 ```python
+#initilize list
 color=["blue","green","red"]
 
 #update blue with *black*
@@ -244,4 +263,3 @@ print(color)
 ```
 
 - If you provide out of range index while updating value then it will generate out of range index error
-In next tutorial I will  write some remaining  methods on list
