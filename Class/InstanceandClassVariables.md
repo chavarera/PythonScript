@@ -19,9 +19,9 @@ objectname.instancevariablename
 Syntax:
 ```python
 class <class name>:
-          def __init__(self,variable, var2):
-                 self.variable=variable
-                 self.var2=var
+    def __init__(self,variable, var2):
+      self.variable=variable
+      self.var2=var2
 ```
 
 Example:
@@ -61,7 +61,7 @@ class <class name>:
            #class variables
            Var1=value
 
-          def ```__init__```(self,variable, var2):
+          def __init__(self,variable, var2):
                  #instance variable
 ```
 
@@ -69,17 +69,17 @@ Example:
 ```python
 #class initilization
 class Circlec():
-  
-    #declare class variables here
-    pi=3.14   
-    
-    #Define constructor with paramter
-    def ```__init__```(self,radious):
-        self.radious=radious
-    def area(self):
-        #Here we called class variable in another method
-        return Circlec.pi*self.radious**2 
-        
+  
+    #declare class variables here
+    pi=3.14   
+    
+    #Define constructor with paramter
+    def __init__(self,radious):
+        self.radious=radious
+    def area(self):
+        #Here we called class variable in another method
+        return Circlec.pi*self.radious**2 
+        
 #create Object of class and pass parameter
 circlec=Circlec(3)
 
