@@ -12,18 +12,20 @@
 self.variablename
 ```
 - instance variables can be accessed outside of class using class object reference or classname
-
+```python
 objectname.instancevariablename
+```
 
 Syntax:
+```python
 class <class name>:
           def __init__(self,variable, var2):
                  self.variable=variable
                  self.var2=var
-
+```
 
 Example:
-
+```python
 #class initilization
 class Circle():
     #Define constructor with paramter
@@ -41,28 +43,30 @@ circle1=Circle(3,3.14)  #we are sending instance varaible
 print(circle1.area())
 
 #Result:28.26
+```
 
-----------------------------
-
-
-*2.class variable*
-- class variable defined outside of ```__init__()``` methods.
+## 2.class variable
+- class variable defined outside of __init__() methods.
 - Here only one copy of class variable created and it shared with all object of an class.
 - to access class variable inside a class  we need to use classname dot(.) Notation and class variable 
 classname.variable_name
 - Class variable can be accessed outside of class using class name either object reference
-
+```python
 objectname.classvariable
+```
 
 Syntax:
+```python
 class <class name>:
            #class variables
            Var1=value
 
           def ```__init__```(self,variable, var2):
                  #instance variable
+```
 
 Example:
+```python
 #class initilization
 class Circlec():
   
@@ -83,3 +87,4 @@ circlec=Circlec(3)
 print(circlec.area())
 
 #Result :28.26
+```
