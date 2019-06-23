@@ -1,25 +1,16 @@
-_______________________________
-
-
-Day 20:Lecture 1
-Content:instance variable and class variable
-Author:Ravishankar Chavare
-Date:20-06-2019
-LinkedIn:https://www.linkedin.com/in/ravishankar-chavare-84474a102
-_______________________________
-
+## Instance and Class Variables
 - variable inside class also called as attributes.
 - there are two different type of variables appears in classes and object.
+ 1.instance variable
+ 2.class variable
 
-1.instance variable
-2.class variable
-
-*1.instance variable*
+## 1.instance variable
 - instance variable defined inside a constructor __init__() method of class.
 - Every object has its own personal copy of an instance
 - to call a instance variable inside a class self keyword is used.
+```python
 self.variablename
-
+```
 - instance variables can be accessed outside of class using class object reference or classname
 
 objectname.instancevariablename
