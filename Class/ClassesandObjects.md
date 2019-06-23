@@ -61,7 +61,7 @@ class Person:
        pass
 ```
 
-### ome standard rules to create class
+### Some standard rules to create class
 - class name first character should be in capital case.
 - Class name must be started with alphabets and underscore(_).
 - Do not use special keyowords as class name.
