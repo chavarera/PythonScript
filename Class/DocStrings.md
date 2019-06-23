@@ -1,22 +1,14 @@
-_______________________________
+## Docstrings
 
-
-Day 21:Lecture 1
-Content:DocString
-Author:Ravishankar Chavare
-Date:23-06-2019
-LinkedIn:https://www.linkedin.com/in/ravishankar-chavare-84474a102
-_______________________________
-
-*docstrings*
-
-- the docstring is similar to comment which is not run by python interpreter.
-- the doc string is used to understand the functioning of the program.
+- The docstring is similar to comment which is not run by python interpreter.
+- The doc string is used to understand the functioning of the program.
 - It describes what's going on inside a program so that a person looking at the source code does not have a hard time figuring it out.
 - If you add multiple DocString to a function then only first DocString consider as DocString other consider as normal comments
 
 We can write docstring using triple quotes
+
 Syntax:
+```python
 #using SingleQuotes
 '''
 this is doc string example
@@ -26,19 +18,21 @@ this is doc string example
 """
 this is doc string example
 """
+```
 
 Docstring can be return inside
-	1.function
-	2.class
-	3.method
+ 1.function
+ 2.class
+ 3.method
 	
-- there are two way to access your docstring
-	1.```__doc__```
+There are two way to access your docstring
+	1.__doc__
 	2.help()
-______________________________________
 
-1.```__doc__```
+
+### 1.__doc__
 Syntax:
+```python
 #To get function docstring
 functionname.```__doc__```
 
@@ -47,27 +41,35 @@ Classname.```__doc__```
 
 #To access method doc string
 Classname.methodname.```__doc__```
+```
 
-*2.help()*
-- *help()* function is used to retrive all document related to class unctions and method
+### 2.help()
+- **help()** function is used to retrive all document related to class unctions and method
 Syntax:
+```python
 help(class,function,any object)
+```
 
-- *help()* function return
-	- class docstrings
-	- methods doc strings
-	- dictionaries 
+- **help()** function return
+     - class docstrings
+     - methods doc strings
+     - dictionaries 
 
 
-*1.Function*
+### 1.Function
 - After function declaration you can write down docstring.
 
 Syntax:
+```python
 def <Functionanme>():
 	'''
 	Add Function 
 	'''
+```
 Example:
+```python
+
+#Addition function
 def Addition(a,b):
 	'''
 	this function take two integer number and return the addtion
@@ -79,8 +81,8 @@ result=Addition(a,b)
 print(result)
 #Result:11
 
-#To access function docstring using ```__doc__```
-dstring=Addition.```__doc__```
+#To access function docstring using __doc__
+dstring=Addition.__doc__
 print(dstring)
 #Result:this function take two integer number and return the addtion
 
@@ -97,16 +99,20 @@ Addition(a, b)
 None
 
 '''
+```
 
+## 2.class
 
-*2.class*
 Syntax:
+```python
 class <ClassName>:
 	'''	
 	add class docstring here
 	'''
+```
 
 Example:
+```python
 class Circle():
   #Add Document About Class here
   '''
@@ -117,8 +123,8 @@ class Circle():
 #initialize the class object
 circle1=Circle()
 
-#Get Doc string using ```__doc__```
-dstring=Circle.```__doc__```
+#Get Doc string using __doc__
+dstring=Circle.__doc__
 print(dstring)
 #Result:this is simple class description 
 
@@ -144,16 +150,20 @@ class Circle(builtins.object)
 
 None
 '''
+```
 
-*3.Methods*
+## 3.Methods
 Syntax:
+```
 class <ClassName>:
 	def <MethodName>():
 		'''
 		Add method doc string here
 		'''
+```
 
 Example:
+```python
 class Circle():
   #Add Document About Class here
   '''
@@ -169,8 +179,8 @@ class Circle():
 #initialize the class object
 circle1=Circle()
 
-#Get method Doc string using ```__doc__```
-dstring=Circle.Display.```__doc__```
+#Get method Doc string using  __doc__
+dstring=Circle.Display.__doc__
 print(dstring)
 #Result:This is display method print the a value on console
 
@@ -188,3 +198,4 @@ Display(self)
 
 None
 '''
+```
