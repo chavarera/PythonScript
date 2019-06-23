@@ -34,13 +34,13 @@ There are two way to access your docstring
 Syntax:
 ```python
 #To get function docstring
-functionname.```__doc__```
+functionname.__doc__
 
 #To access class docstring
-Classname.```__doc__```
+Classname.__doc__
 
 #To access method doc string
-Classname.methodname.```__doc__```
+Classname.methodname.__doc__
 ```
 
 ### 2.help()
