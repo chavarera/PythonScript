@@ -7,8 +7,7 @@
 - Constructor is used to assign some memory to instance of an class
 - Constructor in python is created using __init__ method.
 - __init__() method take first parameter as self(You can use any name but for maintaining  standard naming convention use self keyword only) 
-- Its bad idea to write your main logic inside __init__() block becuase the constructor is always called when a new object of that class is created
- alternative create a another method and write your logic ther and call it using class object
+- Its an bad idea to write your logical code inside . Because constructor bloack is automatically called every time when create an new object of that class.
 
 - There are two type of constructor avialable in python
     1.empty Constructor
