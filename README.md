@@ -4,19 +4,19 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 [Useful Shortcuts In Idle Click Here](https://github.com/chavarera/PythonScript/blob/master/Basic/IdleShortcuts.md)
 ## You Can Learn From Here
 #### 1.Basic Of Python
+- Basic Concepts
+  - [Basic Introduction and Installation](https://github.com/chavarera/PythonScript/blob/master/Basic/Introduction.md)
+  - [Introduction Of PIP](https://github.com/chavarera/PythonScript/blob/master/Basic/PIPIntroduction.md)
+  - [Write And Execute Python Program](https://github.com/chavarera/PythonScript/blob/master/Basic/FirstProgram.md)
+  - [Useful Some IDLE Shortcuts](https://github.com/chavarera/PythonScript/blob/master/Basic/IdleShortcuts.md)
+  - [Variables and Data Types](https://github.com/chavarera/PythonScript/blob/master/Basic/VariableAndDataTypes.md)
+  - [Read Input From User](https://github.com/chavarera/PythonScript/blob/master/Basic/UserInput.md)
+  - [Indentation](https://github.com/chavarera/PythonScript/blob/master/Basic/indentation.md)
+  - [Comments in Python](https://github.com/chavarera/PythonScript/blob/master/Basic/Comments.md)
 
-- [Basic Introduction and Installation](https://github.com/chavarera/PythonScript/blob/master/Basic/Introduction.md)
-- [Introduction Of PIP](https://github.com/chavarera/PythonScript/blob/master/Basic/PIPIntroduction.md)
-- [Write And Execute Python Program](https://github.com/chavarera/PythonScript/blob/master/Basic/FirstProgram.md)
-- [Useful Some IDLE Shortcuts](https://github.com/chavarera/PythonScript/blob/master/Basic/IdleShortcuts.md)
-- [Variables and Data Types](https://github.com/chavarera/PythonScript/blob/master/Basic/VariableAndDataTypes.md)
-- [Read Input From User](https://github.com/chavarera/PythonScript/blob/master/Basic/UserInput.md)
-- [Indentation](https://github.com/chavarera/PythonScript/blob/master/Basic/indentation.md)
-- [Comments in Python](https://github.com/chavarera/PythonScript/blob/master/Basic/Comments.md)
-
-##### Conditional Statement
+- Conditional Statement
   - [If Else](https://github.com/chavarera/PythonScript/blob/master/Basic/ConditionalStatementIfelse.md)
-##### Loop Statement
+- Loop Statement
   - [For Loop](https://github.com/chavarera/PythonScript/blob/master/Basic/ForLoop.md)
   - [While Loop](https://github.com/chavarera/PythonScript/blob/master/Basic/WhileLoop.md)
   - [Else in Loop](https://github.com/chavarera/PythonScript/blob/master/Basic/ElseinLoop.md)
