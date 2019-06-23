@@ -9,9 +9,9 @@
 - __init__() method take first parameter as self(You can use any name but for maintaining  standard naming convention use self keyword only) 
 - Its an bad idea to write your logical code inside . Because constructor bloack is automatically called every time when create an new object of that class.
 
-- There are two type of constructor avialable in python
-    - empty Constructor
-    - parameterized Constructor
+There are two type of constructor avialable in python
+  - empty Constructor
+  - parameterized Constructor
 
 ### 1.Empty Constructor
 
