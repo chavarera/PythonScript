@@ -10,8 +10,8 @@
 - Its an bad idea to write your logical code inside . Because constructor bloack is automatically called every time when create an new object of that class.
 
 - There are two type of constructor avialable in python
-    1.empty Constructor
-    2.parameterized Constructor
+    - empty Constructor
+    - parameterized Constructor
 
 ### 1.Empty Constructor
 
