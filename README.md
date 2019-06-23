@@ -65,23 +65,24 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - [Write content to file](https://github.com/chavarera/PythonScript/blob/master/FileHandeling/WriteContetToFile.md)
   - [File Methods](https://github.com/chavarera/PythonScript/blob/master/FileHandeling/FileMethods.md)
   
-- Threading
-  - [MultiProcessing And MultiThreading Difference](https://github.com/chavarera/PythonScript/blob/master/Threading/0.MultiprocessingAndMultithreadingDifference.py)
-  - [Basic Of Threading](https://github.com/chavarera/PythonScript/blob/master/Threading/1.BasicOfThreading.py)
-  - [Return Value from Thread](https://github.com/chavarera/PythonScript/blob/master/Threading/2.GetReturnValueFromThread.py)
 
 #### 4.OOPS Concept
-  - [Class](https://github.com/chavarera/PythonScript/tree/master/Class)
-    - [Basic Of Class](https://github.com/chavarera/PythonScript/blob/master/Class/1.BasicOfClass.py)
-    - [Method Of Class](https://github.com/chavarera/PythonScript/blob/master/Class/2.MethodsInClass.py)
-    - [Class Variable And Instance Variable](https://github.com/chavarera/PythonScript/blob/master/Class/3.DifferenceBetweenClassVariableAndInstanceVariable.py)
-    - [Writing Document Inside Class](https://github.com/chavarera/PythonScript/blob/master/Class/4.CreateAndFetchDocuments.py)
+  - [Basic]
+    - [Basic of class and Object](https://github.com/chavarera/PythonScript/blob/master/Class/ClassesandObjects.md)
+    - [Attributes and Methods](https://github.com/chavarera/PythonScript/blob/master/Class/AttributesandMethods.md)
+    - [Constructor in class](https://github.com/chavarera/PythonScript/blob/master/Class/Constructor%20class.md)
+    - [Instance and Class Variable](https://github.com/chavarera/PythonScript/blob/master/Class/InstanceandClassVariables.md)
+    - [DocString in python](https://github.com/chavarera/PythonScript/blob/master/Class/DocStrings.md)
     
   - Inheritance 
     - [Basic Of Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/5.InheritanceInPythonClass.py)
     - [Multilevel Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/6.MultilevelInheritance.py)
     - [Multiple Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/7.Multipleinheritance.py)
     
+- Threading
+  - [MultiProcessing And MultiThreading Difference](https://github.com/chavarera/PythonScript/blob/master/Threading/0.MultiprocessingAndMultithreadingDifference.py)
+  - [Basic Of Threading](https://github.com/chavarera/PythonScript/blob/master/Threading/1.BasicOfThreading.py)
+  - [Return Value from Thread](https://github.com/chavarera/PythonScript/blob/master/Threading/2.GetReturnValueFromThread.py)
 
 
 #### 5.Regular Expression In Python
