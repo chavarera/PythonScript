@@ -64,22 +64,22 @@ objectname=<ClassName>(paramters except self)
 ```
 
 Example:
-```
+```python
 #Initilize the class
 class Person:
-    #initilize The class constructor
-    def __init__(self,name,age):
-        print("The constructor is called")
-        #Initilize the instance Variable
-        self.name=name
-        self.age=age
+    #initilize The class constructor
+    def __init__(self,name,age):
+        print("The constructor is called")
+        #Initilize the instance Variable
+        self.name=name
+        self.age=age
 
-   #Simple method for displaying output
-    def Display(self):
-        print('name: '+self.name)
-        print('age: '+str(self.age))         
+   #Simple method for displaying output
+    def Display(self):
+        print('name: '+self.name)
+        print('age: '+str(self.age))         
 
-#Create a object of an Person Class and pass jhon as name and  25 as age.
+#Create a object of an Person Class and pass jhon as name and  25 as age.
 p1=Person("jhon",25)
 
 #Now to display the output call Display Method
