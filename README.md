@@ -67,7 +67,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   
 
 #### 4.OOPS Concept
-  - [Basic]
+  - Basic
     - [Basic of class and Object](https://github.com/chavarera/PythonScript/blob/master/Class/ClassesandObjects.md)
     - [Attributes and Methods](https://github.com/chavarera/PythonScript/blob/master/Class/AttributesandMethods.md)
     - [Constructor in class](https://github.com/chavarera/PythonScript/blob/master/Class/Constructor%20class.md)
