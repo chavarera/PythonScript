@@ -1,16 +1,15 @@
 ## Dictionary
 
-Dictionary holds **key:value** pair which unlike other data types that hold only single element.
+- Dictionary holds **key:value** pair which unlike other data types that hold only single element.
+- A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
 
-A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
+- **Keys** are unique within a dictionary while values may not be. 
 
-**Keys** are unique within a dictionary while values may not be. 
+- **values** of a dictionary can be of any type, but the keys must be of an immutable data type such as strings, numbers, or tuples.
 
-**values** of a dictionary can be of any type, but the keys must be of an immutable data type such as strings, numbers, or tuples.
+- Key value is provided in the dictionary to make it more optimized. 
 
-Key value is provided in the dictionary to make it more optimized. 
-
-Python Dictionary works similar to real world Dictionary when key element is uniques.
+- Python Dictionary works similar to real world Dictionary when key element is uniques.
 
 
 ### How to Create dictionary
