@@ -43,10 +43,13 @@ Hi, hello i am from python file.
 Example:
 Read first 2 character from a **mylog.txt** file
 ```python
+#Initialize file for read purpose
 fil=open("mylog.txt","r")
-content=fil.read(2)
-print(content)
 
+#Read 2 byte content of file
+content=fil.read(2)
+
+print(content)
 #Result:Hi
 ```
 
@@ -61,7 +64,7 @@ Example:
 fil=open("mylog.txt","r")
 
 #get cursor position
-cur=file.tell()
+cur=fil.tell()
 print(cur)
 #Result:0
 
@@ -72,18 +75,17 @@ print(content)
 #Result:Hi
 
 #Now get updated  cursor position
-cur=file.tell()
+cur=fil.tell()
 print(cur)
 #Result:2
 
 #Read next 7 character from file
-fil=open("mylog.txt","r")
 content=fil.read(7)
 print(content)
 #Result: , hello
 
 #now get the updated cursor position
-cur=file.tell()
+cur=fil.tell()
 print(cur)
 #Result:9
 
@@ -176,6 +178,7 @@ Fourth line data 4
 
 Example:
 ```python
+#Initilize file object
 fil=open("mydata.txt","r")
 for line in fil:
       print(line)
