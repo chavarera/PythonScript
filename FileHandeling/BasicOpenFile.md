@@ -157,8 +157,8 @@ Hello I am from file
 ```
 ```python
 with open("mytext.txt","r") as file:
-          content=file.read()
-          print(content)
+    content=file.read()
+    print(content)
 
 #Result :Hello I am from file
 ```
