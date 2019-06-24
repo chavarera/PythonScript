@@ -167,7 +167,7 @@ with open("mylog.txt","r") as fil:
 ```
 
 
-### How to use for loop for read all multi line :loop:
+### How to use for loop for read all multi line
 file **mydata.txt** contains 
 ```
 First line data 1
