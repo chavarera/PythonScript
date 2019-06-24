@@ -1,6 +1,6 @@
-## Read Content of File
+## Read Content of File :scroll:
 
-### 1.Read Contents
+### 1.Read Contents :open_file_folder:
 
 - **open()** method return a file object and file object have a method called **read()** for reading the content of an file.
 
@@ -24,7 +24,7 @@ print(content)
 #Result:Hi, hello i am from python file.
 ```
 
-### How to read some content from a file
+### How to read some content from a file :scroll:
 - for **read()** method you can pass a integer length of character (number that shows how many characters do you want to read)
 - after read statement python cursor will positioned according to given input to **read()** function.
 
@@ -95,7 +95,7 @@ fil.seek(0)
 
 
 
-### How to read line from a given file
+### How to read line from a given file :open_book:
 - **readline()** function is used to read line from a file.
 - By calling **readline()** three times, you can read the three first lines.
 
@@ -121,7 +121,7 @@ print(firstline)
 # Result :First line data 1
 ```
 
-### How to read all lines from a file
+### How to read all lines from a file :pencil:
 - **readlines()** is return list object with every line as element 
 
 Syntax:
@@ -167,7 +167,7 @@ with open("mylog.txt","r") as fil:
 ```
 
 
-### How to use for loop for read all multi line
+### How to use for loop for read all multi line :loop:
 file **mydata.txt** contains 
 ```
 First line data 1
