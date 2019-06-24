@@ -2,7 +2,7 @@
 
 ### Function arguments
 
-**What is mean by argument's**
+**What is mean by argument's?**
 
 A value passed to a function (or method) when calling the function called as arguments.
 
@@ -21,9 +21,10 @@ Python support following types of arguments for function
 - In positional arguments we need to maintain sequence as we calling area.
 Syntax:
 ```python
+#Positional Arguments
 Functionname(element1,element2)
 
-#Or using Tuple Data
+#Using Tuple Data
 Functionname(*(element1,element2))
 ```
 
@@ -47,6 +48,7 @@ How to define keyword arguments
 
 Syntax:
 ```python
+#Keywords Arguments
 Functionname(key1=value,key2=value2)
 
 #Using Dictionary
@@ -166,7 +168,7 @@ res=Addition(5,6,7,1)
 print(res)
 #Result:19
 ```
--------------------------------------------------------------
+
 
 ### 2.**kwargs 
 - **kwargs, it allows us to pass the variable length of keyword arguments to the function.
