@@ -75,9 +75,11 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [DocString in python](https://github.com/chavarera/PythonScript/blob/master/Class/DocStrings.md)
     
   - Inheritance 
-    - [Basic Of Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/5.InheritanceInPythonClass.py)
-    - [Multilevel Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/6.MultilevelInheritance.py)
+    - [Basic Of Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/BasicOfInheritance.md)
+    - [Single Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/SingleInheritance.md)
     - [Multiple Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/7.Multipleinheritance.py)
+    - [Multilevel Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/MultilevelInheritance.md)
+    - [Hybrid Inheritance]()
     
 - Threading
   - [MultiProcessing And MultiThreading Difference](https://github.com/chavarera/PythonScript/blob/master/Threading/0.MultiprocessingAndMultithreadingDifference.py)
