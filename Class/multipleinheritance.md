@@ -6,8 +6,11 @@
 
 ![Multiple Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/multipleinheritance.png)
 
+### Algorithm
 
-*Example 1*
+### Syntax
+
+### Example 1
 ```python
 class A:
   def __init__(self):
@@ -36,3 +39,5 @@ I am B Class variable
 I am A Class variable
 '''
 ```
+
+### Example 2
