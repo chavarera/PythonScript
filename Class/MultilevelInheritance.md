@@ -23,7 +23,8 @@ class B(A):
 ```python
 class C(B):
 ```
-4.Repeat this process untill you Required
+4.Repeat this process untill you Required.
+
 5.Create object of last derived class and access methods and attributes of all above parent and grand parent class.
 
 ### Syntax
