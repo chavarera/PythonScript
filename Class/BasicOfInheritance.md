@@ -112,8 +112,10 @@ b1.Display()
 #Result:2 4
 ```
            
-### Types of Inheritance
 
+
+
+### Types of Inheritance
  1. Single Inheritance
  
  	![Single inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/singleinheritance.png)
