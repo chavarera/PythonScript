@@ -2,8 +2,9 @@
 
 ### Basic Of Inheritance
 - Inheritance is an a mechanism in which one class acquire the properties and attributes of an another class.
--Using inheritance we can reuse the fields and methods of an another class.
-- In inheritance there are two terms
+- Using inheritance we can reuse the fields and methods of an another class.
+
+In inheritance there are two terms
 
   1. Base class(Parent Class)
   2. subclass(Child class)
@@ -40,9 +41,8 @@ class <ChildClassName>(ParentClassName,ClassName2):
 ```
 You can derive parent class attributes in child class there are two different ways 
 
- 1.Using super keyword
-
-2.Using Class Name
+  1. Using super keyword
+  2. Using Class Name
 
 ### 1. Using super
 Syntax:
