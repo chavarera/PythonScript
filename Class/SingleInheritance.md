@@ -7,6 +7,8 @@
 - If parent class and child class have same methods and you callled that method using child class object then only base class method is called.
 If that method is not avialable in child class then parent class method is called
 
+![Single Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/singleinheritance.png)
+
 ### Steps to Perform Single Inheritnace:
 
 1.Create Parent (Base) class.
