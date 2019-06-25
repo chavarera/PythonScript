@@ -119,10 +119,13 @@ b1.Display()
  	![Single inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/singleinheritance.png)
 	
  2. Multiple Inheritance
+ 
  	![Multiple Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/multipleinheritance.png)
 	
  3. Multilevel Inheritance
+ 
  	![Multilevel Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/multilevelinheritance.png)
 	
  4. Hybrid Inheritance
+ 
 	![Hybrid Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/hybridinheritance.png)
