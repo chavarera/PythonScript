@@ -37,7 +37,7 @@ self.par1
 7.Now create object of child class and pass the required paramter
 8.using base class object now you can access methods of parent and base class.
 
-Syntax:
+### Syntax:
 ```python
 class <ParentClassName>:
 	##Initilize Attributes and Methods
