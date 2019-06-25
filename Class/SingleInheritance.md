@@ -48,7 +48,7 @@ class <ChildClassName>(ParentClassName):
 		
 		#initilize own instance variable
 
-#Create an object of Base class
+#Create an object of child class
 objname=ParentClassName(all paramters)
 
 #To Call Methods of parent and child class use object of child class
