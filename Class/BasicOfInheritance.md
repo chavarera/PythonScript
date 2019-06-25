@@ -6,12 +6,13 @@
 - In inheritance there are two terms
 
 1.Base class(Parent Class)
+
 2.subclass(Child class)
 
 ### 1.Base class.
 
 - Also called as parent class.
--Parent or base classes create a pattern out of which child or subclasses can be based on. 
+- Parent or base classes create a pattern out of which child or subclasses can be based on. 
 - Parent classes allow us to create child classes through inheritance without having to write the same code over again each time
 
 ### 2.Sub Class.
@@ -39,8 +40,10 @@ class <ChildClassName>(ParentClassName,ClassName2):
 
 ```
 You can derive parent class attributes in child class there are two different ways 
+
  1.Using super keyword
- 2.Using Class Name
+
+2.Using Class Name
 
 ### 1. Using super
 Syntax:
@@ -113,6 +116,9 @@ b1.Display()
 ### Types of Inheritance
 
 1.Single Inheritance
+
 2.Multiple Inheritance
+
 3.Multilevel Inheritance
+
 4.Hybrid Inheritance
