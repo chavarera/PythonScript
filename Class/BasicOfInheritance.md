@@ -5,9 +5,8 @@
 -Using inheritance we can reuse the fields and methods of an another class.
 - In inheritance there are two terms
 
-1.Base class(Parent Class)
-
-2.subclass(Child class)
+  1. Base class(Parent Class)
+  2. subclass(Child class)
 
 ### 1.Base class.
 
@@ -115,10 +114,7 @@ b1.Display()
            
 ### Types of Inheritance
 
-1.Single Inheritance
-
-2.Multiple Inheritance
-
-3.Multilevel Inheritance
-
-4.Hybrid Inheritance
+ 1. Single Inheritance
+ 2. Multiple Inheritance
+ 3. Multilevel Inheritance
+ 4. Hybrid Inheritance
