@@ -7,6 +7,7 @@
 
 
 ### Skelton Example of Hybrid Inheritance
+```python
 class A:
 	pass
 class B(A):
@@ -15,6 +16,7 @@ class C(A):
 	pass
 class D(B,C):
 	pass
+```
 
 ### Example 1
 ```python
