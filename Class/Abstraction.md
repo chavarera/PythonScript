@@ -3,8 +3,8 @@
 
 - Key concept of object oriented programming language.
 - Data abstraction main goal is to hide unnecessary details from the user.
-- User can not see the atcual background process (Real time example: Atm Machine).
-- When we matter input and output we don't need to understand background mechanism of that process.
+- User can not see the atcual background process (Real time example: Atm Machine with the help of some keys we can withdraw money we do not need to show background process).
+- When we matter input and output we don't need to understand background mechanism of that process in such scenario abstraction is used
 
 ![Abstraction](https://github.com/chavarera/PythonScript/blob/master/Class/abstractclasses.png)
 
