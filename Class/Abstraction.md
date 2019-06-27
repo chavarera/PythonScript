@@ -14,7 +14,7 @@
 - The class which can not be instantiated (not able to create an object of that class) and contain atleast one abstract method called as abstract classes.
 if you try to create an object of abstract class you will get error
 ```python
-TypeError: Can't instantiate abstract class Calculation with abstract methods Add
+TypeError: Can't instantiate abstract class <className> with abstract methods <methodName>
 ```
 - Abstract methods are those methods that are declared in abstract class and must be implemented in subclass(child class).
 
