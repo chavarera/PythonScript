@@ -68,7 +68,7 @@ s1=Student()
 s1.Addition(6,5)
 #Result:11
 
-#if you cannot call Addition method with greator and less number of parameter
+#if you cannot call Addition method with greator and less number of param
 # s1.Addition(5) #Error:TypeError: Addition() missing 1 required 
 
 #Call Display method Without parameter
@@ -136,7 +136,8 @@ s1=Son()
 
 #child class Doesn't have any method
 s1.Display()
-#still we can accesss parent class methods becuase son is derived class from Father
+#still we can accesss parent class methods 
+#becuase son is derived class from Father
 
 #Result:from parentClass:I am Father
 ```
