@@ -14,7 +14,7 @@ polymorphism can be achieved using following two terms
  within same class.
 - In the simple word, creates multiple methods that can handle diferrent data types in same class
 	
-![Method Overloading](https://github.com/chavarera/PythonScript/blob/master/Class/methodOverloading.png =250x250)
+![Method Overloading](https://github.com/chavarera/PythonScript/blob/master/Class/methodOverloading.png)
 
 Python built in polymorphism Example 
 **len()** Function can handle different datatypes 
