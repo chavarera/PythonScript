@@ -80,6 +80,15 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Multiple Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/multipleinheritance.md)
     - [Multilevel Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/MultilevelInheritance.md)
     - [Hybrid Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/Hybridinheritance.md)
+  
+  - [Encapsulation](https://github.com/chavarera/PythonScript/blob/master/Class/Encapsulation.md)
+    - public 
+    - private
+    - protected
+  - [Abstraction](https://github.com/chavarera/PythonScript/blob/master/Class/Abstraction.md)
+  - [Polymorphism](https://github.com/chavarera/PythonScript/blob/master/Class/Polymorphism.md)
+    - Method Overloading
+    - Method Overriding
     
 - Threading
   - [MultiProcessing And MultiThreading Difference](https://github.com/chavarera/PythonScript/blob/master/Threading/0.MultiprocessingAndMultithreadingDifference.py)
