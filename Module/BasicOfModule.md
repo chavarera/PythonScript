@@ -76,7 +76,8 @@ import platform
 #using as Keyword import a module
 import platform as plt
 
-#if you check the id of object platform and plt both will point to the same object
+#if you check the id of object 
+#platform and plt both will point to the same object
 print(id(platform))
 print(id(plt))
 
@@ -138,7 +139,7 @@ FUNCTIONS
 
 DATA
     DEV_NULL = '/dev/null'
-    __copyright__ = '\n    Copyright (c) 1999-2000, Marc-Andre Lemburg... ...
+    __copyright__ = '\n    Copyright (c) 1999-2000, Marc-Andre Lemburg.
 
 VERSION
     1.0.8
@@ -167,20 +168,32 @@ import platform
 print(dir(platform))
 '''
 #Result
-['DEV_NULL', '_UNIXCONFDIR', '_WIN32_CLIENT_RELEASES', '_WIN32_SERVER_RELEASES', 
-'__builtins__', '__cached__', '__copyright__', '__doc__', '__file__', '__loader__', 
-'__name__', '__package__', '__spec__', '__version__', '_codename_file_re', 
-'_default_architecture', '_dist_try_harder', '_distributor_id_file_re', '_follow_symlinks', 
-'_ironpython26_sys_version_parser', '_ironpython_sys_version_parser', '_java_getprop', 
-'_libc_search','_linux_distribution', '_lsb_release_version', '_mac_ver_xml', '_node', 
-'_norm_version', '_parse_release_file','_platform', '_platform_cache', '_pypy_sys_version_parser',
-'_release_file_re', '_release_filename', '_release_version','_supported_dists', '_sys_version',
-'_sys_version_cache', '_sys_version_parser', '_syscmd_file', '_syscmd_uname','_syscmd_ver',
-'_uname_cache', '_ver_output', 'architecture', 'collections', 'dist', 'java_ver', 'libc_ver', 
-'linux_distribution', 'mac_ver', 'machine', 'node', 'os', 'platform', 'popen', 'processor',
-'python_branch', 'python_build','python_compiler', 'python_implementation', 'python_revision',
-'python_version', 'python_version_tuple', 're', 'release', 'subprocess', 'sys', 'system',
-'system_alias', 'uname', 'uname_result', 'version', 'warnings', 'win32_ver']
+['DEV_NULL', '_UNIXCONFDIR', '_WIN32_CLIENT_RELEASES', 
+'_WIN32_SERVER_RELEASES', '__builtins__', '__cached__',
+'__copyright__', '__doc__', '__file__', '__loader__', 
+'__name__', '__package__', '__spec__', '__version__',
+'_codename_file_re','_default_architecture', '_dist_try_harder',
+'_distributor_id_file_re', '_follow_symlinks', 
+'_ironpython26_sys_version_parser', '_ironpython_sys_version_parser', 
+'_java_getprop', 
+'_libc_search','_linux_distribution', '_lsb_release_version', 
+'_mac_ver_xml', '_node', 
+'_norm_version', '_parse_release_file','_platform', 
+'_platform_cache', '_pypy_sys_version_parser',
+'_release_file_re', '_release_filename', '_release_version',
+'_supported_dists', '_sys_version',
+'_sys_version_cache', '_sys_version_parser',
+'_syscmd_file', '_syscmd_uname','_syscmd_ver',
+'_uname_cache', '_ver_output', 'architecture', 
+'collections', 'dist', 'java_ver', 'libc_ver', 
+'linux_distribution', 'mac_ver', 'machine', 'node',
+'os', 'platform', 'popen', 'processor',
+'python_branch', 'python_build','python_compiler',
+'python_implementation', 'python_revision',
+'python_version', 'python_version_tuple', 're',
+'release', 'subprocess', 'sys', 'system',
+'system_alias', 'uname', 'uname_result', 'version',
+'warnings', 'win32_ver']
 '''
 ```
 
