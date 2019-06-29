@@ -202,7 +202,7 @@ import platform
 version=platform.python_version()
 print(version)
 
-#Resukt:3.7.3
+#Result:3.7.3
 ```
 
 How to import specific method or function name from Module?
