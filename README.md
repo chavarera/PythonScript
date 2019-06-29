@@ -90,11 +90,11 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - Method Overloading
     - Method Overriding
     
-- Threading
-  - [MultiProcessing And MultiThreading Difference](https://github.com/chavarera/PythonScript/blob/master/Threading/0.MultiprocessingAndMultithreadingDifference.py)
-  - [Basic Of Threading](https://github.com/chavarera/PythonScript/blob/master/Threading/1.BasicOfThreading.py)
-  - [Return Value from Thread](https://github.com/chavarera/PythonScript/blob/master/Threading/2.GetReturnValueFromThread.py)
 
+##### Modules
+  - Basic
+    - [Basic Of Modules](https://github.com/chavarera/PythonScript/blob/master/Module/BasicOfModule.md)
+    - [Custom Modules](https://github.com/chavarera/PythonScript/blob/master/Module/BasicOfModule.md)
 
 #### 5.Regular Expression In Python
   - RE
@@ -114,6 +114,10 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Basic Of ZipFile](https://github.com/chavarera/PythonScript/blob/master/ZipFileHandleing/1.Basicofzipfile.py)
     - [Extract Data From Zip FIles](https://github.com/chavarera/PythonScript/blob/master/ZipFileHandleing/2.ExtractDataFromZipFile.py)
 
+- Threading
+  - [MultiProcessing And MultiThreading Difference](https://github.com/chavarera/PythonScript/blob/master/Threading/0.MultiprocessingAndMultithreadingDifference.py)
+  - [Basic Of Threading](https://github.com/chavarera/PythonScript/blob/master/Threading/1.BasicOfThreading.py)
+  - [Return Value from Thread](https://github.com/chavarera/PythonScript/blob/master/Threading/2.GetReturnValueFromThread.py)
 
 
 #### Machine Learning Libraries
