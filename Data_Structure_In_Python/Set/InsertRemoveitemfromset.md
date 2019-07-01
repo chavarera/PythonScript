@@ -49,7 +49,7 @@ print(color)
 
 #Result:{'orange', 'red', 'green', 'blue', 'black'}
 ```
-## 2.Remove Items from list
+## 2.Remove Items from set
 To remove element from set there are following built in function
 1. remove() :heavy_minus_sign:
 2. discard() :heavy_multiplication_x:
