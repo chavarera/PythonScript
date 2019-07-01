@@ -95,7 +95,8 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - Basic
     - [Basic Of Modules](https://github.com/chavarera/PythonScript/blob/master/Module/BasicOfModule.md)
     - [Custom Modules](https://github.com/chavarera/PythonScript/blob/master/Module/BasicOfModule.md)
-
+  - Some Important Modules
+    - [platform](https://github.com/chavarera/PythonScript/blob/master/Module/platform/platform.md)
 #### 5.Regular Expression In Python
   - RE
     - [Basic of Regular Expression](https://github.com/chavarera/PythonScript/blob/master/Regex/1.BasicOfRegularExpression.py)
