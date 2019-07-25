@@ -17,16 +17,16 @@ import re
 ```
 
 Basic of re functions
-	1. findall()
-	2. search()
-	3. split()
-	4. sub()
+1. findall()
+2. search()
+3. split()
+4. sub()
 
 
 Some Basic pattern requirements
 
-IDENTIFIRES:-
-
+### IDENTIFIRES:-
+```
 \d any number
 \D anything except a number
 \s space
@@ -36,10 +36,10 @@ IDENTIFIRES:-
 . any character but except new line
 \b white space arround words
 \. a period(this will find out . in given string)
+```
 
-
-MODIFIRES:-
-
+### MODIFIRES:-
+```
 {2,6} describing about numbers expecting result 2-6
 + Match 1 or More
 ? Match 0 or 1
@@ -49,15 +49,16 @@ $ Match the end of string
 | either or (Example {1,3} | {6-9})
 [] range or variance example [1-5],[A-Z]
 {x} expecting "x" amount
+```
 
-White Spaces
-
+### White Spaces
+```
 \n new line
 \t tab
 \e escape
 \s space
 \f from feed
 \r return
+```
 
-Note:
-We can use diffrent solution for solving same problem
+**Note**:We can use diffrent solution for solving same problem
