@@ -97,6 +97,10 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Custom Modules](https://github.com/chavarera/PythonScript/blob/master/Module/BasicOfModule.md)
   - Some Important Modules
     - [platform](https://github.com/chavarera/PythonScript/blob/master/Module/platform/platform.md)
+    - OS Module
+      - [Basic of OS](https://github.com/chavarera/PythonScript/blob/master/Module/os/BasicOfOsModule.md)
+      - [File Name Access](https://github.com/chavarera/PythonScript/blob/master/Module/os/AccessFileNames.md)
+      - [os.path Module](https://github.com/chavarera/PythonScript/blob/master/Module/os/pathModuleInOS.md)
 #### 5.Regular Expression In Python
   - RE
     - [Basic of Regular Expression](https://github.com/chavarera/PythonScript/blob/master/Regex/1.BasicOfRegularExpression.py)
