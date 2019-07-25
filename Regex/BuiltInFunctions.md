@@ -5,9 +5,10 @@
 For searching pattern ther are following two ways
 
 **1.single First match**
-    re.search() to find the first match for a pattern.
+   - re.search() to find the first match for a pattern.
+    
 **2.Multiple Match**
-     re.findall() finds all the matches and returns them as a list of strings, with each string representing one match.
+  - re.findall() finds all the matches and returns them as a list of strings, with each string representing one match.
 
 #### 1.search
 
@@ -29,7 +30,7 @@ re.search(pattern,string)
 Example 1:
 
 problem:find out 're' in given string
-```
+```python
 import re
 input_string='this is simple re python program.re is short form of regular expression'
 pattern=r're'
@@ -66,7 +67,7 @@ re.findall(pattern,string)
 
 Example:
 Find out all occurences of 're'
-
+```python
 #import Required module
 import re
 
@@ -80,23 +81,27 @@ result=re.findall(pattern,input_string)
 print(result)
 
 #Result :['re', 're', 're', 're']
+```
 
-
-3.split()
+#### 3.split()
 - Returns a list where the string has been split at each match.
 - The split() function returns a list where the string has been split at each match.
 - If multiple pattern matching in split() function the list is splitted accordingly pattern.
-
+```
 input_string:'this is string'
 splited list:['th', ' ', ' string']
 
 input_string:'python'
 splited list:['p', 'thon']
+```
 
 Syntax:
+```python
 re.split('pattern',input_string)
+```
 
 Example:
+```python
 #import Module
 import re
 
@@ -108,21 +113,26 @@ result = re.split("python", str)
 print(result)
 
 #Result:['This is ', ' program']
+```
 
-
-4.sub()
+#### 4.sub()
 - Replaces one or many matches with a given input string
 
-consider input_string :'python'
-	 pattern      : 'py'
-	 replace Text : 'cy'
- 	result of re.sub(): 'cython'
-
+consider 
+```
+input_string :'python'
+pattern      : 'py'
+replace Text : 'cy'
+result of re.sub(): 'cython'
+```
 
 Syntax:
+```python
 re.sub('Search pattern','replace Text',input_string)
+```
 
 Example:
+```python
 #import Module
 import re
 
@@ -134,3 +144,4 @@ result = re.sub('i',"It", input_string)
 print(result)
 
 #Result:ThIts Its python program
+```
