@@ -82,9 +82,9 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Hybrid Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/Hybridinheritance.md)
   
   - [Encapsulation](https://github.com/chavarera/PythonScript/blob/master/Class/Encapsulation.md)
-    - public 
-    - private
-    - protected
+    - Public 
+    - Private
+    - Protected
   - [Abstraction](https://github.com/chavarera/PythonScript/blob/master/Class/Abstraction.md)
   - [Polymorphism](https://github.com/chavarera/PythonScript/blob/master/Class/Polymorphism.md)
     - Method Overloading
@@ -96,7 +96,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Basic Of Modules](https://github.com/chavarera/PythonScript/blob/master/Module/BasicOfModule.md)
     - [Custom Modules](https://github.com/chavarera/PythonScript/blob/master/Module/BasicOfModule.md)
   - Some Important Modules
-    - [platform](https://github.com/chavarera/PythonScript/blob/master/Module/platform/platform.md)
+    - [Platform](https://github.com/chavarera/PythonScript/blob/master/Module/platform/platform.md)
     - OS Module
       - [Basic of OS](https://github.com/chavarera/PythonScript/blob/master/Module/os/BasicOfOsModule.md)
       - [File Name Access](https://github.com/chavarera/PythonScript/blob/master/Module/os/AccessFileNames.md)
