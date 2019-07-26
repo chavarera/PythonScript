@@ -91,7 +91,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - Method Overriding
     
 
-##### Modules
+##### 5.Modules
   - Basic
     - [Basic Of Modules](https://github.com/chavarera/PythonScript/blob/master/Module/BasicOfModule.md)
     - [Custom Modules](https://github.com/chavarera/PythonScript/blob/master/Module/BasicOfModule.md)
@@ -101,7 +101,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
       - [Basic of OS](https://github.com/chavarera/PythonScript/blob/master/Module/os/BasicOfOsModule.md)
       - [File Name Access](https://github.com/chavarera/PythonScript/blob/master/Module/os/AccessFileNames.md)
       - [os.path Module](https://github.com/chavarera/PythonScript/blob/master/Module/os/pathModuleInOS.md)
-#### 5.Regular Expression In Python
+#### 6.Regular Expression In Python
   - RE
     - [Basic of Regular Expression](https://github.com/chavarera/PythonScript/blob/master/Regex/BasicOfRegex.md)
     - [Built In Function Of RE](https://github.com/chavarera/PythonScript/blob/master/Regex/BuiltInFunctions.md)
@@ -109,7 +109,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Identifiers](https://github.com/chavarera/PythonScript/blob/master/Regex/Identifiers.md)
     - [Escaping Metacharacters](https://github.com/chavarera/PythonScript/blob/master/Regex/EscapingMetacharacters.md)
     
-#### 6.Some Important Utilty Modules
+#### Some Important Utilty Modules
   - Module logging
     - [Basic Of Logging](https://github.com/chavarera/PythonScript/blob/master/Logging/1.BasicOfLogging.py)
     - [Writing Log To File](https://github.com/chavarera/PythonScript/blob/master/Logging/2.WriteLogToFile.py)
