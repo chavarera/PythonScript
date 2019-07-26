@@ -103,12 +103,11 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
       - [os.path Module](https://github.com/chavarera/PythonScript/blob/master/Module/os/pathModuleInOS.md)
 #### 5.Regular Expression In Python
   - RE
-    - [Basic of Regular Expression](https://github.com/chavarera/PythonScript/blob/master/Regex/1.BasicOfRegularExpression.py)
-    - [Text manipulation Using RE](https://github.com/chavarera/PythonScript/blob/master/Regex/2.SomeTextManipulation.py)
-    - [Matching Set Of Character](https://github.com/chavarera/PythonScript/blob/master/Regex/3.MatchingSetOfCharacter.py)
-    - [Escaping Metachar](https://github.com/chavarera/PythonScript/blob/master/Regex/4.EscapingMetacharcters.py)
-    - [Single and Multiple Occurences](https://github.com/chavarera/PythonScript/blob/master/Regex/5.FindSingleAndMultipleOccurence.py)
-    - [Regular Expression on File](https://github.com/chavarera/PythonScript/blob/master/Regex/5.FindSingleAndMultipleOccurence.py)
+    - [Basic of Regular Expression](https://github.com/chavarera/PythonScript/blob/master/Regex/BasicOfRegex.md)
+    - [Built In Function Of RE](https://github.com/chavarera/PythonScript/blob/master/Regex/BuiltInFunctions.md)
+    - [Modifiers](https://github.com/chavarera/PythonScript/blob/master/Regex/Modifiers.md)
+    - [Identifiers](https://github.com/chavarera/PythonScript/blob/master/Regex/Identifiers.md)
+    - [Escaping Metacharacters](https://github.com/chavarera/PythonScript/blob/master/Regex/EscapingMetacharacters.md)
     
 #### 6.Some Important Utilty Modules
   - Module logging
