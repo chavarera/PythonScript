@@ -53,8 +53,10 @@ print(result)
 Example 3:
 
 Findout . occurence in given string
-
+```
 input_string='this is simple.python easy is programming language.'
+```
+
 ```python
 import re
 
