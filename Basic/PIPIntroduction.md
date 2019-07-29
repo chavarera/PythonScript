@@ -1,7 +1,7 @@
 ## Python Package installer(PIP) :postal_horn:.
 
 ### What is pip?
-- PIP stands for “Python Package installer”
+- PIP stands for **Python Package installer**.
 - PIP is a package manager for Python packages or modules.
 - Pip is a package management system used to install and manage software packages written in Python.
 - We can find Many packages in the default source for packages and their dependencies.
