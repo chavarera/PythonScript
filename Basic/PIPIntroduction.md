@@ -33,7 +33,7 @@ You can install packages in 2 different ways.
 ```
 - Which package name is showing in the website portal
 
-#### 2.use the wheel  of that package
+#### 2.Use the wheel  of that Package
 - Just open https://pypi.org
 - Search required packages such as pandas, numpy, OpenCV.
 - Do to download section and download .whl file which is an archive for packages.
