@@ -61,7 +61,7 @@ The simple answer? Learn the latest version.
 
 
 #### Which IDLE  is best for python learning
--If you are a beginner stage  of python then do not use any third party idle. use python default idle that will help u remember the syntaxes and indentation.
+- If you are a beginner stage  of python then do not use any third party idle. use python default idle that will help u remember the syntaxes and indentation.
 
 #### Some of the most widely used idle
 - Pycharm 
