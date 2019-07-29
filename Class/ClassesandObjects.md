@@ -4,18 +4,18 @@
 
 ### What is mean by class
 - Almost everything in Python is an object, with its properties and methods.
-- The primitive data structures available in Python, like numbers, strings, and lists are designed to represent simple things.But when you need to handle complex things we required classes.
+- The primitive data structures available in Python, like numbers, strings, and lists are designed to represent simple things. But when you need to handle complex things we required classes.
 - Classes are used to create new user-defined data structures that contain arbitrary information about something. 
 
-Consider a simple example if there are 5 person and you want to save age,name,salary normally then you need to creates lots of variable for each person.you can reduce this using classes and object . Just normal create class with age,name,salary attribute And create a class object for every person when you calling to class.
+Consider a simple example if there are 5 people and you want to save age, name, salary normally then you need to creates lots of variable for each person.you can reduce this using classes and object. Just normal create a class with age, name, salary attribute And create a class object for every person when you calling to class.
 
-- class just provides structure—it’s a blueprint for how something should be defined.
+- a class just provides structure—it’s a blueprint for how something should be defined.
 - A class is a code template for creating objects. Objects have member variables and have behaviour associated with them.
-- class contains collection of attributes and methods.
+- the class contains a collection of attributes and methods.
 
 
-### How to define class in Python?
-- In Python a class is created using **class** keyword
+### How to define a class in Python?
+- In Python, a class is created using **class** keyword
 - Then you add the name of the class (starting with a capital letter.)
 
 Syntax:
@@ -51,7 +51,7 @@ class Person():
             print("i am from Display method")
 ```
 
-**Note**:-if you run above programm you will not get any output because a class is useless until it's object is created.
+**Note**:-if you run above program you will not get any output because a class is useless until it's an object is created.
 
 ### How to create an empty class
 
@@ -61,26 +61,26 @@ class Person:
        pass
 ```
 
-### Some standard rules to create class
-- class name first character should be in capital case.
-- Class name must be started with alphabets and underscore(_).
-- Do not use special keyowords as class name.
-- do not use special character in class name except underscore(_).
-- class name can be combination of alphabets,digit, underscore but starting character should be underscore or alphabets only.
-- do not use space in class name.
+### Some standard rules to create a class
+- class name first character should be in a capital case.
+- The class name must be started with alphabets and underscore(_).
+- Do not use special keywords as the class name.
+- do not use a special character in the class name except underscore(_).
+- the class name can be a combination of alphabets, digit, underscore but the starting character should be underscore or alphabets only.
+- do not use space in the class name.
 
 
 ## Objects
 ### what is mean by object
 - An object is an instance of a class.
 - Using object we can access class attributes and methods.
-- we can also modify public class attributes using object. 
+- we can also modify public class attributes using the object. 
 
-## How to create an class object
+## How to create a class object
 
-After defining the class the procedure to create an object of an class
+After defining the class the procedure to create an object of a class
 
-- use class name to create an object
+- use the class name to create an object
 
 Syntax:
 ```python
