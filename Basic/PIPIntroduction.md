@@ -8,7 +8,7 @@
 - Python Package installer. Python 2.7.9 and later, and Python 3.4 and later include pip by default.
 
 ### Check if PIP is Installed?
--Open command prompt :white_square_button: and type the following
+-Open command prompt  and type the following
 
 `>pip --version`
 
@@ -43,13 +43,13 @@ You can install packages in 2 different ways.
 >pip install downloaded_package.whl
 ```
 
-### Get List of installed packages list :orange_book:
+### Get List of installed packages list 
 Use the list command to list all the packages installed on your system:
 Example
 ```python
 >pip list
 ```
-### How to Remove Uninstall Packages :no_entry:
+### How to Remove Uninstall Packages 
 Use the uninstall command to remove a package:
 
 Example
@@ -57,7 +57,7 @@ Example
 >pip uninstall pacakagename
 ````
 
-### How to create requirement.txt :scroll: file using pip
+### How to create requirement.txt  file using pip
 - Save all the packages in the file with
 Example:
 ```python
