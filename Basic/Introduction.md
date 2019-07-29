@@ -1,7 +1,7 @@
 ## Python :snake:
 #### What is python ?
-- Python is an interpreted , high level, a general-purpose programming language created by **Guido van Rossum** :walking:
-- Python is a high-level language nowadays most commonly used by scientists :globe_with_meridians: data analysis :bar_chart: and too many people to solve real-time problems.
+- Python is an interpreted , high level, a general-purpose programming language created by **Guido van Rossum** 
+- Python is a high-level language nowadays most commonly used by scientists  data analysis  and too many people to solve real-time problems.
 - Python supports multiple programming paradigms such as structural programming, procedural, object-oriented and functional programming
 - Python is an easily readable language.
 
@@ -13,7 +13,7 @@
 
 ### Is it easy to learn Python 
 - Python is very readable 
-- You won’t waste a lot of time memorizing :pencil: the complex syntax that other programming languages present you.
+- You won’t waste a lot of time memorizing  the complex syntax that other programming languages present you.
 - Python is syntax wise very easy language so I don’t think it will take more time to pick it up.
 
 #### Why should use Python?
@@ -25,8 +25,8 @@
 
 #### How many python version?
 There are 2 python version both are developing simultaneously
-  - Python 2.x :two:
-  - Python 3.x :three:
+  - Python 2.x 
+  - Python 3.x 
 
 #### Which version should I use?
 - Although Python 2.7 is still widely used, Python 3 adoption is growing quickly 
@@ -60,7 +60,7 @@ python3:print(“ass here text”)
 The simple answer? Learn the latest version.
 
 
-#### Which IDLE :page_facing_up: is best for python learning
+#### Which IDLE  is best for python learning
 -If you are a beginner stage  of python then do not use any third party idle. use python default idle that will help u remember the syntaxes and indentation.
 
 #### Some of the most widely used idle
