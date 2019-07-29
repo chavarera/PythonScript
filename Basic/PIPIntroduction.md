@@ -59,6 +59,7 @@ Example
 
 ### How to create requirement.txt  file using pip
 - Save all the packages in the file with
+
 Example:
 ```python
 >pip freeze >requirements.txt
@@ -68,6 +69,7 @@ So before creating any project first create an environment and run above command
 
 ### Install project dependencies using requirements.txt 
 - first, go to the folder where **requirements.txt** file is placed and type the following command in terminal 
+
 Example:
 ```python
 >pip install -r requirements.txt
