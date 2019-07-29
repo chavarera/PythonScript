@@ -8,7 +8,7 @@
 - Python Package installer. Python 2.7.9 and later, and Python 3.4 and later include pip by default.
 
 ### Check if PIP is Installed?
--Open command prompt  and type the following
+- Open command prompt  and type the following
 
 `>pip --version`
 
