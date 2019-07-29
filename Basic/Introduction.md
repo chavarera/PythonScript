@@ -25,8 +25,8 @@
 
 #### How many python version?
 There are 2 python version both are developing simultaneously
-  - Python 2.x 
-  - Python 3.x 
+- Python 2.x 
+- Python 3.x 
 
 #### Which version should I use?
 - Although Python 2.7 is still widely used, Python 3 adoption is growing quickly 
@@ -41,14 +41,14 @@ There are 2 python version both are developing simultaneously
 
 Example :-
 
- ```python 
- result=5/2
- 
- #Result
+```python
+result=5/2
+#Result
 #python 2:2
 #python 3:2.5
- ```
-- Python :two: and python 3 have its own print statement syntax 
+```
+
+- Python 2 and python 3 have its own print statement syntax 
 Example
 
 ```python
