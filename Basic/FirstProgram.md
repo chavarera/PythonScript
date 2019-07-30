@@ -31,8 +31,8 @@ Example:
   filename.py
 ```
 
-### How To Run Python :snake: file.
-There are :two: way to run python file
+### How To Run Python  file.
+There are 2 way to run python file
 
 1.Normal 
   - Open Python file in python IDLE.
@@ -45,13 +45,13 @@ There are :two: way to run python file
 ```python
   >cd "directory path"
 ```
-- after changing directory :open_file_folder: just type 
+- after changing directory  just type 
 ```python
   dir>python filename.py
 ```
-- Now your required result will be displayed on command prompt :computer:
+- Now your required result will be displayed on command prompt 
 
-### Error :heavy_exclamation_mark: And Solution :information_source:
+### Error :heavy_exclamation_mark: And Solution
 
 - if **"python command is not recognized"** occured
   Solution:
