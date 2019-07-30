@@ -1,29 +1,29 @@
-## How to write first basic python program :scroll: and run :runner: it.
+## How to write first basic python program and run it.
 
-As we have already installed required python version and set up in our machine :computer:
+As we have already installed required python version and set up in our machine
 
-Now we are here to learn first some basic concepts about python program:page_facing_up:
+Now we are here to learn first some basic concepts about the python program
 
-### What is the use of python idle terminal :computer:
+### What is the use of python idle terminal
 you can write your small code on idle terminal and press enter to execute
 
 Example:
 ```python
   print("I am from terminal ")
 ```
-you can use python idle terminal as calculator
+you can use python idle terminal as a calculator
 Example:
 ```python
   >5+6-7
 ```
-and press enter :leftwards_arrow_with_hook: to execute you will get final result in next line 
+and press enter to execute you will get the final result in the next line 
 ```python
   >4
 ```
 
-### How to write program in idle and run :runner: in python :snake:?
-- After opening of idle terminal just press **Ctrl+n** to open a notepad like python text editor.
-- And write required code inside editor :page_with_curl:.
+### How to write a program in idle and run in python?
+- After the opening of the idle terminal just press **Ctrl+n** to open a notepad like a python text editor.
+- And write the required code inside the editor.
 - Now save that file as your required name with **extension.py**
 
 Example:
@@ -34,14 +34,14 @@ Example:
 ### How To Run Python :snake: file.
 There are :two: way to run python file
 
-:one: . Normal :shipit: 
+1.Normal 
   - Open Python file in python IDLE.
-  - Now just press **f5** or go to run menu option and select **run** to execute the python file.
-  - Now result will displayed on your python Shell.
+  - Now just press **f5** or go running menu option and select **run** to execute the python file.
+  - Now the result will be displayed on your python Shell.
   
-:two: . Using Terminal :computer:
+2. Using Terminal
 - Open command prompt or terminal in your shell.
-- Go to directory copy path and in command prompt and change command prompt derectory using following command.
+- Go to directory copy path and in command prompt and change command prompt directory using the following command.
 ```python
   >cd "directory path"
 ```
@@ -56,7 +56,7 @@ There are :two: way to run python file
 - if **"python command is not recognized"** occured
   Solution:
     ```
-    - Add your python installed path to enviornment variable.
-    - And Also Add python/scripts path to enviornment variable.
+    - Add your python installed path to an environment variable.
+    - And Also Add python/scripts path to an environment variable.
     ```
    
