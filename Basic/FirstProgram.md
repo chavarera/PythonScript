@@ -1,10 +1,7 @@
-## How to write first basic python program and run it.
+## Write And Execute Python Basic Program.
+- As Consider we have already completed python setup in windows machine in the previous tutorial Now the main basic task is to write a full python code and execute our python first program.
 
-As we have already installed required python version and set up in our machine
-
-Now we are here to learn first some basic concepts about the python program
-
-### What is the use of python idle terminal
+### What is the use of python idle terminal ?
 you can write your small code on idle terminal and press enter to execute
 
 Example:
