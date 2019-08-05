@@ -8,6 +8,7 @@
 - Data in Linked list is not stored in the contiguous memory location. if the contiguous memory location is not available linked list store the data.
 - A linked list is linear data structure it contains nodes and each node contains two different parts
 
+![LinkedList](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/llis2t.png)
 #### 1.data :
     Actual Elements are considered as data part.
 #### 2.Link :
@@ -36,6 +37,7 @@
  node.next you can not traverse in same  for the previous  node for previous you need to start traversing from the beginning of the linked list again
 - If link part of the node is None it means there is no next node, mean end of the list
 
+![SingleLinkedList](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/llist.png)
 
 #### How To Create Linked List in Python
 Create a Node and assign data and pointer value to each Node
