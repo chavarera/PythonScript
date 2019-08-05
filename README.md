@@ -108,7 +108,28 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Modifiers](https://github.com/chavarera/PythonScript/blob/master/Regex/Modifiers.md)
     - [Identifiers](https://github.com/chavarera/PythonScript/blob/master/Regex/Identifiers.md)
     - [Escaping Metacharacters](https://github.com/chavarera/PythonScript/blob/master/Regex/EscapingMetacharacters.md)
-    
+
+## Intermediate Python
+- Data Structure And Algorithm
+  - [Basic of Data Structure and Algorithm](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BasicOfDataStructureandAlgorithm.md)
+  - Array
+    - [Basic Of Array](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/Array.md)
+    - [Array Operation](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/ArrayOperation.md)
+  - Linked list
+    - [Basic Of Linked List](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/LinkedList.md)
+    - [Create And Traverse](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/CreatenTraverseLinkedList.md)
+    - [ Insert New Node ](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/InsertionOnLinkedList.md)
+  
+  - Stack
+  - Queue
+  - Binary search tree
+  - Balanced Binary Tree
+  - Heap
+  - Dictionary
+  - Tries
+  - Graph
+  - Hash Table
+  
 #### Some Important Utilty Modules
   - Module logging
     - [Basic Of Logging](https://github.com/chavarera/PythonScript/blob/master/Logging/1.BasicOfLogging.py)
