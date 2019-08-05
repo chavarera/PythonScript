@@ -9,6 +9,8 @@
 - A linked list is linear data structure it contains nodes and each node contains two different parts
 
 ![LinkedList](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/llis2t.png)
+
+![Node](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/sinplenode.png)
 #### 1.data :
     Actual Elements are considered as data part.
 #### 2.Link :
