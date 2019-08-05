@@ -1,5 +1,6 @@
 ## Array Operations
 
+![Array](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/array.png)
 ### 1.Retrieve element
 
 for Retrieving elements from an array, there are two different ways
