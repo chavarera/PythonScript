@@ -2,9 +2,8 @@
 
 #### Inserting Element Into Single Linked List
 - As compared to array singly list is the best solution to insert a new element at any position such as beginning, end, middle, before and node, after of some node.
-wherein the array if the element at 0 is already present and we insert a new element at 0 positions then the element at 0 indexes is shifted in the right side by one position.
-if there are a small number of elements are present in the list then it is not a problem but consider a huge amount of elements are already present in the list and we are inserting an element at 0 positions then every element is right side shifted by 1.
-
+- wherein the array if the element at 0 is already present and we insert a new element at 0 positions then the element at 0 indexes is shifted in the right side by one position.
+- if there are a small number of elements are present in the list then it is not a problem but consider a huge amount of elements are already present in the list and we are inserting an element at 0 positions then every element is right side shifted by 1.
 - But in the linked list when we inserting a new element only one element is shifted to the right side because of these scenario linked list is more powerful than an array.
 
 
