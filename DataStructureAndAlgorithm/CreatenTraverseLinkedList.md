@@ -9,10 +9,11 @@ Basic Operation
 
 - create a normal class and initialize two parameters
 - We already know that in single linked list node contains two block
-
+```
 1. data block.
 2. memory address of the next Node.
-
+```
+![Simple Node](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/sinplenode.png)
 - At the time of node initialization, the memory address of the current node is set to be None
 - Our node class will contain two member variables data and link. 
 - The value of the data will be set by the value passed through the constructor.
@@ -32,6 +33,7 @@ class Node:
 - Initially, Singly linked list pointing to the starting or the first node of the linked list.
 - The Single linked list contains the only member that is start_node which is initially Set to None Because the linked list will be empty
 at the time of the creation of the linked list.
+![singleNone](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/singlelinkedlist.png)
 
 Example
 ```python
@@ -62,6 +64,7 @@ if self.start_node is None:
 ```python
 node=node.link
 ```
+![Traverse](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/traverselinkedkist.png)
 
 Example:
 ```python
