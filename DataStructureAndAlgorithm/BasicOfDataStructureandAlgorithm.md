@@ -15,12 +15,12 @@ in a systematic way so we can we retrieved and handled more efficiently and more
 - To handle primitive data types such as int, float in an efficient way called primitive data structure.
 
 Examples:
-
+```
 - integer
 - float
 - boolean
 - string
-
+```
 
 #### 2.Abstract Data Structures.
 - Abstract Data type (ADT) is a type (or class) for objects whose behaviour is defined by a set of value and a set of operations.
@@ -28,7 +28,7 @@ Examples:
 - Abstract Data type doesn't just store a value, but rather a collection of values in various formats.
 
 Examples:
-
+```
 - Array
 - List
 - Stack
@@ -37,7 +37,7 @@ Examples:
 - Set
 - Files
 - Queue
-
+```
 
 
 ### Algorithm:
@@ -60,10 +60,10 @@ The performance of an algorithm can be depended upon the following two propertie
 2.time complexity.
 
 
-*1. Time Complexity:*
+**1. Time Complexity:**
 - The time complexity is a function or method that gives the amount of time required by an algorithm to perform a specific task.
 
-*2. Space Complexity:*
+**2. Space Complexity:**
 - The space complexity is a function or method that gives the amount of space required by an algorithm to perform a specific task.
 
 **Note**: There are many solutions or techniques avialable to perform a specific task but choose that algorithm which has higher performance in the term of space and time.
