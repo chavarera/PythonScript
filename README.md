@@ -2,7 +2,7 @@
 Collection of :computer: Cool PythonScript with neat Documentation :page_facing_up: and Example
 
 [Useful Shortcuts In Idle Click Here](https://github.com/chavarera/PythonScript/blob/master/Basic/IdleShortcuts.md)
-## You Can Learn From Here
+# Fundamental Python
 #### 1.Basic Of Python
 - Basic Concepts
   - [Basic Introduction and Installation](https://github.com/chavarera/PythonScript/blob/master/Basic/Introduction.md)
