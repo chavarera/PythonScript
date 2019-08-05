@@ -8,7 +8,6 @@
 - Data in Linked list is not stored in the contiguous memory location. if the contiguous memory location is not available linked list store the data.
 - A linked list is linear data structure it contains nodes and each node contains two different parts
 
-![LinkedList](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/llis2t.png)
 
 ![Node](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/sinplenode.png)
 #### 1.data :
@@ -122,3 +121,5 @@ Node Start iterating  from :12
 12->18->27->9->
 '''
 ```
+
+![LinkedList](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/llis2t.png)
