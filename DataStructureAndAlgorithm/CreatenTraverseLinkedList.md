@@ -1,4 +1,4 @@
-## Create and traverse linked list
+## Create and Traverse linked list
 
 Basic Operation
 1. Create Node
