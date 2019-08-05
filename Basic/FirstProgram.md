@@ -6,16 +6,16 @@ you can write your small code on idle terminal and press enter to execute
 
 Example:
 ```python
-  print("I am from terminal ")
+print("I am from terminal ")
 ```
 you can use python idle terminal as a calculator
 Example:
 ```python
-  >5+6-7
+>5+6-7
 ```
 and press enter to execute you will get the final result in the next line 
 ```python
-  >4
+>4
 ```
 
 ### How to write a program in idle and run in python?
@@ -25,7 +25,7 @@ and press enter to execute you will get the final result in the next line
 
 Example:
 ```
-  filename.py
+filename.py
 ```
 
 ### How To Run Python  file.
@@ -40,11 +40,11 @@ There are 2 way to run python file
 - Open command prompt or terminal in your shell.
 - Go to directory copy path and in command prompt and change command prompt directory using the following command.
 ```python
-  >cd "directory path"
+>cd "directory path"
 ```
 - after changing directory  just type 
 ```python
-  dir>python filename.py
+dir>python filename.py
 ```
 - Now your required result will be displayed on command prompt 
 
@@ -52,8 +52,8 @@ There are 2 way to run python file
 
 - if **"python command is not recognized"** occured
   Solution:
-    ```
-    - Add your python installed path to an environment variable.
-    - And Also Add python/scripts path to an environment variable.
-    ```
+```
+- Add your python installed path to an environment variable.
+- And Also Add python/scripts path to an environment variable.
+```
    
