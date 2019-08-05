@@ -110,8 +110,9 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Escaping Metacharacters](https://github.com/chavarera/PythonScript/blob/master/Regex/EscapingMetacharacters.md)
 
 ## Intermediate Python
-- Data Structure And Algorithm
-  - [Basic of Data Structure and Algorithm](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BasicOfDataStructureandAlgorithm.md)
+1. Data Structure And Algorithm
+  - Basic
+    - [Basic of Data Structure and Algorithm](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BasicOfDataStructureandAlgorithm.md)
   - Array
     - [Basic Of Array](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/Array.md)
     - [Array Operation](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/ArrayOperation.md)
