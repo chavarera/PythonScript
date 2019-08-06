@@ -148,8 +148,10 @@ class SingleLinkedList:
             self.start_node=n_node
             return
 
-        #If linked list alredy contains elements The initialize a start variavle using self.start_node
-        n=self.start_node
+        #If linked list alredy contains elements 
+	#The initialize a start variavle using self.start_node
+        
+	n=self.start_node
 
         #Iterate till the last Node appears
         while n.link is not None:
