@@ -14,6 +14,7 @@ Example for an integer variable 
 ```python
 #In C Program
 int a=2;
+
 #In Python Program
 a=2 
 ```
@@ -52,10 +53,21 @@ myset={2, 4,7}
 
 ### How to define multiple variables in a single line
 if we want to assign a=5, b=6, c=7
+
+Example
 ```python
 a, b, c=5,6,7
-```
 
+print(a)
+print(b)
+print(c)
+```
+Output:
+```
+5
+6
+7
+```
 Use comma **(,)**  delamination to specify multiple variable in a single line
 
 **Note:** both side count should be same otherwise it will raise an error
@@ -69,6 +81,13 @@ a=b=c=3
 print(a) #3
 print(b) #3
 print(c) #3
+```
+
+OutPut:
+```
+3
+3
+3
 ```
 
 Here all three variable a, b, c are assigned to the same memory location
@@ -96,11 +115,19 @@ a=5
 print(type(a))
 #This will give a result as int class
 ```
+Output
+```
+<class 'int'>
+```
 Example 
 ```python
 txt="sample string"
 print(type(txt))
 #This will return string
+```
+Output
+```
+<class 'str'>
 ```
 
 ### Find out memory location Id where the variable is saved
@@ -108,7 +135,11 @@ use python default method **Id()**
 
 ```python
 a=62
-print(id(a)) *#code changes here
+print(id(a)) #code changes here
+```
+Output
+```
+11067840
 ```
 
 This will give you int result with a memory location.
@@ -123,12 +154,16 @@ This will give you int result with a memory location.
 Example
 ```python
 #Simple Global Variable
- mytext = “I am Global Value for mytext”
-def foo():  
-    print(mytext)  
-  
-#Calling foo() function
-foo() 
+mytext = "I am Global Value for mytext"
+def foo():
+  print(mytext)
+
+#Calling  foo Function
+foo()
+```
+output
+```
+I am Global Value for mytext
 ```
 
 #### 2. Local Variable 
@@ -138,15 +173,21 @@ foo() 
 Example
 ```python
 # Global scope can be accessible in all function 
-mytext = “I am from Global variable” 
-def foo():  
-    #local Variable
-    mytext = “I am from local variable” 
-    print(mytext)
+mytext = "I am from Global variable"
+def foo():
+  #local Variable
+  mytext = "I am from local variable"
+  print(mytext)
 
 #print local value
 foo()
 
 #print global value
 print(mytext)
+```
+
+Output
+```
+I am from local variable
+I am from Global variable
 ```
