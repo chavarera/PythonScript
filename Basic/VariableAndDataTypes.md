@@ -116,8 +116,8 @@ This will give you int result with a memory location.
 ### Global variable and local variable
 - Every variable has its own scope depending upon variable declaration block
 #### 1. Global Variable 
-  - Global variables are the one that are defined and declared outside a function, and we need to use them inside a function.
-  - If you defined a variable outside of function that can be accessible by other function so this is a global variable
+- Global variables are the one that are defined and declared outside a function, and we need to use them inside a function.
+- If you defined a variable outside of function that can be accessible by other function so this is a global variable
 Example
 ```python
 #Simple Global Variable
@@ -130,8 +130,8 @@ foo() 
 ```
 
 #### 2. Local Variable 
- - If a variable with same name is defined inside the scope of function as well, as it will print the value given inside the function only and not the global value.
- - If a variable inside a function this is a simple example of  a local variable
+- If a variable with same name is defined inside the scope of function as well, as it will print the value given inside the function only and not the global value.
+- If a variable inside a function this is a simple example of  a local variable
 - This variable is accessible only by that function where it defined
 Example
 ```python
