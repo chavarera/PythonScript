@@ -340,3 +340,238 @@ After Adding 5  Element Node after 12 Node
 18->12->5->9->7-> 
 '''
 ```
+
+
+### 4.Insert Element Before An Node
+
+- If No element present in linked list return "No Element"
+- If only one element present in linked list new node pointer add to that already exists an element
+- If Multiple Elements are Present iterate through the loop and if element found to add a reference to that element using the new element
+
+
+Function Method
+```python
+def Before_item(self,data,before):
+        #If No Element in List
+        if self.start_node is None:
+            print('No Element')
+            return
+        
+        #If Single Element in List
+        if before==self.start_node.data:
+            n_node=Node(data)
+            n_node.link=self.start_node
+            self.start_node=n_node
+            return
+        
+        #initilize the Start of An Object
+        n = self.start_node
+
+        #If more than 1 element in linked list
+        while n.link is not None:
+            #check value with element
+            if n.link.data == before:
+                break
+            n = n.link
+        #If item Is not found In List
+        if n.link is None:
+            print("item not in the list")
+        else:
+            #Create New Data Node
+            n_node = Node(data)
+            n_node.link = n.link
+            n.link = n_node
+```
+
+Example:
+```python
+class Node:
+    def _init_(self,data):
+        self.data=data
+        self.link=None
+
+#Simple Initialization of Single Linked List
+class SingleLinkedList:
+
+    #Constructor of a class contains only one member
+    def _init_(self):
+        #Member of the single linked list.
+        self.start_node=None #Set to None for Initialization
+        
+    def InsertAtbegin(self,data):
+        ''' Used To insert a new Node at the begining of Linked list'''
+        n_node=Node(data)
+        n_node.link=self.start_node
+        self.start_node=n_node
+    def Before_item(self,data,before):
+        #If No Element in List
+        if self.start_node is None:
+            print('No Element')
+            return
+        
+        #If Single Element in List
+        if before==self.start_node.data:
+            n_node=Node(data)
+            n_node.link=self.start_node
+            self.start_node=n_node
+            return
+        
+        #initilize the Start of An Object
+        n = self.start_node
+
+        #If more than 1 element in linked list
+        while n.link is not None:
+            #check value with element
+            if n.link.data == before:
+                break
+            n = n.link
+        #If item Is not found In List
+        if n.link is None:
+            print("item not in the list")
+        else:
+            #Create New Data Node
+            n_node = Node(data)
+            n_node.link = n.link
+            n.link = n_node
+            
+    def TraverseList(self):
+        if self.start_node is None:
+            print("No Element In List ")
+            return
+        else:            
+            node=self.start_node
+            while node is not None:
+                print(node.data,end="->")
+                node=node.link
+
+
+#Initialize the Object of  SingleLinkedList
+s1=SingleLinkedList()
+
+#Create 4 Elements 18->12->9->7->
+s1.InsertAtbegin(7)
+s1.InsertAtbegin(9)
+s1.InsertAtbegin(12)
+s1.InsertAtbegin(18)
+
+#Print Linked List
+print("Normal Linked List")
+s1.TraverseList()
+
+
+#Add new Element 5 before 12 element
+before=12
+s1.Before_item(5,before)
+
+
+#Print Linked List
+print("\n\nAdding 5  Element Node before 12 Node")
+s1.TraverseList()
+
+'''
+#Result
+Normal Linked List
+18->12->9->7->
+
+Adding 5  Element Node before 12 Node
+18->5->12->9->7->
+'''
+```
+
+### 5. Insert at Specific Index
+- If index is 1 then directly assign start_node to newly created node
+- If not then iterate while loop till index-1 times if node is not none and increment I by one
+- if Node is Not None then Assign that new new node value  and change reference with next node
+```
+n_node=Node(data)
+n_node.link=n.link
+n.link=n_node
+```
+Example:
+
+```
+class Node:
+    def _init_(self,data):
+        self.data=data
+        self.link=None
+
+#Simple Initialization of Single Linked List
+class SingleLinkedList:
+
+    #Constructor of an class
+    def _init_(self):
+        #Member of single linked list.
+        self.start_node=None #Set to None for Initilization
+        
+    def InsertAtbegin(self,data):
+        ''' Used To insert a new Node at the begining of Linked list'''
+        n_node=Node(data)
+        n_node.link=self.start_node
+        self.start_node=n_node
+    def Given_index(self,data,index):
+
+        #when index is 1
+        if index==1:
+            n_node=Node(data)
+            n_node.link=self.start_node
+            self.start_node=n_node
+            return
+
+        #startfrom 1 st node
+        i=1
+        #initilize start_node
+        n=self.start_node
+        while i<index-1 and n is not None:
+            n=n.link
+            i+=1
+        if n is None:
+            print("out of range index")
+        else:
+            
+            n_node=Node(data)
+            n_node.link=n.link
+            n.link=n_node
+            
+    def TraverseList(self):
+        if self.start_node is None:
+            print("No Element In List ")
+            return
+        else:            
+            node=self.start_node
+            while node is not None:
+                print(node.data,end="->")
+                node=node.link
+
+
+#Initialize the Object of  SingleLinkedList
+s1=SingleLinkedList()
+
+#Create 4 Elements 18->12->9->7->
+s1.InsertAtbegin(7)
+s1.InsertAtbegin(9)
+s1.InsertAtbegin(12)
+s1.InsertAtbegin(18)
+
+#Print Linked List
+print("Normal Linked List")
+s1.TraverseList()
+
+
+#Addd 5 at 4 index
+index=4
+s1.Given_index(5,index)
+
+
+#Print Linked List
+print("\n\n5 At 4th index")
+s1.TraverseList()
+
+'''
+#Result
+Normal Linked List
+18->12->9->7->
+
+5 At 4th index
+18->12->9->5->7->
+'''
+```
