@@ -246,7 +246,9 @@ while n is not None:
      #Create a New Node
      n_node=Node(data)
 
-     #assign pointer ofa  new node with the already available pointer of found node
+     #assign pointer of  new node with the already 
+     #available pointer of found node
+     
      n_node.link=n.link
 
      #Now add pointer of aa  founded node with new Node
@@ -294,7 +296,8 @@ class SingleLinkedList:
             #Create a New Node
             n_node=Node(data)
 
-            #assign pointer ofa  new node with the already available pointer of found node
+            #assign pointer of  new node 
+	    #with the already available pointer of found node
             n_node.link=n.link
 
             #Now add pointer of a  founded node with new Node
