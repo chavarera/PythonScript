@@ -144,7 +144,8 @@ class SingleLinkedList:
 
         #Check If  linked list is empty
         if self.start_node is None:
-            #if linked list is empty then assign that new node self.start_node
+            #if linked list is empty 
+	    #then assign that new node self.start_node
             self.start_node=n_node
             return
 
