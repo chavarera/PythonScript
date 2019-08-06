@@ -157,7 +157,8 @@ class SingleLinkedList:
         while n.link is not None:
             #Assign memory of every next node
             n=n.link
-        #if last node is reached then assign that last node memory address to newNode
+        #if last node is reached then assign
+	#that last node memory address to newNode
         n.link=n_node
         
     def TraverseList(self):
