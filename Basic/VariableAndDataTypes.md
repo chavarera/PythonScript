@@ -73,8 +73,7 @@ print(c) #3
 
 Here all three variable a, b, c are assigned to the same memory location
 
-### Some rules while creating variable :pencil2:
-
+### Some rules while creating variable 
 - Use variable naming convention means variable name related to real world example
 ```python
 For example :person_name
@@ -86,10 +85,10 @@ Instead of: pn
 - Do not use reserve keyword name as variable name like list,int, str.
 
 
-### How to find out variable data type :telescope:
+### How to find out variable data type 
 to find data type of already defined variable there is one default method called **type()**
 
-Example :one:
+Example 1
 ```python
 a=5
 print(type(a))
@@ -114,9 +113,9 @@ This will give you int result with a memory location.
 
 
 
-### Global variable :globe_with_meridians: and local variable
+### Global variable and local variable
 - Every variable has its own scope depending upon variable declaration block
-#### 1. Global Variable :globe_with_meridians:
+#### 1. Global Variable 
   - Global variables are the one that are defined and declared outside a function, and we need to use them inside a function.
   - If you defined a variable outside of function that can be accessible by other function so this is a global variable
 Example
@@ -130,7 +129,7 @@ def foo():  
 foo() 
 ```
 
-#### 2. Local Variable :full_moon:
+#### 2. Local Variable 
  - If a variable with same name is defined inside the scope of function as well, as it will print the value given inside the function only and not the global value.
  - If a variable inside a function this is a simple example of  a local variable
 - This variable is accessible only by that function where it defined
