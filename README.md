@@ -120,7 +120,8 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Basic Of Linked List](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/LinkedList.md)
     - [Create And Traverse](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/CreatenTraverseLinkedList.md)
     - [ Insert New Node ](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/InsertionOnLinkedList.md)
-  
+    - [Update Node In Linked List](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/UpdateLinkedList.md)
+    - [Remove Node In Linked List](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/RemoveNodeInLinkedList.md)
   - Stack
   - Queue
   - Binary search tree
