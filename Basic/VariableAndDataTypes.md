@@ -10,7 +10,7 @@ Syntax to write variable
 ```python
 Variablename=value
 ```
-Example for integer :one: variable 
+Example for integer variable 
 ```python
 #In C Program
 int a=2;
@@ -57,6 +57,7 @@ a, b, c=5,6,7
 ```
 
 Use comma **(,)**  delaminator to specify multiple variable in a single line
+
 **Note:** both side count should be same other wise it will raise error
 
 ### How to assign the same value to multiple variables. 
@@ -75,10 +76,10 @@ Here all three variable a, b, c are assigned to the same memory location
 ### Some rules while creating variable :pencil2:
 
 - Use variable naming convention means variable name related to real world example
-  ```python
-   For example :person_name
-   Instead of: pn
-  ```
+```python
+For example :person_name
+Instead of: pn
+```
 - Variable name must be started with alphabets or underscore not with a numberic and other characters
 - You can use numbers at other position but not at first.
 - Variable should not contain any space
@@ -94,7 +95,7 @@ a=5
 print(type(a))
 #This will give a result as int class
 ```
-Example :two:
+Example 
 ```python
 txt="sample string"
 print(type(txt))
@@ -119,7 +120,7 @@ This will give you int result with a memory location.
   - Global variables are the one that are defined and declared outside a function, and we need to use them inside a function.
   - If you defined a variable outside of function that can be accessible by other function so this is a global variable
 Example
- ```python
+```python
 #Simple Global Variable
  mytext = “I am Global Value for mytext”
 def foo():  
@@ -127,7 +128,7 @@ def foo():  
   
 #Calling foo() function
 foo() 
- ```
+```
 
 #### 2. Local Variable :full_moon:
  - If a variable with same name is defined inside the scope of function as well, as it will print the value given inside the function only and not the global value.
