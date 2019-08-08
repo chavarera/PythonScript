@@ -53,7 +53,7 @@ dir>python filename.py
 ```
 - Now your required result will be displayed on command prompt 
 
-### Error :heavy_exclamation_mark: And Solution
+### Error  And Solution
 
 - if **"python command is not recognized"** occured
   
