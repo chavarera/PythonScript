@@ -123,6 +123,8 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Update Node In Linked List](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/UpdateLinkedList.md)
     - [Remove Node In Linked List](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/RemoveNodeInLinkedList.md)
   - Stack
+    - [Basic Of Stack](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BasicOfStack.md)
+    - [Operation on Stack](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/StackOperation.md)
   - Queue
   - Binary search tree
   - Balanced Binary Tree
