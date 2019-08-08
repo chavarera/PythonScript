@@ -8,6 +8,11 @@ Example:
 ```python
 print("I am from terminal ")
 ```
+Output:
+```
+I am from terminal 
+```
+
 you can use python idle terminal as a calculator
 Example:
 ```python
@@ -51,9 +56,17 @@ dir>python filename.py
 ### Error :heavy_exclamation_mark: And Solution
 
 - if **"python command is not recognized"** occured
-  Solution:
+  
+ ### Solution 
+ #### Add Python Path To System Variable
+
+- Visit following path
 ```
-- Add your python installed path to an environment variable.
+My Computer >(Right Click) 
+        Properties > 
+                Advanced System Settings >
+                             Environment Variables 
+```
+- Just add the path as C:\Python37 (or wherever you installed python) to **PATH** Variable.
 - And Also Add python/scripts path to an environment variable.
-```
    
