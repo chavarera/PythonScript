@@ -1,6 +1,6 @@
 ## Python :snake:
 #### What is the python?
-- Python is an interpreted, high level, a general-purpose programming language created by **Guido van Rossum** 
+- Python is an interpreted, high level, a general-purpose programming language created by **Guido van Rossum**. 
 - Python is a high-level language nowadays most commonly used by a scientist’s data analysis and too many people to solve real-time problems.
 - Python supports multiple programming paradigms such as structural programming, procedural, object-oriented and functional programming
 - Python is an easily readable language.
@@ -12,16 +12,16 @@
 
 
 ### Is it easy to learn Python 
-- Python is very readable 
+- Python is very readable. 
 - You won’t waste a lot of time memorizing the complex syntax that other programming languages present you.
 - Python is a syntax wise very easy language, so I don’t think it will take more time to pick it up.
 
 #### Why should use Python?
-- Python is the highest growing programming language in this world 
-- Beginner Friendliness 
-- Easy to understand 
-- Very flexible 
-- Scalability 
+- Python is the highest growing programming language in this world .
+- Beginner Friendliness .
+- Easy to understand .
+- Very flexible .
+- Scalability. 
 
 #### How many python version?
 There are 2 python version both are developing simultaneously
@@ -43,9 +43,9 @@ Example:-
 
 ```python
 result=5/2
-#Result
-#python 2:2
-#python 3:2.5
+
+#in Python 2 : 2
+#In Python 3 : 2.5
 ```
 
 - Python 2 and python 3 have its print statement syntax 
@@ -74,8 +74,21 @@ The simple answer? Learn the latest version.
 #### How to install and setup python on your local machine?
 - Before searching exe file, first collect your operating system details, such as an operating system platform (windows)
 Then bit version of os (32 bit,64 bit)
-- Now visit https://www.python.org/downloads/release
-- And download the file
+- Visit Here https://www.python.org/downloads/
+- Select Appropriate Python Version 
+```
+Python 3.7.4
+Python 3.6.9
+Python 3.7.3
+Python 3.4.10
+Python 3.5.7
+Python 2.7.16
+Python 3.7.2
+Python 3.6.8
+Python 3.7.1
+```
+- Scroll Down page And select **Windows x86-64 executable installer** from avialable list of options.
+- After completion of downlaod of python executable installer Double Click On It 
 - After download complete double click on it and check the option to add Python path to system. 
 path(you can also try manually later for adding a path in the system)
 - now check your os and search for a python you will get python idle just click on it and it will open like as a terminal which is python shell
