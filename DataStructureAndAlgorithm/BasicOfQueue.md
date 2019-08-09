@@ -9,8 +9,9 @@
 - Insert Operation done At one point and that one point is called as **Rear**
 - Removal Of Element Done at Another End Called as **Front**
 
+![queue](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/queue.png)
 
-### ou can Perform the Following Operation on Queue
+### you can Perform the Following Operation on Queue
 
 #### 1. enqueue:
     Adding data element to abstract data types.
@@ -72,7 +73,7 @@ Output:
 ```
 
 
-###2.Insertion and removal item from queue
+### 2.Insertion and removal item from queue
 - Inserting element at end of queue
 Syntax:
 ```
