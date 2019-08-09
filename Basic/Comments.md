@@ -1,57 +1,76 @@
-## Comments :thought_balloon:
+## Indentation 
 
-### Basic of Comments :bell:
- 
-- Comments :thought_balloon: are very important while writing a program.
-- It describes what's going on inside a program so that a person looking at the source code does not have a hard time figuring it out.
 
-For comments there are two options
+### Basic of Indentation  
+**indentation** concepts which play a vital role in python app development
 
-#### 1.Single line comment :skull:
-   - we use the hash (**#**) symbol to start writing a comment.
-   - Python Interpreter ignores comment.
+- One of the most distinctive features of Python is its use of indentation to mark blocks of code.
+- Other some languages such as c and c++ uses curly braces(**{}**)  to differentiate block of code
+- But in python, we use indentation to differentiate block of code (basically tab of some active space)
+- we use a colon as the starting of code block and afterwords all code block will be placed.
+- Leading whitespace (spaces and tabs) at the beginning of a logical line is used to compute the indentation level of the line, which in turn is used to determine the grouping of statements.
+- A code block (body of a function, loop, etc.) starts with indentation and ends with the first unindented line. 
+- The amount of indentation is up to you, but it must be consistent throughout that block.
 
- For example:
- ```python
-     #this is first comment
-     #this is second comment
-     a=5    #code with comment
-```
-
-#### 2.Multi line comment :dolls:
-  - Use triple quotes, either **'''** or **"""**. For multicommenting.
-  - These triple quotes are generally used for multi-line strings. 
-  But they can be used as multi-line comment as well. Unless they are not docstrings, 
-  they do not generate any extra code.
-
-For Example:
+### For example:
+consider if loop
+In C Programing :scroll:: 
 ```python
-  ''' this is multi line comment
-    Second line comment
-   Third line comment
-  Fourth line '''
+if(conditions) {
+   #main code
+}
 ```
+In python Programing:
 
-Or
+With  Brackets
 ```python
-  """this is multi line comment
-    Second line comment
-   Third line comment
-  Fourth line """
+if(conditions) :
+    #Write Your Main Code Here
 ```
 
-
-### Is this possible to assign multiple lines :page_with_curl: to a single variable
-
-yes you can use in following ways:
+without Brackets
 ```python
-myvar= """this is multi line comment
-    Second line comment
-   Third line comment
-  Fourth line """
-  
-#for print result
-print(myvar)
+if conditions:
+    #Write Your Main Code Here
 ```
 
-**Note:-** multi line comments are also used to create doc string for function or class
+### How can we write code block  in one line
+- Indentation can be ignored in line with continuation.
+- But it's a good idea to always indent. It makes the code more readable.
+Example:
+with Brackets
+```python
+if(conditions) :#main code
+```
+
+Without Brackets
+```python
+if conditions: #Write Your Main Code Here
+```
+
+### Wrong Spaces Inside Program Create Indentation Error.
+
+Consider following code block
+```python
+if(1==1) :
+              print("First line")
+      print("second line")
+```
+
+Incorrect indentation will result into 
+```python
+IndentationError: unindent does not match any outer indentation level
+```
+
+Correct Solution
+```python
+if 1==1 :
+  print("First line")
+  print("second line")
+```
+
+Output
+```
+First line
+second line
+```
