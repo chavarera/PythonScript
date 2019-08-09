@@ -48,14 +48,10 @@ print(myvar)
 
 Output
 ```
-#Assign Multiline Text to Variable
-myvar= """this is multi line comment     
+this is multi line comment     
 Second line comment    
 Third line comment   
-Fourth line """   
-
-#for print result print(myvar)
-print(myvar)
+Fourth line 
 ```
 
 Note:- multi line comments are also used to create doc string for function or class
