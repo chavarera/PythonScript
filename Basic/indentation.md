@@ -1,7 +1,7 @@
-## Indentation :wrench:
+## Indentation 
 
 
-### Basic of Indentation  :vhs:
+### Basic of Indentation  
 After completion of data type and variable I hope you understand it now I am going to here to present
  **indentation** concepts which play a vital role in python app development
 
@@ -17,36 +17,62 @@ After completion of data type and variable I hope you understand it now I am goi
 consider if loop
 In C Programing :scroll:: 
 ```python
-         if(conditions) {
-               #main code
-        }
+if(conditions) {
+   #main code
+}
 ```
-In python Programing :snake: :
+In python Programing:
 
+With  Brackets
 ```python
-       if(conditions) :
-               #main code
+if(conditions) :
+    #Write Your Main Code Here
 ```
 
-### How can we write code block  :bookmark_tabs: in one line
+without Brackets
+```python
+if conditions:
+    #Write Your Main Code Here
+```
+
+### How can we write code block  in one line
 - Indentation can be ignored in line continuation.
 - But it's a good idea to always indent. It makes the code more readable :bookmark_tabs:.
 
 Example:
+with Brackets
 ```python
- if(conditions) :#main code
+if(conditions) :#main code
+```
+
+Without Brackets
+```python
+if conditions :#Write Your Main Code Here
 ```
 
 ### If you give wrong :hotsprings: indentation which error will occured
 
 Consider following code block
 ```python
-if(conditions) :
+if(1==1) :
               print("First line")
       print("second line")
 ```
 
-Incorrect indentation will result into :no_entry:
+Incorrect indentation will result into 
 ```python
-IndentationError:
+IndentationError: unindent does not match any outer indentation level
+```
+
+Correct Solution
+```python
+if 1==1 :
+  print("First line")
+  print("second line")
+```
+
+Output
+```
+First line
+second line
 ```
