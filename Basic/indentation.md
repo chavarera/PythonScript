@@ -14,7 +14,7 @@
 
 ### For example:
 consider if loop
-In C Programing :scroll:: 
+In C Programing
 ```python
 if(conditions) {
    #main code
@@ -57,7 +57,7 @@ if(1==1) :
       print("second line")
 ```
 
-Incorrect indentation will result into 
+Above Program Create Following Error
 ```python
 IndentationError: unindent does not match any outer indentation level
 ```
