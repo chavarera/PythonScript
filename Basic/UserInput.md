@@ -20,12 +20,14 @@ Example:
 ```python
 name=input("Enter your name:")
 print(name)
-#this will accept user input and save it within name variable and print name.
+#this will accept user input and save it within 
+#name variable and print name.
 ```
 
 You can also ask user message  In a print statement and later ask user input function using **input()**
 ```python
-username=input('Enter user name:')  #this will ask user on terminal on same line
+#this will ask user on terminal on same line
+username=input('Enter user name:')  
 
 print('Enter Username:')
 uname=input()   #this will ask input on new line
@@ -49,7 +51,7 @@ Output
 <class 'int'>
 ```
 
-Python :three:
+Python 3
 ```python
 nm1=input()
 #when user input 5 as nm1
@@ -76,9 +78,13 @@ Syntax:
 print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 ```
 **objects**: object to the printed. * indicates that there may be more than one object
+
 **sep**: objects are separated by sep. Default value: ' '
+
 **end**: the end is printed at last
+
 **file**:  must be an object with a write(string) method. If omitted it, sys.stdout will be used which prints objects on the screen.
+
 **flush**: If True, the stream is forcibly flushed. Default value: False.
 
 Example:
