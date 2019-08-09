@@ -1,19 +1,20 @@
-## User :person_with_blond_hair: Input
+## User  Input
 
 ### For Reading User Input
 - For reading user input from terminal or shell we used keyword **input()** function.
 
-- In python version :two: we need to get
+- In python version 2 we need to get
 1. number using **input()** and
 2. strings using **raw_input()**
 
-- In python  version :three: **input()**  function handle string as well as number.
+- In python version 3 **input()**  function handle string as well as number.
 
 Syntax:
 ```python
-input("message")
+msg=input("message")
+print(msg)
 ```
-You can put message  :speech_balloon: as blank that is option to show message when accepting user input :thought_balloon:
+You can put message  as a blank that is an option to show message when accepting user input
 
 Example:
 ```python
@@ -22,7 +23,7 @@ print(name)
 #this will accept user input and save it within name variable and print name.
 ```
 
-You can also ask user message :speech_balloon: In print statement and later ask user input function using **input()**
+You can also ask user message  In a print statement and later ask user input function using **input()**
 ```python
 username=input('Enter user name:')  #this will ask user on terminal on same line
 
@@ -33,14 +34,19 @@ print(username)
 print(uname)
 ```
 
-Note:python :three: consider number and string as data type string while reading from user input
+Note: python 3 consider number and string as data type string while reading from user input
 
-Python :two:
+Python 2
 ```python
 nm1=input()
 #when user input 5 as nm1
 print(type(nm1))
 # this will print *int* as data type
+```
+Output
+```
+5
+<class 'int'>
 ```
 
 Python :three:
@@ -49,6 +55,11 @@ nm1=input()
 #when user input 5 as nm1
 print(type(nm1))
 #this will print *Str* as data type
+```
+Output
+```
+5
+<class 'str'>
 ```
 
 #### Examples
@@ -66,46 +77,39 @@ print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 ```
 **objects**: object to the printed. * indicates that there may be more than one object
 **sep**: objects are separated by sep. Default value: ' '
-**end**: end is printed at last
-**file**:  must be an object with write(string) method. If omitted it, sys.stdout will be used which prints objects on the screen.
+**end**: the end is printed at last
+**file**:  must be an object with a write(string) method. If omitted it, sys.stdout will be used which prints objects on the screen.
 **flush**: If True, the stream is forcibly flushed. Default value: False.
 
 Example:
-Normaal single object print
+Normal single object print
 ```python
+#intilize The Variable
 mystring="i am python"
 number=5
 
 #print mystring and number
 print(mystring)
 print(number)
+```
 
-#Result:i am python
-#Result:5
+Output
+```
+i am python
+5
 ```
 
 Pass Multiple Objects to print()
 ```python
+#Assign Variable and numbers
 mystring="i am python"
 number=5
 
 #print mystring and number
 print(mystring,number)
-
-#Result:i am python 5
-
-```
-#### Using Seperator
-syntax:
-```python
-print(element, sep='seperator')
 ```
 
-Example:
-```python
-a=5
-print(a, sep='--')
-
-#Result:--5
+Output
 ```
-
+i am python 5
+```
