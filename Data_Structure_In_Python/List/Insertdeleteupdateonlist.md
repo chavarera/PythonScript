@@ -1,11 +1,11 @@
 ## Operation  on List
 
-As we have already know some basic of list and accessing element from it. Now today here we are going to learn insertion of new element in list, update element from list which is already available, and delete items from list.
+As we have already known some basics of the list and accessing an element from it. Now today here we are going to learn insertion of a new element in the list, update element from the list which is already available, and delete items from the list.
 
 
 ## 1.Insertion
 
-There are different ways to insert element in the list
+There are different ways to insert an element in the list
 ```
   1. append()
   2. insert()
@@ -67,9 +67,9 @@ TypeError: append() takes exactly one argument (2 given)
 ```
 
 ### 2.insert() 
-- **append()** method is used for appending element to the end of list to overcome from this problem use insert()  method to insert an element at given particular location. 
+- **append()** method is used for appending an element to the end of the list to overcome from this problem use the insert()  method to insert an element at a given particular location. 
 - **insert()** method inserts the specified value at the specified position.
-- if you inserting new element at 1 index position and if one element already present at 1 index position then old item position will be  right shifted by one index. 
+- if you inserting a new element at 1 index position and if one element already present at 1 index position then the old item position will be right-shifted by one index. 
 
 
 Syntax:
@@ -78,9 +78,9 @@ listname.insert(position,element)
 ```
 Both position and element are required element
 
-**position**:an integer number specifying the position where to insert an item.
+**position**: an integer number specifying the position where to insert an item.
 
-**element**:an element of any data type string, number, list etc... 
+**element**: an element of any data type string, number, list, etc... 
 
 Example:
 ```python
@@ -98,7 +98,7 @@ Output:
 ['black','green','red','brown']
 ```
 
-- while inserting element if you have give positive integer index which is not present in the current list then item will automatically added at last position. 
+- while inserting element if you have given a positive integer index which is not present in the current list then the item will automatically be added at last position. 
 
 Example:
 ```python
@@ -113,8 +113,8 @@ Output:
 [1,3,4,7,8]
 ```
 
-**you can also use negative index for inserting element**
-- similarly if you have give negative index which is not present in current list the item will added at 0th index
+**you can also use the negative index for inserting element**
+- similarly, if you have give negative index which is not present in the current list the item will be added at 0th index
 
 Example:
 ```python
@@ -155,20 +155,20 @@ Output:
 
 ## 2.Delete Element
 
-There are different ways to delete element from the list. 
+There are different ways to delete elements from the list. 
 ```
 1. del
 2. pop()
 3. remove()
 ```
 ### 1.del
-if you removed item using del statement you cant use them for further process. 
+if you removed the item using del statement you cant use them for further process. 
 
 Syntax:
 ```python
 del list or element position
 ```
-- if you pass list to del statement then list will completely removed from stack. 
+- if you pass the list to the del statement then the list will completely be removed from the stack. 
 
 Example:
 ```python
@@ -226,7 +226,7 @@ Output:
 8
 ```
 
-- if you give out of range index for **pop()**  method then it will generate error saying list item out of range... 
+- if you give out of range index for **pop()**  method then it will generate an error saying list item out of range... 
 
 Example
 ```python
@@ -265,7 +265,7 @@ Output:
 ['red', 'blue']
 ```
 
-- If you trying to remove xyz element from list and that element is not present in the list python will generate error **"x is not in the list".**
+- If you trying to remove XYZ element from the list and that element is not present in the list python will generate error **"x is not in the list".**
 
 Example:
 ```python
