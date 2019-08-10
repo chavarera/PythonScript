@@ -224,7 +224,7 @@ Output:
 ```
 [1, 3, 4, 7, 9]
 8
-``
+```
 
 - if you give out of range index for **pop()**  method then it will generate error saying list item out of range... 
 
