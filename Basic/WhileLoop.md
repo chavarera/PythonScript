@@ -35,7 +35,7 @@ Output:
 1
 ```
 
-### Interruption :traffic_light: of Loop :loop: Iteration
+### Interruption of Loop  Iteration
   - In each example you have seen so far, the entire body of the while loop is executed on each iteration. 
   - Python provides two keywords that terminate a loop iteration prematurely:
 ```
