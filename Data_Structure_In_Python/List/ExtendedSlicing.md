@@ -1,6 +1,6 @@
 ## Extended Slicing  On List 
 
-- Ever since Python 1.4, the slicing syntax has supported an optional third **step** :racehorse: or **stride** argument.
+- Ever since Python 1.4, the slicing syntax has supported an optional third **step**  or **stride** argument.
 
 Syntax:
 ```python
