@@ -1,54 +1,63 @@
-## Else in Loop :checkered_flag:
+## Else in Loop 
 
 ### Introduction :
-- In most :eight_pointed_black_star: of the programming languages (C/C++, Java, etc), the use of else :busstop: statement has been restricted with the if conditional statements. 
+- In most of the programming languages (C/C++, Java, etc), the use of else statement has been restricted with the if conditional statements. 
 But Python also allows us to use the else condition with for loops.
 - Such type of else is useful only if there is an if condition present inside the loop which somehow depends on the loop variable.
 
-### What is use of else :busstop: in loop
+### What is the use of else in the loop?
 - The else block just after for/while is executed only when the loop is NOT terminated by a break statement.
 
 Here else block will be executed because for loop doesn't contain any **break** :vertical_traffic_light:  statement
 ```python
 for i in range(1, 4):
-    print(i)
+  print(i)
 else:
-    print("this will be executed")
-#Result:
-'''
+  print("this will be executed")
+```
+
+Output:
+```
 1
 2
 3
 this will be executed
-'''
 ```
 
-Here else block will not executed because for loop contains **break** :vertical_traffic_light: statement
+
+Here else block will not executed because for loop contains **break**  statement
 ```python
 for i in range(1, 4):
-    print(i)
-    break
+  print(i)
+  break
 else:
-    print("this will not executed")
-#Result:1
+  print("this will not executed")
+```
+Output:
+```
+1
 ```
 
-#### Note :information_source: :
-if for loop contain a if statement and if statement contain break. 
-Consider that if statement not executed this time else block of for loop will executed
+#### Note 
+if for loop contain an if statement 
+and if statement contains break. 
+Consider that if statement not executed this time else block of for loop will be executed
 
 
-### Explain in details with example :moyai:
+### Explain in details with example 
 E.g. if 5 exists in any string, if yes print accordingly.
 
 Code:
 ```python
 strings="HELLO"
 for i in strings:
-    if i== '5':
-        print("5 found")
-        break
+  if i== '5':
+    print("5 found")
+    break
 else:
-       print("5 not found")
-#Result: 5 not found
+    print("5 not found")
+```
+Output:
+```
+5 not found
 ```
