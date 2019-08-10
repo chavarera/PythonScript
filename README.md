@@ -126,6 +126,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Basic Of Stack](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BasicOfStack.md)
     - [Operation on Stack](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/StackOperation.md)
   - Queue
+    - [Basic Of Queue](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BasicOfQueue.md)
   - Binary search tree
   - Balanced Binary Tree
   - Heap
