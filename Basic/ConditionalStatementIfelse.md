@@ -1,10 +1,10 @@
-## Conditional Statement :scissors:
+## Conditional Statement 
 
-### if :pushpin:
+### if 
 
-Like any other programming languages python also support **if else** for conditional statement. 
+Like any other programming language python also support **if-else** for the conditional statement. 
 
-### Python supports the usual logical conditions  :loop: from mathematics :green_book: :
+### Python supports the usual logical conditions  :loop: from mathematics 
   - Equals: a == b
   - Not Equals: a != b
   - Less than: a < b
@@ -30,12 +30,14 @@ For example
  a=5
  if a==5:
      print("A value is 5")
-     
- #Result:A value is 5
+```
+Output:
+```
+ A value is 5
 ```
 
-### If else :interrobang:
-- when we want check one condition and if that condition met we need to execute **if** block code other wise run **else** block
+### If else 
+- when we want to check one condition and if that condition met we need to execute **if** block code otherwise run **else** block
 
 Syntax:
 ```python
@@ -63,7 +65,7 @@ if a==5:
  #Result:A value is 5
 ```
 
-### Nested if else :wavy_dash:
+### Nested if-else 
 - There may be a situation when you want to check for another condition after a condition resolves to true. 
   In such a situation, you can use the nested if construct.
 
@@ -79,8 +81,8 @@ else:
       #outer else code add here
 ```
 
-### How to use elif :small_red_triangle:
-When you want to execute multiple condition you can use **elif**
+### How to use elif 
+When you want to execute multiple conditions you can use **elif**
 
 Santax:
 ```python
@@ -95,7 +97,7 @@ else:
 ```
 Here first condition check if it doesn't true then it check second condition if all **elif** conditions are fail at that time it will execute **else** block
 
-### How to write multiple condition in single if statement :o:
+### How to write multiple conditions in single if statement 
 Use logical operator **and(&), or(|)** to checking multiple conditions
 
 syntax
