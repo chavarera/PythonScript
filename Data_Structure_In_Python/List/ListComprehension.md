@@ -1,10 +1,10 @@
 ## List comprehension 
 
 ### Introduction
-- List comprehension Help  us to reduce number of line code.
-- List comprehension is generally more compact and faster  than normal functions and loops for creating list.
+- List comprehension Help us to reduce the number of line code.
+- List comprehension is generally more compact and faster than normal functions and loops for creating a list.
 - List comprehensions are used for creating new lists from other iterables.
-- List comprehension  is an elegant way to define and create lists based on existing lists.
+- List comprehension is an elegant way to define and create lists based on existing lists.
 
 Syntax:
 ```python
@@ -77,7 +77,7 @@ You can achieve above sequence using **range(2,11,2)** also. But we need to unde
 
 ### If else :bomb: in list comprehension. 
 Example:
-Find out even or odd number from 1 to 10
+Find out an even or odd number from 1 to 10
 
 Using normal for loop
 ```python
@@ -104,10 +104,10 @@ Output:
 ['odd', 'Even', 'odd', 'Even', 'odd', 'Even', 'odd', 'Even', 'odd', 'Even']
 ```
 
-### Error  In List Comprehenstion
+### Error  In List Comprehension
 
-expression in list comprehension can only accept single variable of any type(string,list,int,tuple) 
-object we can not add element more than one
+expression in a list comprehension can only accept single variable of any type(string, list, int, tuple) 
+the object we can not add element more than one
 
 Example 
 ```python
