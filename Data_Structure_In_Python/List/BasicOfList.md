@@ -3,7 +3,7 @@
 ### Basic Of List
 
 - A list is a collection which is ordered and changeable.
-- When you create a list in Python, the python interpreter creates an array-like :office: datastructure in memory to hold your data, with your data items stacked from the bottom up. 
+- When you create a list in Python, the python interpreter creates an array-like datastructure in memory to hold your data, with your data items stacked from the bottom up. 
 - list index starting from 0 and last element in the list have - 1 index
 
 Syntax:
@@ -36,7 +36,7 @@ numbers=[1,4,4,5,6,6,7]
 
 ### Accessing Element from list 
 
-- Print full list :black_square_button:
+- Print full list
 ```python
 country=['india','america','japan','china']
 print(country) 
@@ -82,9 +82,8 @@ Example:
 numbers=[1,4,4,5,6,6,7]
 res=numbers[56]
 ```
-output:
+Erro output:
 ```
-res=numbers[56]
 IndexError: list index out of range
 ```
 
@@ -145,10 +144,10 @@ Output:
 ```
 
 ### Copy  a list into another list
-- You cannot copy a list simply by typing *list2 = list1*, because: list2 will only be a reference to list1, and changes made in list1 will automatically also be made in list2.
+- You cannot copy a list simply by typing **list2 = list1**, because: list2 will only be a reference to list1, and changes made in list1 will automatically also be made in list2.
 - There are two different ways to make a copy of list
 
-**1.copy()** :wavy_dash:
+**1.copy()** 
  
  create copy of list using **copy()** method
 
