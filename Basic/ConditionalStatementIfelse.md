@@ -4,32 +4,44 @@
 
 Like any other programming language python also support **if-else** for the conditional statement. 
 
-### Python supports the usual logical conditions  :loop: from mathematics 
-  - Equals: a == b
-  - Not Equals: a != b
-  - Less than: a < b
-  - Less than or equal to: a <= b
-  - Greater than: a > b
-  - Greater than or equal to: a >= b
-
+### Python supports the usual logical conditions  from mathematics 
+  ```
+  == :- Equals
+  a == b
+  
+  != :- Not Equals
+  a != b
+  
+  <  :- Less than 
+  a < b
+  
+  <= :- Less than or equal to
+  a <= b
+  
+  >  :- Greater than
+  a > b
+  
+  >= :- Greater than or equal to
+  a >= b
+```
 These conditions can be used in several ways, most commonly in **"if statements".**
 
 Syntax:
 ```python
-   if (condition) :
-         #exexute this block
+if (condition) :
+    #exexute this block
 ```
 Or without braces
 ```python
- if condition :
-         #exexute this block
+if condition :
+   #exexute this block
 ```
 
 For example
 ```python
- a=5
- if a==5:
-     print("A value is 5")
+a=5
+if a==5:
+   print("A value is 5")
 ```
 Output:
 ```
@@ -42,28 +54,38 @@ Output:
 Syntax:
 ```python
 if condition :
-         #exexute this block
+   #exexute this block
 else:
-       #execute this else block
+    #execute this else block
 ```
 
 For example
 ```python
- a=5
- if (a==5):
-     print("A value is 5")
- else:
-     print("A value is not 5") 
- #Result:A value is 5
+a=5
+if (a==5):
+    print("A value is 5")
+else:
+    print("A value is not 5") 
+```    
+
+Output    :
 ```
+A value is 5
+```
+
 Or you can simple write
 ```python
+a=5
 if a==5:
-     print(" A value is 5")
- else:
+    print(" A value is 5")
+else:
      print("A value is not 5")
- #Result:A value is 5
 ```
+Output:
+```
+A value is 5
+```
+
 
 ### Nested if-else 
 - There may be a situation when you want to check for another condition after a condition resolves to true. 
@@ -75,7 +97,7 @@ if condition:
     #code
     if condition:
          #code here for inner if
-     else:
+    else:
          #else code
 else:
       #outer else code add here
@@ -120,5 +142,8 @@ else:
    large=c
 
 print(large) 
-#Resukt:6
+```
+Output:
+```
+6
 ```
