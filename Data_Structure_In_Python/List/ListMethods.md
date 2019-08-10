@@ -25,7 +25,7 @@ Output:
 ```
 
 
-### 2. count() :100:
+### 2. count() 
 - **count()** method returns the number of elements with the specified value.
 - Any type of  (string, number, list, tuple, etc.)  Data can be counted using count() method. 
 
@@ -69,7 +69,7 @@ print(cnt)
 ```
 Output:
 ```
-`
+1
 ```
 
 ### 3.index()
@@ -145,7 +145,7 @@ reversed list ['green', 'blue', 'red']
 original list  ['red', 'blue', 'green']
 ```
 
-### 5.sort() :chart_with_upwards_trend:
+### 5.sort() 
 - **sort()**  method sort the list in ascending and descending order
 - **sort()** method sorts the list ascending by default.
 
@@ -177,7 +177,7 @@ Output:
 ```
 **Note**: After sorting done using **.sort()** method you can not get original list back all position of all element changed we can not recover it. 
 
-**sorted()** :bar_chart:
+**sorted()** 
 - Sorting any sequence is very easy in Python using the built-in method sorted() which does all the hard work for you.
 
 - Sorted() sorts any sequence (list, tuple) and always returns a list with the elements in a sorted manner, without modifying the original sequence.
