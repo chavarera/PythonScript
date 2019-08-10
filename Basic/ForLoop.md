@@ -13,7 +13,7 @@ Syntax:
 for variable in (iterable object) :
   print(variable)
 ```
-Normally for range function contain three :three: different parameter
+Normally for range function contain three different parameter
 1. starting number
 2. Stop number+1
 3. difference or step number(optional if not given then it will increment by 1)
@@ -109,7 +109,7 @@ Output:
 9
 3
 ```
-### Different Example on For loop :memo:
+### Some Examples On For Loop
 
 prints out the numbers 0,1,2,3,4,5,6
 ```python
