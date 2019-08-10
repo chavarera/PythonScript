@@ -8,7 +8,7 @@ But Python also allows us to use the else condition with for loops.
 ### What is the use of else in the loop?
 - The else block just after for/while is executed only when the loop is NOT terminated by a break statement.
 
-Here else block will be executed because for loop doesn't contain any **break** :vertical_traffic_light:  statement
+Here else block will be executed because for loop doesn't contain any **break**  statement
 ```python
 for i in range(1, 4):
   print(i)
