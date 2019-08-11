@@ -1,6 +1,6 @@
-## Operation on Tuple :eyeglasses:
+## Operation on Tuple
 
-### 1.Concatenating 2 tuples :school_satchel:
+### 1.Concatenating 2 tuples
 
 Example:
 ```python
@@ -9,11 +9,13 @@ tupl2=("red","green")
 
 tupl3=tupl1+tupl2
 print(tupl3) 
-
-#result:(1, 3,"red", "green") 
+```
+Output:
+```
+(1, 3,"red", "green") 
 ```
 
-### 2.Nested tuple :loop:
+### 2.Nested tuple 
 
 Example:
 ```python
@@ -22,11 +24,13 @@ tupl2=["red","green"]
 
 tupl3=(tupl1,tupl2) 
 print(tupl3) 
-
-#result:((1, 3),["red", "green"]) 
+```
+Output:
+```
+((1, 3),["red", "green"]) 
 ```
 
-### 3. Change Tuple value :electric_plug:
+### 3. Change Tuple value 
 
 - unlike list, tuple are immutable objects. This means that elemnt of tuple can not be changed once it has been assigned. 
 - but if tuple contain any mutable object such as list then this object can be changeable. 
@@ -44,15 +48,19 @@ But in same example you want to replace **"red"** With **"black"**
 
 Example:
 ```python
-mytple=(1,2,3,4,5,["red", "green"]) 
+mytple=(1,2,3,4,5,["red", "green"])
+
 # change "red"  element with "black"
 mytple[5][1]="black"
 
 print(mytple) 
-#result:(1,2,3,4,5,["black", "green"]) 
+```
+Output:
+```
+(1,2,3,4,5,["black", "green"]) 
 ```
 
-### 4. Deleteing Tuple :no_entry:
+### 4. Deleteing Tuple
 - Tuple is immutable object so we can delete individual item from tuple. 
 - Entire tuple will be deleted or removed  using del keyword. 
 
@@ -67,7 +75,10 @@ mytple=(1,2,3,4,5,["red", "green"])
 
 del mytple
 print(mytple)
-#Result Error:- name 'mytple' is not defined
+```
+Output
+```
+NameError: name 'mytple' is not defined
 ```
 
 
@@ -83,10 +94,13 @@ Example:
 tpl=(3,4,68,3,5,3) 
 res=tpl.count(3)
 print(res) 
-#Result:3
+```
+Output:
+```
+3
 ```
 
-### 6. Find Position index of element :mag_right:.
+### 6. Find Position index of element.
 
 Get the first index of specified value. 
 
@@ -99,10 +113,13 @@ Example:
 tpl=(3,4,68,3,5,3,4) 
 res=tpl.index(4)
 print(res) 
-#Result:1
+```
+Output:
+```
+1
 ```
 
-### 7.Check element is present in tuple or not :mag:
+### 7.Check element is present in tuple or not
 
 - **'in'** keyword is used to check whether element is present in tuple or not
 - if element is present this will return boolean value True otherwise False
@@ -119,6 +136,8 @@ if 4 in tpl:
     print("present") 
 else:
     print("Not present")
-
-#Result:present
+```
+Output:
+```
+present
 ```
