@@ -45,7 +45,7 @@ Max Element
 8
 ```
 
-### 3.min() :bike:
+### 3.min()
 - The **min()** method returns the smallest element in an iterable or largest of two or more parameters.
 Syntax:
 ```python
