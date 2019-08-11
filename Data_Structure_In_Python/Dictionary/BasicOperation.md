@@ -1,9 +1,9 @@
 ## Basic operation on dictionary
 
 
-### 1. Add new key value element in dictionary
+### 1. Add new key-value element in the dictionary
 
- we can add key and value in dictionary using key.
+ we can add key and value in a dictionary using the key.
 
 Syntax:
 ```python
@@ -15,7 +15,10 @@ mydict={"name":"ravi","age":20}
 mydict["bdate"]="26/01/1993"
 
 print(mydict)
-#Result:{"name":"ravi","age":20,"bdate":"26/01/1993"}
+```
+Output:
+```
+{"name":"ravi","age":20,"bdate":"26/01/1993"}
 ```
 
 
@@ -33,10 +36,13 @@ mydict={"name":"ravi","age":20}
 mydict["name"]="jhon"
 
 print(mydict)
-#Result : {"name":"jhon","age":20}
+```
+Output:
+```
+{"name":"jhon","age":20}
 ```
 
-### 3. Removing key value pair from dictionary
+### 3. Removing key-value pair from the dictionary
 
 use built in method **pop()** to remove element from dictionary
 
@@ -52,12 +58,15 @@ mydict={"name":"ravi","age":20}
 mydict.pop("age")
 
 print(mydict)
-#Result:{"name":"ravi"}
+```
+Output:
+```
+{"name":"ravi"}
 ```
 
-### 4. Clear all element of dictionary
+### 4. Clear all element of the dictionary
 
-**clear()** in built method is used to empty the dictionary.
+**clear()** is a built-in method used to empty the dictionary.
 
 Syntax:
 ```python
@@ -71,7 +80,10 @@ mydict={"name":"ravi","age":20}
 mydict.clear()
 
 print(mydict)
-#Result:{}
+```
+Output:
+```
+{}
 ```
 
 ### 5. Deleting dictionary
@@ -86,4 +98,8 @@ Example
 mydict={"name":"ravi","age":20}
 del mydict
 print(mydict)
-#Result:mydict is not defined
+```
+Output:
+```
+NameError: name 'mydict' is not defined
+```
