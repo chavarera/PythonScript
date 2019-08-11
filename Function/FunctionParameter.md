@@ -7,18 +7,18 @@
 A value passed to a function (or method) when calling the function called as arguments.
 
 Python support following types of arguments for function
-
+```
 1. positional arguments
 2. Default arguments
 3. Keyword arguments
-4. Arbitary arguments
-
+4. Arbitrary arguments
+```
 
 ### 1.Positional arguments
 
-- An argument that is not a keyword argument. Positional arguments can appear at the beginning of an argument list and/or be passed as elements of an iterablepreceded by * .
+- An argument that is not a keyword argument. Positional arguments can appear at the beginning of an argument list and/or be passed as elements of an iterable preceded by *.
 
-- In positional arguments we need to maintain sequence as we calling area.
+- In positional arguments, we need to maintain sequence as we calling area.
 Syntax:
 ```python
 #Positional Arguments
@@ -34,20 +34,26 @@ def Addition(a,b):
        return a+b
 res=Addition(5,6)
 print(res)
-
-#Result:11
+```
+Output:
+```
+11
 ```
 
 
 ### 2.Keyword arguments
 - An argument preceded by an identifier (e.g. name=) in a function call or passed as a value in a dictionary preceded by **
-- Here we don't need to maintain position because we are defining element with one keyword.
+- Here we don't need to maintain position because we are defining an element with one keyword.
 
 
 How to define keyword arguments
 
 Syntax:
 ```python
+#Function To Accepts keywords arguments
+def functionname(key1,key2):
+     #function code block
+
 #Keywords Arguments
 Functionname(key1=value,key2=value2)
 
@@ -78,6 +84,11 @@ print(res)
 print(result)
 #Result:12
 ```
+Output:
+```
+12
+12
+```
 
 
 ### 3.Defualt parameter
@@ -103,6 +114,10 @@ print(res)
 
 #Result:12
 ```
+Output:
+```
+12
+```
 
 Example 2:
 ```python
@@ -116,19 +131,22 @@ print(res)
 
 #Result:14
 ```
-
+Output:
+```
+14
+```
 
 ### 4.Arbitary arguments
 - In Python, we can pass a variable(dynamic length) number of arguments to a function using special symbols. 
 
 There are two special symbols:
-1. *args(Non Keyword Arguments)
+1. *args(Non-Keyword Arguments)
 2. \*\*kwargs (Keyword Arguments)
 
 #### 1. \*args
-- Python has *args which allow us to pass the variable number of non keyword arguments to function.
+- Python has *args which allows us to pass the variable number of no keyword arguments to function.
 - Use an asterisk * before the parameter name to pass variable length arguments.
--The arguments are passed as a tuple and these passed arguments make tuple inside the function with same name as the parameter excluding asterisk *
+-The arguments are passed as a tuple and these passed arguments make tuple inside the function with the same name as the parameter excluding asterisk *
 
 
 Syntax:
@@ -168,11 +186,16 @@ res=Addition(5,6,7,1)
 print(res)
 #Result:19
 ```
-
+Output:
+```
+11
+18
+19
+```
 
 ### 2.**kwargs 
 - **kwargs, it allows us to pass the variable length of keyword arguments to the function.
-- The arguments are passed as a dictionary and these arguments make a dictionary inside function with name same as the parameter excluding double asterisk **.
+- The arguments are passed as a dictionary and these arguments make a dictionary inside a function with name the same as the parameter excluding double asterisk **.
 
 Syntax:
 ```python
@@ -203,4 +226,10 @@ print(res)
 res=Addition(a=5,b=6,c=7)
 print(res)
 #Result:18
+```
+
+Output:
+```
+11
+18
 ```
