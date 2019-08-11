@@ -7,10 +7,10 @@
 - The primitive data structures available in Python, like numbers, strings, and lists are designed to represent simple things. But when you need to handle complex things we required classes.
 - Classes are used to create new user-defined data structures that contain arbitrary information about something. 
 
-Consider a simple example if there are 5 people and you want to save age, name, salary normally then you need to creates lots of variable for each person.you can reduce this using classes and object. Just normal create a class with age, name, salary attribute And create a class object for every person when you calling to class.
+Consider a simple example if there are 5 people and you want to save age, name, salary normally then you need to creates lots of variables for each person.you can reduce this using classes and objects. Just normal create a class with age, name, salary attribute And create a class object for every person when you calling to class.
 
 - a class just provides structure—it’s a blueprint for how something should be defined.
-- A class is a code template for creating objects. Objects have member variables and have behaviour associated with them.
+- A class is a code template for creating objects. Objects have member variables and have behavior associated with them.
 - the class contains a collection of attributes and methods.
 
 
@@ -73,7 +73,7 @@ class Person:
 ## Objects
 ### what is mean by object
 - An object is an instance of a class.
-- Using object we can access class attributes and methods.
+- Using an object we can access class attributes and methods.
 - we can also modify public class attributes using the object. 
 
 ## How to create a class object
