@@ -1,14 +1,14 @@
 ## Inheritance
 
 ### Basic Of Inheritance
-- Inheritance is an a mechanism in which one class acquire the properties and attributes of an another class.
-- Using inheritance we can reuse the fields and methods of an another class.
+- Inheritance is a mechanism in which one class acquires the properties and attributes of another class.
+- Using inheritance we can reuse the fields and methods of another class.
 
-In inheritance there are two terms
-
-  1. Base class(Parent Class)
-  2. subclass(Child class)
-
+In inheritance, there are two terms
+```
+1. Base class(Parent Class)
+2. subclass(Child class)
+```
 ### 1.Base class.
 
 - Also called as parent class.
@@ -21,7 +21,7 @@ In inheritance there are two terms
 - Child or subclasses are classes that will inherit from the parent class. 
 - That means that each child class will be able to make use of the methods and variables of the parent class.
 
-For inheriting parent class in subclass the parent  class name is passed to child class
+For inheriting parent class in subclass the parent  class name is passed to the child class
 
 Syntax:
 ```python
@@ -40,9 +40,10 @@ class <ChildClassName>(ParentClassName,ClassName2):
 
 ```
 You can derive parent class attributes in child class there are two different ways 
-
-  1. Using super keyword
-  2. Using Class Name
+```
+1. Using the super keyword
+2. Using Class Name
+```
 
 ### 1. Using super
 Syntax:
@@ -53,27 +54,31 @@ Example:
 ```python
 #Parent Class
 class A:
-	def _init_(self,vara):
-		self.vara=vara
+  def _init_(self,vara):
+      self.vara=vara
 
 #Child Class Inherits Class B
 class B(A):
-	def _init_(self,vara,varb):
-		#Initilize Attributebuts of parent Class using super
-		super()._init_(vara)
-		self.varb=varb
+  def __init__(self,vara,varb):
+      #Initilize Attributebuts of parent Class using super
+      super()._init_(vara)
+      self.varb=varb
+  
+  def Display(self):
+      #print value from class A and Class B
+      print(self.vara,self.varb)
 
-	def Display(self):
-		#print value from class A and Class B
-		print(self.vara,self.varb)
-
-#Create object of child class
+#Create an object of the child class
 b1=B(2,4)
 
 #call method
+print("vara and varb Value")
 b1.Display()
-
-#Result:2 4
+```
+Output:
+```
+vara and varb Value
+2 4
 ```
 
 
@@ -82,34 +87,38 @@ b1.Display()
 
 Syntax:
 ```python
-Classname._init_(self,Variable from parent claas)
+Classname._init_(self, Variable from parent class)
 ```
 
 Example
 ```python
 #Parent Class
 class A:
-	def _init_(self,vara):
-		self.vara=vara
+  def _init_(self,vara):
+      self.vara=vara
 
 #Child Class Inherits Class B
 class B(A):
-	def _init_(self,vara,varb):
-		#Initilize Attributebuts of parent Class using classname
-		A._init_(self,vara)
-		self.varb=varb
+  def __init__(self,vara,varb):
+      #Initilize Attributebuts of parent Class using classname
+      A._init_(self,vara)
+      self.varb=varb
+  
+  def Display(self):
+      #print value from class A and Class B
+      print(self.vara,self.varb)
 
-	def Display(self):
-		#print value from class A and Class B
-		print(self.vara,self.varb)
-
-#Create object of child class
+#Create an object of the child class
 b1=B(2,4)
 
 #Call Methods
+print("vara,varb")
 b1.Display()
-
-#Result:2 4
+```
+Output:
+```
+vara,varb
+2 4
 ```
            
 
@@ -118,16 +127,16 @@ b1.Display()
 ### Types of Inheritance
  1. Single Inheritance
  
- 	![Single inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/singleinheritance.png)
-	
+     ![Single inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/singleinheritance.png)
+    
  2. Multiple Inheritance
  
- 	![Multiple Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/multipleinheritance.png)
-	
+     ![Multiple Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/multipleinheritance.png)
+    
  3. Multilevel Inheritance
  
- 	![Multilevel Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/multilevelinheritance.png)
-	
+     ![Multilevel Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/multilevelinheritance.png)
+    
  4. Hybrid Inheritance
  
-	![Hybrid Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/hybridinheritance.png)
+    ![Hybrid Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/hybridinheritance.png)
