@@ -2,10 +2,12 @@
 
 ### Functions For Reading FileNames and Directory
 
-following are the some function used to accessing filename and directory using os module in python
+following are some function used to accessing filename and directory using os module in python
+```
 1. scandir()
 2. listdir()
 3. walk()
+```
 
 #### 1.scandir()
 
@@ -37,20 +39,19 @@ print(type(directory_data))
 #iterate scandir object
 for d in directory_data:
     print(d)
-
-'''
-#Result
+```
+Output:
+```
 <class 'posix.ScandirIterator'>
 <DirEntry 'main.py'>
 <DirEntry 'test.py'>
 <DirEntry 'folderName'>
-'''
 ```
 
 #### 2.listdir()
 
 - Return a list containing the names of the files in the directory. The filenames returned will be str.
-- If path is None, uses the path='.'
+- If the path is None, uses the path='.'
 
 Syntax:
 ```python
@@ -62,31 +63,33 @@ Example:
 #import required module
 import os
 
-#Get the current working path as path to scan files and directory
+#Get the current working path as a path to scan files and directory
 path=os.getcwd()
 
 #Get List of filenames avialable inside path
 files=os.listdir(path)
 print(files)
-
-#Result:['main.py', 'test.py', 'folderName']
+```
+Output:
+```
+['main.py', 'test.py', 'folderName']
 ```
 
 
 #### 3.walk()
 
 - **walk()** is a Directory tree generator.
-- For each directory in the directory tree rooted at top (including top itself, but excluding '.' and '..')
+- For each directory in the directory tree rooted at the top (including top itself, but excluding '.' and '..')
 - **walk()** Returns the 3 different tuple for
      ```
     dirpath, dirnames, filenames 
      ```
      
-    **dirpath**:Is a string path to the directory.
+    **dirpath**: This is a string path to the directory.
     
-    **dirnames**:Is the list of the subdirectories inside the dirpath. (excluding '.' and '..')
+    **dirnames**: Is the list of the subdirectories inside the dirpath. (excluding '.' and '..')
     
-    **filename**:Is the list of the name of the non directory files in dirpath
+    **filename**: Is the list of the name of the nondirectory files in dirpath
  
     **Note**: that the filenames in the lists are just names, with no path components.
     you can get the full path of file name using 
@@ -118,9 +121,9 @@ for dirpath, dirnames, filenames in os.walk(path):
 
     print("\n***List of files*")
     print(filenames)
-
-'''
-#Result
+```
+Output:
+```
 *Directory path*
 /Demo/Python
 
@@ -138,5 +141,4 @@ for dirpath, dirnames, filenames in os.walk(path):
 
 *List of files*
 ['help.txt']
-'''
 ```
