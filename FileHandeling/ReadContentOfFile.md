@@ -20,16 +20,18 @@ Example:
 fil=open("mylog.txt","r")
 content=fil.read()
 print(content)
-
-#Result:Hi, hello i am from python file.
+```
+Output:
+```
+Hi, hello i am from python file.
 ```
 
 ### How to read some content from a file
-- for **read()** method you can pass a integer length of character (number that shows how many characters do you want to read)
-- after read statement python cursor will positioned according to given input to **read()** function.
+- for **read()** method you can pass an integer length of character (a number that shows how many characters do you want to read)
+- after reading statement python cursor will position according to given input to **read()** function.
 
 - we can manipulate the python file cursor position using **seek()** function
-- **tell()** function is used to getting the current position of cursor in file.
+- **tell()** function is used to getting the current position of the cursor in file.
 
 Syntax:
 ```python
@@ -52,6 +54,10 @@ content=fil.read(2)
 print(content)
 #Result:Hi
 ```
+Output:
+```
+Hi
+```
 
 
 **mylog.txt** contains
@@ -65,38 +71,71 @@ fil=open("mylog.txt","r")
 
 #get cursor position
 cur=fil.tell()
+print("Current Position of Cursor")
 print(cur)
 #Result:0
 
 #Read 2 character from file
 fil=open("mylog.txt","r")
 content=fil.read(2)
+print("\nRead 2 character from file")
 print(content)
 #Result:Hi
 
 #Now get updated  cursor position
 cur=fil.tell()
+print("\nupdated  cursor position")
 print(cur)
 #Result:2
 
 #Read next 7 character from file
 content=fil.read(7)
+print("\nRead next 7 character from file")
 print(content)
 #Result: , hello
 
 #now get the updated cursor position
 cur=fil.tell()
+print("\nupdated cursor position")
 print(cur)
 #Result:9
 
 #now move cursor to 0 position which is start of file
+print("\nnow move cursor to 0 position which is start of file")
 fil.seek(0)
+
+#Print Current Cursor  Position
+print("\n Current Cursor Position")
+print(fil.tell())
+```
+
+Output:
+```
+Current Position of Cursor
+0
+
+Read 2 character from file
+Hi
+
+updated  cursor position
+2
+
+Read next 7 character from file
+, hello
+
+updated cursor position
+9
+
+now move cursor to 0 position which is start of file
+
+ Current Cursor Position
+0
 ```
 
 
 
-### How to read line from a given file 
-- **readline()** function is used to read line from a file.
+### How to read a line from a given file 
+- **readline()** function is used to read a line from a file.
 - By calling **readline()** three times, you can read the three first lines.
 
 Syntax:
@@ -113,16 +152,22 @@ Fourth line data 4
 ```
 Example:
 ```python
-#read  first line
+#Create File Object For Reading Purpose
 fil=open("mydata.txt","r")
-firstline=fil.readline()
-print(firstline)
 
-# Result :First line data 1
+#Read First File From File
+firstline=fil.readline()
+
+#Print First File
+print(firstline)
+```
+Output:
+```
+First line data 1
 ```
 
 ### How to read all lines from a file
-- **readlines()** is return list object with every line as element 
+- **readlines()** is return list object with every line as an element 
 
 Syntax:
 ```python
@@ -143,14 +188,19 @@ Example:
 #initialize file for reading purpose
 fil=open("mydata.txt","r")
 
-#read all lines
+#read all lines and Store it in list
 lines=fil.readlines()
-print(lines)
 
-#Result: ['First\n','Second\n','Third']
+#Print All Lines List
+print(lines)
 ```
 
-### Read all file using with statement
+Output:
+```
+['First\n', 'Second\n', 'Third']
+```
+
+### Read all file using  "with"  statement
 
 File **mylog.txt** contains
 ```
@@ -159,15 +209,18 @@ Hi, hello i am from python file.
 
 Example
 ```python
+#Read File using  with loop
 with open("mylog.txt","r") as fil:
-      content=fil.read()
-      print(content)
-
-#Result:Hi, hello i am from python file.
+  content=fil.read()
+  print(content)
+```
+Output:
+```
+Hi, hello i am from python file.
 ```
 
 
-### How to use for loop for read all multi line
+### How to use for loop for reading all multi-line
 file **mydata.txt** contains 
 ```
 First line data 1
@@ -180,11 +233,13 @@ Example:
 ```python
 #Initilize file object
 fil=open("mydata.txt","r")
-for line in fil:
-      print(line)
 
-'''
-# Result:
+#Use for loop Print line by line 
+for line in fil:
+  print(line)
+```
+Output:
+```
 First line data 1
 
 Second line data 2
@@ -192,5 +247,4 @@ Second line data 2
 Third line data 3
 
 Fourth line data 4
-'''
 ```
