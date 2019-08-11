@@ -1,6 +1,6 @@
-## Set Operation :wrench:
+## Set Operation
 
-Sets can be used to carry out mathematical set operations following different operation on set can be performed 
+Sets can be used to carry out mathematical set operations following a different operation on set can be performed 
 
 1. Union (|)
 2. Intersection (&)
@@ -9,14 +9,15 @@ Sets can be used to carry out mathematical set operations following different op
 
 ![Basic operation](https://www.sketch.com/images/pages/docs/04-shapes/operations.jpg)
 
-### 1.union() :briefcase:
+### 1.union()
 - Two sets can be **added** together.
 - Union is performed using | operator same can be achived using built in function **union()**.
 
 Syntax:
 ```python
-setA=set()
+SetA=set()
 SetB=set()
+
 #Using | Operator
 result=SetA | SetB 
 
@@ -40,15 +41,19 @@ result1=A | B
 print(result1)
 #Result:{1, 2, 5, 6, 7, 8, 9}
 ```
+Output:
+```
+{1, 2, 5, 6, 7, 8, 9}
+{1, 2, 5, 6, 7, 8, 9}
+```
 
-
-### 2.Intersection  :x:
+### 2.Intersection
 - A new set can also be constructed by determining which members two sets have **in common**.
-- Intersection is performed using **&** operator same can be achived using built in function **intersection()**.
+- The intersection is performed using **&** operator same can be achieved using built-in function **intersection()**.
 
 Syntax:
 ```python
-setA=set()
+SetA=set()
 SetB=set()
 
 #Using & operator
@@ -74,18 +79,24 @@ result1=A & B
 print(result1)
 #Result:{1, 2}
 ```
+Output:
+```
+{1, 2}
+{1, 2}
+```
 
-### 3. Difference :no_entry:
+
+### 3. Difference
 - Two sets can also be **subtracted**.
-- Difference can be performed using **-** operator or same thing can be achieved using **difference()**.
-- Here **A-B** Result is Different result than **B-A**.
+- The difference can be performed using a **-** operator or the same thing can be achieved using **difference()**.
+- Here **A-B** Result is a Different result than **B-A**.
 
-**A-B**:The elements included in A, but not included in B.
-**B-A**:The elements included in B, but not included in A.
+**A-B**: The elements included in A, but not included in B.
+**B-A**: The elements included in B, but not included in A.
 
 Syntax:
 ```python
-setA=set()
+SetA=set()
 SetB=set()
 
 #using - Operator
@@ -110,15 +121,19 @@ result1=A - B
 print(result1)
 #Result:{1, 3, 5}
 ```
+Output:
+```
+{1, 3, 5}
+{1, 3, 5}
+```
 
-
-### 4. symmetric Difference :no_entry_sign:
+### 4. symmetric Difference
 - The **symmetric_difference()** method returns a set that contains all items from both set, but not the items that are present in both sets.
-- symmetric Difference can be performed using **^** operator or same thing can be achieved using **symmetric_difference()**.
+- symmetric Difference can be performed using **^** operator or the same thing can be achieved using **symmetric_difference()**.
 
 Syntax:
 ```python
-setA=set()
+SetA=set()
 SetB=set()
 
 #Using ^ Operator
@@ -144,4 +159,9 @@ print(result)
 result1=A ^ B
 print(result1)
 #Result:{3, 4, 5, 6, 8, 9}
+```
+Output:
+```
+{3, 4, 5, 6, 8, 9}
+{3, 4, 5, 6, 8, 9}
 ```
