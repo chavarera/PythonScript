@@ -1,7 +1,7 @@
 ## Built-in Function For tuple
 There are the number of built-in functions are available to process tuple
 
-### 1.length :straight_ruler:
+### 1.length
 - **len()** function is used to return number of elements inside in tuple.
 
 Syntax:
