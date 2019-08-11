@@ -1,15 +1,15 @@
 ## Constructor
 
-### Constructor
+### Basic Of  Constructor
 
-- Constructor is an special type of method(function) inside  a class.
-- Constructor are automatically Called at the time of object creation(Instantiated).
-- Constructor is used to assign some memory to instance of an class
-- Constructor in python is created using __init__ method.
-- __init__() method take first parameter as self(You can use any name but for maintaining  standard naming convention use self keyword only) 
-- Its an bad idea to write your logical code inside . Because constructor bloack is automatically called every time when create an new object of that class.
+- A constructor is a special type of method(function) inside a class.
+- A constructor is automatically called at the time of object creation(Instantiated).
+- A constructor is used to assign some memory to an instance of a class
+- Constructor in python is created using the __init__ method.
+- __init__() method take the first parameter as self(You can use any name but for maintaining  standard naming convention use self keyword only) 
+- It's a bad idea to write your logical code inside. Because constructor block is automatically called whenever create a new object of that class.
 
-There are two type of constructor avialable in python
+There are two types of constructor available in python
   - empty Constructor
   - parameterized Constructor
 
@@ -31,23 +31,25 @@ class Person:
     print("The constructor is called")
 
 
-#Create a object of an Person Class
+#Create an object of a Person Class
 p1=Person()
-
-#Result:Constructor is called
+```
+Output:
+```
+Constructor is called
 ```
 
-Here when we have create **p1** as class object the  __init__() constructor is automaticalled called.
+Here when we have created **p1** as class object the  __init__() constructor is automatically called.
 the block of  __init__() is instantiated.
 
 ### 2.Parametrized Constructor
-- To use parametrized constructor __init__() method accepts **n** no of element and you need to pass only **n-1** paramter when you are creating object of an class
-- to define instace variable self keyword is used instance variables are called in any method using self keyword with dot(.) notation and variable name
+- To use parameterized constructor __init__() method accepts **n** no of element and you need to pass only **n-1** parameter when you are creating an object of a class
+- to define an instance variable self keyword is used instance variables are called in any method using self keyword with dot(.) notation and variable name
 ```python
 self.variablename
 ```
 
-- If constructor accepting 3 element and you passing 6 element to constructor.Construtor create an exception
+- If constructor accepting 3 elements and you passing 6 elements to the constructor. The constructor creates an exception
 
 Syntax:
 ```python
@@ -78,16 +80,15 @@ class Person:
         print('name: '+self.name)
         print('age: '+str(self.age))         
 
-#Create a object of an Person Class and pass jhon as name and  25 as age.
+#Create an object of a Person Class and pass jhon as name and  25 as age.
 p1=Person("jhon",25)
 
 #Now to display the output call Display Method
 p1.Display()
-
-'''
-#Result
+```
+Output:
+```
 The constructor is called
 name: jhon
 age: 25
-'''
 ```
