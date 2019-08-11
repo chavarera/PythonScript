@@ -61,7 +61,7 @@ import platform
 
 ### How to rename imported modules?
 - **as** keyword is used to bind a new name to an object.
-- If you import a module directly and then import the same module but with a different name via as both names will point to the exact same object.
+- If you import a module directly and then import the same module but with a different name via as both names will point to the same object.
 
 Syntax:
 ```python
