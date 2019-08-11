@@ -10,9 +10,10 @@
 - It's a bad idea to write your logical code inside. Because constructor block is automatically called whenever create a new object of that class.
 
 There are two types of constructor available in python
-  - empty Constructor
-  - parameterized Constructor
-
+```
+- empty Constructor
+- parameterized Constructor
+```
 ### 1.Empty Constructor
 
 Syntax:
