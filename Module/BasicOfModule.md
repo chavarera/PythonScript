@@ -1,29 +1,29 @@
 ## Modules
 
-- A module is a Python file containing python definations statements.
-- A module can define functions, classes and variables,Methods also contain runnable code.
-- Grouping similar type of code into a file and whenever it required use it 
+- A module is a Python file containing python definitions statements.
+- A module can define functions, classes, and variables, Methods also contain runnable code.
+- Grouping similar type of code into a file and whenever it required to use it 
 
 
-### some python in built modules
-	1.os
-	2.string
-	3.threading
-	4.sys
-	5.collection
-	6.argparse
-	7.sqlit3
-	8.raw
-	9.re
-	10.pip
-	.... and much more
+### some python inbuilt modules
+    1.os
+    2.string
+    3.threading
+    4.sys
+    5.collection
+    6.argparse
+    7.sqlit3
+    8.raw
+    9.re
+    10.pip
+    .... and much more
 
 ### How to Get List of Installed modules list in python?
-you can write down following code into intractive shelll or in python file
+you can write down following code into an interactive shell or in the python file
 ```python
 help('modules')
 ```
-you will get result
+you will get the result
 
 Please wait a moment while I gather a list of all available modules...
 ```
@@ -42,12 +42,12 @@ _bisect             _tkinter_d          hmac                shelve
 _blake2             _tracemalloc        html                shlex
 _bootlocale         _warnings           html5lib            shutil
 _bz2                _weakref            http                signal
-...........	................	...........         ....
+...........    ................    ...........         ....
 ```
 
 ### How To import module in python program?
 We can use any Python source file as a module by executing an import statement in some other Python source file.
-- You can import module using **import** keywords
+- You can import the module using **import** keywords
 
 Syntax:
 ```python
@@ -61,7 +61,7 @@ import platform
 
 ### How to rename imported modules?
 - **as** keyword is used to bind a new name to an object.
-- If you import a module directly, and then import the same module but with a different name via as, both names will point to the exact same object.
+- If you import a module directly and then import the same module but with a different name via as both names will point to the exact same object.
 
 Syntax:
 ```python
@@ -89,9 +89,9 @@ print(id(plt))
 ```
 
 ### How to list all functions in a Python module?
-you can use follwing two different function to achieve function names,variables and documentation
-	1.help()
-	2.dir()
+you can use the following two different functions to achieve function names, variables, and documentation
+    1.help()
+    2.dir()
 ### 1.help()
 - **help()** function is used to get the  all function with docuemantation
 
@@ -118,8 +118,8 @@ MODULE REFERENCE
     https://docs.python.org/3.6/library/platform
     
 DESCRIPTION
-    This module tries to retrieve as much platform-identifying data as
-    possible. It makes this information available via function APIs.
+    This module tries to retrieve as much platform-identifying data as possible.
+    It makes this information available via function APIs.
     
 CLASSES
     builtins.tuple(builtins.object)
@@ -197,7 +197,7 @@ print(dir(platform))
 '''
 ```
 
-### How to use function,methods of modules?
+### How to use the function, methods of modules?
 
 - if you want to check the python version from platform module there is one method called **python_version()**
 
@@ -218,7 +218,7 @@ print(version)
 #Result:3.7.3
 ```
 
-How to import specific method or function name from Module?
+How to import a specific method or function name from Module?
 
 
 
