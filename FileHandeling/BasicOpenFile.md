@@ -7,9 +7,11 @@
 - Python has several functions for creating, reading, updating, and deleting files.
 
 There are mainly different 3 operations can be performed on the file.
+```
  - Open file
  - Read or write file
  - close file.
+```
 
 ### 1.Opening File
 - for opening a file in Python one named **open()** methods are available.
