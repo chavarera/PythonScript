@@ -1,5 +1,7 @@
 ## Multiple Inheritance
 
+
+### Introduction
 - When a single **child class** inherit's from multiple parent classes,it is called as **Multiple inheritance.**
 - We specify all parent Class as comma seprated list in child class.
 - if two parent class have same method and you calling that method using object of child class then the method call is dependent on which class is intialized first.
@@ -64,13 +66,18 @@ c1=C()
 ```
 ### Example 1
 ```python
+#Parent Class
 class A:
-	def __init__(self):
-	  self.name='Python'
-class B():
-	def __init__(self):
-	  self.age=20
+    def __init__(self):
+      self.name='Python'
+      
+#Parent Class
+class B:
+    def __init__(self):
+      self.age=20
+#Derive from 2 Different class
 class C(B,A):
+  #Constructor
   def __init__(self):
     B.__init__(self) #First B class is Initilized
     A.__init__(self)
@@ -80,28 +87,31 @@ class C(B,A):
     print(self.age)
     print(self.year)
 c1=C()
+
+print("Call The ShowData()")
 c1.ShowData()
-'''
-#Result
+```
+Output:
+```
+Call The ShowData()
 Python
 20
 2019
-'''
 ```
 
 ### Example 2
 ```python
 #Parent class 1
 class A:
-	def __init__(self):
-	  print("class A is Initilized")
-	  self.name='Python'
+    def __init__(self):
+      print("class A is Initilized")
+      self.name='Python'
 
 #parent class 2
 class B():
-	def __init__(self):
-	  print("Class B is Initilized")
-	  self.age=20
+    def __init__(self):
+      print("Class B is Initilized")
+      self.age=20
 
 #child class C inherit from parent class 1 and parent class 2
 class C(B,A):
@@ -127,14 +137,14 @@ c1=C()
 
 #Call method of C Class
 c1.ShowData()
+```
 
-'''
-#Result
+Output
+```
 Class C is Initilized
 Class B is Initilized
 class A is Initilized
 Python
 20
 2019
-'''
 ```
