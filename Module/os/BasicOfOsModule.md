@@ -2,10 +2,10 @@
 
 
 #### Basic of os Module
-- **os** module provide a way to handle functionality related to operating system.
+- **os** module provide a way to handle Operating System Related Functionality
 - The os module is a part of the standard library.
-- The primary use of os module create folder,remove folder,rename,access files with path and name.
-- The OS module in python provides functions for interacting with the operating system.
+- The primary use of the os module create a folder, remove a folder, rename, access files with path and name.
+- The OS module in Python provides functions for interacting with the operating system.
 
 import os module
 ```python
@@ -39,12 +39,15 @@ import os
 #Get Name 
 name=os.name
 print(name)
-#Result:nt
+```
+Output:
+```
+nt
 ```
 
 #### 2.getcwd()
 
-- Return current working dirctory name.
+- Return current working directory name.
 - The path of the file used to execute the code.
 
 Example:
@@ -56,12 +59,16 @@ import os
 direct=os.getcwd()
 
 print(direct)
-#Result:C:\\python3
 ```
+Output:
+```
+C:\\python3
+```
+
 
 #### 3.chdir(path)
 
-- Chidr() used to change the working directory of current path
+- Chidr() used to change the working directory of the current path
 
 syntax:
 ```python
@@ -85,11 +92,16 @@ os.chdir(path)
 print(os.getcwd())
 #Result:C:\\Users\\ravi\\Desktop\\demo
 ```
+Output:
+```
+C:\\python3
+C:\\Users\\ravi\\Desktop\\demo
+```
 
 ### 4.mkdir(path)
 
 - **mkdir()** create a specified folder.
-- If specified folder is alredy exists it will Generate a Error
+- If the specified folder already exists it will Generate an Error
 ```
 Cannot create a file when that file already exists: 'FolderName'
 ```
@@ -111,8 +123,8 @@ os.mkdir('testFolder')
 
 - makedirs() is the super version of mkdir()
 - It is used to create a leaf directory.
-- If folder is already exists it will gives an error.
-- If parent directory is not avialable makedirs() function create a parent directory.
+- If the folder already exists it will give an error.
+- If parent directory is not available makedirs() function creates a parent directory.
 
 Syntax:
 ```python
@@ -124,10 +136,10 @@ Example:
 #import required module
 import os
 
-#make tree like folder directory.
+#make tree-like folder directory.
 os.makedirs('test/testFolders')
 '''
-this will create a testFolders folder in test directory
+this will create a testFolders folder in the test directory
 if test directory is not present makedirs() will create it
 '''
 ```
@@ -207,15 +219,15 @@ stat.S_ISVTX − Save text image after execution.
 stat.S_IREAD − Read by owner.
 stat.S_IWRITE − Write by owner.
 stat.S_IEXEC − Execute by owner.
-stat.S_IRWXU − Read, write, and execute by owner.
+stat.S_IRWXU − Read, write and execute by owner.
 stat.S_IRUSR − Read by owner.
 stat.S_IWUSR − Write by owner.
 stat.S_IXUSR − Execute by owner.
-stat.S_IRWXG − Read, write, and execute by group.
-stat.S_IRGRP − Read by group.
-stat.S_IWGRP − Write by group.
-stat.S_IXGRP − Execute by group.
-stat.S_IRWXO − Read, write, and execute by others.
+stat.S_IRWXG − Read, write and execute by the group.
+stat.S_IRGRP − Read by a group.
+stat.S_IWGRP − Write by a group.
+stat.S_IXGRP − Execute by a group.
+stat.S_IRWXO − Read, write and execute by others.
 stat.S_IROTH − Read by others.
 stat.S_IWOTH − Write by others.
 stat.S_IXOTH − Execute by others.
