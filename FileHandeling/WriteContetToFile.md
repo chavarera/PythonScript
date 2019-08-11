@@ -3,7 +3,7 @@
 
 ### Write Contents
 
-For writing content to a file there are two scenarios
+For writing content to a file, there are two scenarios
 
 #### 1.write on existing file.
 for writing content to a file use following two modes in **open()** function
@@ -11,7 +11,7 @@ for writing content to a file use following two modes in **open()** function
 **Modes for writing file**
 
 #### 1. a
-This will append the content at the end of file.
+This will append the content at the end of the file.
 
 #### 2. w 
 This will overwrite any existing content to a file.
@@ -45,7 +45,7 @@ Now **data.txt** contains
 I am new text
 ```
 
-Example for appending content
+Example of appending content
 File **data.txt** contains
 ```
 Hi,
@@ -74,7 +74,7 @@ To create a new file in Python, use the **open()** method, with one of the foll
 
 **1.x**
 - Exclusive create.
-- will create a file, returns an error if the file exist.
+- will create a file, returns an error if the file exists.
 
 **1.a**
 - Append mode.
@@ -84,7 +84,7 @@ To create a new file in Python, use the **open()** method, with one of the foll
 - Write mode.
 - will create a file if the specified file does not exist.
 
-You can use above modes to create a empty file using **open()** methods
+You can use the above modes to create an empty file using **open()** methods
 
 Example:
 Consider there is no file named **mydata.txt** inside current directory.
@@ -124,7 +124,7 @@ lines=['hello','hi']
 fil.writelines(lines)
 ```
 
-If you check content of file **mydata.txt**
+If you check the content of file **mydata.txt**
 ```
 hello
 hi
