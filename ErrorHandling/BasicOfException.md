@@ -52,13 +52,13 @@ else:
 finally:
     print("Completed successfully")
 
-'''
-#Result
-
+```
+Output:
+```
 Not divisible by 0
 Completed successfully
-'''
 ```
+
 Here **except** block and **finally**  Excecuted
 
 Example 2:
@@ -72,13 +72,15 @@ else:
     print("no error generated")
 finally:
     print("Completed successfully")
-'''
-#Result
+```
+
+Output:
+```
 1.25
 no error generated
 Completed successfully
-'''
 ```
+
 here **else** and **finally** block are executed 
 
 
@@ -97,8 +99,10 @@ try:
     print(res)
 except Exception as ex:
     print(ex)
-
-#Result:division by zero
+```
+Output:
+```
+division by zero
 ```
 
 ### How to Generate Custom Exception
@@ -120,6 +124,8 @@ try:
         raise Exception("This is custom exception raised using raise keyword")
 except Exception as ex:
     print(ex)
-
-#Result:This is custom exception raised using raise keyword
+```
+Output:
+```
+This is custom exception raised using raise keyword
 ```
