@@ -5,12 +5,12 @@
 ### 1.flush()
 
 - **flush()** method is used for flushes the internal buffer.
-- While wrting the file operating system store the content of file in the buffer
-and buffer content should be write into file using 
+- While writing the file operating system store the content of the file in the buffer
+and buffer content should be written into a file using 
    - flush() method 
-   - when buffer is full
-- python automatically flushes th files when when closing them.
-but when we want to flush the data before closing them then the python built in function .*flush()* is used
+   - when the buffer is full
+- python automatically flushes the files when closing them.
+but when we want to flush the data before closing them then the python built-in function .*flush()* is used
 
 Syntax:
 ```python
@@ -29,10 +29,10 @@ fileobj.flush()
 ```
 
 ### 2.fileno()
-- fileno returns the integer file desciptor that is used by the implementation to request i/o operation
-- file descriptor is simply index into file descriptor table
-- for each process in operating system there is one block pcb(process control bloack) 
-- one of the part of pcb keep track context of the process which is array structure called file descriptor
+- fileno returns the integer file descriptor that is used by the implementation to request i/o operation
+- the file descriptor is simply indexed into a file descriptor table
+- for each process in the operating system, there is one block PCB(process control block) 
+- one of the parts of PCB keep track context of the process which is array structure called file descriptor
 
 Syntax:
 ```python
@@ -47,8 +47,10 @@ fileobj=open("mydata.txt","w")
 #get file descriptor index value
 index_val=fileobj.fileno()
 print(index_val)
-
-#Result:3
+```
+Output:
+```
+3
 ```
 
 ### 3.isatty()
@@ -67,9 +69,12 @@ fileobj=open("mydata.txt","w")
 #Check whether file is connected with tty or not
 val=fileobj.isatty()
 print(val)
-
-#Result:False
 ```
+Output:
+```
+False
+```
+
 
 ### 4.seek()
 - set the file cursor current position
@@ -94,10 +99,13 @@ position=file.seek(6)
 #read content
 content=file.read()
 print(content)
-
-#Result:am writing simple python programm.
 ```
-You use 0 as position to set file reading cursor to first position at the starting of file
+Output:
+```
+am writing simple python programm.
+```
+
+You use 0 as a position to set file reading cursor to the first position at the starting of file
 
 ### 5.tell()
 - this method tell the current exact file cursor position in integer
@@ -122,9 +130,12 @@ data=file.read(5)
 
 #now get the current position of file cursor
 pos=file.tell()
-
-#Result:5
 ```
+Output:
+```
+5
+```
+
 
 
 ## Reading File methods
@@ -143,4 +154,4 @@ pos=file.tell()
 - used to write content to the file
 
 **2.writelines()**
-- used to write multiple lines to the file list structure is used .
+- used to write multiple lines to the file list structure is used.
