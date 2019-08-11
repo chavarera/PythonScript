@@ -2,11 +2,11 @@
 
 ### Introduction
 - The **platform** module in Python is used to access the underlying platform’s data,
-such as, hardware, operating system, and interpreter version information.
+such as hardware, operating system, and interpreter version information.
 - This module tries to retrieve as much platform-identifying data as possible.
 
 ### How to install platform module in python?
-- **platform** module is come with python basic library so we don't need to install it Externally.
+- **platform** module comes with python basic library so we don't need to install it Externally.
 
 ### How to import platform module
 You can start with importing the *platform*  module in your program
@@ -29,7 +29,7 @@ import platform
 import platform as pl
 ```
 
-### How to get list of avilables function in platform
+### How to get the list of available function in platform
 ```python
 #to Get the help of platform module use
 print(help(platform))
@@ -38,7 +38,8 @@ print(help(platform))
 print(dir(platform))
 ```
 
-## Important Functions From platfrom Module
+
+## Important Functions From platform Module
 
 ### 1.system()
 - **System()** returns the Operating system Name e.g. 'Linux','windows','Java'
@@ -51,9 +52,11 @@ import platform
 name=platform.system()
 
 print(name)
-#Result:Windows
 ```
-
+Output:
+```
+Windows
+```
 ### 2.architecture()
 - Returns a tuple (bits, linkage) which contain information about the bit architecture 
 and the linkage format used for the executable. 
@@ -66,7 +69,10 @@ import platform
 name=platform.architecture()
 
 print(name)
-#Result:('64bit', 'WindowsPE')
+```
+Output:
+```
+('64bit', 'WindowsPE')
 ```
 
 ### 3.node()
@@ -81,7 +87,10 @@ import platform
 name=platform.node()
 
 print(name)
-#Result:'EKPubgikar'
+```
+Output:
+```
+'EKPubgikar'
 ```
 
 ### 4 .processor()
@@ -93,7 +102,10 @@ import platform
 #Get processor name
 name=platform.processor()
 print(name)
-#Result:'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+```
+Output:
+```
+'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
 ```
 
 ### 5.machine()
@@ -106,7 +118,10 @@ import platform
 name=platform.machine()
 
 print(name)
-#Result:'AMD64'
+```
+Output:
+```
+'AMD64'
 ```
 
 ### 6.version()
@@ -119,7 +134,10 @@ import platform
 name=platform.version()
 
 print(name)
-#Result:'10.0.17763'
+```
+Output:
+```
+'10.0.17763'
 ```
 
 ### 7.python_version()
@@ -132,7 +150,10 @@ import platform
 name=platform.python_version()
 
 print(name)
-#Result:'3.7.3'
+```
+Output:
+```
+'3.7.3'
 ```
 
 ### 8.uname()
@@ -145,14 +166,15 @@ import platform
 details=platform.uname()
 
 print(details)
-'''
-#Result:uname_result(system='Windows',
+```
+Output:
+```
+uname_result(system='Windows',
 node='EKPubgikar', 
 release='10', 
 version='10.0.17763', 
 machine='AMD64', 
 processor='Intel64 Family 6 Model 58 Stepping 9, GenuineIntel')
-'''
 ```
 ## Other Remaing Function
 
