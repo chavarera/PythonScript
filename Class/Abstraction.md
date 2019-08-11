@@ -1,22 +1,22 @@
 ## Abstraction
 
 
-- Key concept of object oriented programming language.
-- Data abstraction main goal is to hide unnecessary details from the user.
-- User can not see the atcual background process (Real time example: Atm Machine with the help of some keys we can withdraw money we do not need to show background process).
-- When we matter input and output we don't need to understand background mechanism of that process in such scenario abstraction is used
+- The key concept of object-oriented programming language.
+- Data abstraction's main goal is to hide unnecessary details from the user.
+- Users can not see the actual background process (Real-time example: Atm Machine with the help of some keys we can withdraw money we do not need to show background process).
+- When we matter input and output we don't need to understand the background mechanism of that process in such scenario abstraction is used
 
 ![Abstraction](https://github.com/chavarera/PythonScript/blob/master/Class/abstractclasses.png)
 
 
 ### Abstract Classes in Python*
-- Abstract class can be considered as template or bluebrint for other classes, allows you to create a set of methods that must be created within child classes.
-- The class which can not be instantiated (not able to create an object of that class) and contain atleast one abstract method called as abstract classes.
-if you try to create an object of abstract class you will get error
+- An abstract class can be considered as a template or blueprint for other classes, allows you to create a set of methods that must be created within child classes.
+- The class which can not be instantiated (not able to create an object of that class) and contain at least one abstract method called abstract classes.
+if you try to create an object of the abstract class you will get error
 ```python
 TypeError: Can't instantiate abstract class <className> with abstract methods <methodName>
 ```
-- Abstract methods are those methods that are declared in abstract class and must be implemented in subclass(child class).
+- Abstract methods are those methods that are declared in the abstract class and must be implemented in the subclass(child class).
 
 
 ### Algorithm
@@ -37,21 +37,21 @@ def Addition(self):pass
 4.Now create child classes by extending AbstractClass
 ```python
 class <childclassName>(AbstractClassName):
-	#implement the abstarct methods here
+       #implement the abstarct methods here
 ```
 5.Initilize constructor of child class
 ```python
 def __init(self,a,b):
-	self.a=a
-	self.b=b
-```	
+     self.a=a
+     self.b=b
+```    
 6.Now implement abstarct methods in child class
 ```python
 def Addition(self):
-	print(self.a+self.b)
+    print(self.a+self.b)
  ```
  
-if you create an abstract method in abstract class and not implemented in child class you will get  and following error
+if you create an abstract method in the abstract class and not implemented in child class you will get  and the following error
 ```python
 TypeError: Can't instantiate abstract class <className> with abstract methods <methodName>
 ```
@@ -59,7 +59,7 @@ TypeError: Can't instantiate abstract class <className> with abstract methods <m
 ```python
 objectname=childclassName(parameter)
 ```
-8.Now Call the implmented abstract method using child class object
+8. Now Call the implemented abstract method using child class object
 
 Syntax
 ```python
@@ -94,13 +94,16 @@ class Result(Calculation):
     return self.a+self.b
     
 
-#create an child class object and pass parameters
+#create a child class object and pass parameters
 objName=Result(5,8)
 
 #call abstract method
 res=objName.Add()
 print(res)
-#Result:13
+```
+Output:
+```
+13
 ```
 
 Above Example Summary
