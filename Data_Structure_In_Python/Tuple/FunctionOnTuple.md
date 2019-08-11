@@ -1,5 +1,5 @@
-## Built in Function For tuple :loudspeaker:
-There are number of built in functions are available to process tuple
+## Built-in Function For tuple
+There are the number of built-in functions are available to process tuple
 
 ### 1.length :straight_ruler:
 - **len()** function is used to return number of elements inside in tuple.
@@ -11,43 +11,64 @@ len(tuplename)
 Example:
 ```python
 mytuple=(1,2,3,5,4,8,4)
+
+#length of tuple
 res=len(mytuple)
-print(res)	
-#Result:7
+
+print("Length Of Tuple")
+print(res)    
+```
+Output:
+```
+7
 ```
 
-### 2.max() :truck:
+### 2.max()
 - The **max()** method returns the largest element in an iterable or largest of two or more parameters.
 Syntax:
 ```python
 max(iterable, *iterables[,key, default])
 max(arg1, arg2, *args[, key])
-	```
+```
 
 Example:
 ```python
 mytuple=(1,2,3,5,4,8,4)
+#Get Maximum High Element
 res=max(mytuple)
+print("Max Element")
 print(res)
-#Result:8
 ```
+Output:
+```
+Max Element
+8
+```
+
 ### 3.min() :bike:
 - The **min()** method returns the smallest element in an iterable or largest of two or more parameters.
 Syntax:
 ```python
 min(iterable, *iterables[,key, default])
 min(arg1, arg2, *args[, key])
-```	
+```    
 
 Example:
 ```python
 mytuple=(1,2,3,5,4,8,4)
+
+#Get Minimum Amount
 res=min(mytuple)
+print("Min Element")
+
 print(res)
-#Result:1
+```
+Output:
+```
+1
 ```
 
-### 4.any() :performing_arts:
+### 4.any()
 - Return True if any element of the iterable is true
 - If the iterable is empty, return False.
 
@@ -78,8 +99,16 @@ tupl5 = ()
 print(any(tupl5))
 #Result:False
 ```
+Output:
+```
+True
+False
+True
+True
+False
+```
 
-### 5.all() :dolls:
+### 5.all()
 - Return True if all elements of the iterable are true (or if the iterable is empty)
 
 
@@ -109,4 +138,12 @@ print(any(tupl4))
 tupl5 = ()
 print(any(tupl5))
 #Result:True
+```
+Output:
+```
+True
+False
+True
+True
+False
 ```
