@@ -2,53 +2,55 @@
 
 ### Introduction
 - Only one parent class and one child class.
-- When a single *child class* inherits from only one parent class it is called as single inheritnace.
-- You can access parent and child class attributes using child class Object.
-- If parent class and child class have same methods and you callled that method using child class object then only base class method is called.
-If that method is not avialable in child class then parent class method is called
+- When a single *child class* inherits from only one parent class it is called single inheritance.
+- You can access parent and child class attributes using child class Objects.
+- If parent class and child class have the same methods and you called that method using child class object then the only base class method is called.
+If that method is not available in child class then the parent class method is called
 
 ![Single Inheritance](https://github.com/chavarera/PythonScript/blob/master/Class/singleinheritance.png)
 
-### Steps to Perform Single Inheritnace:
+### Steps to Perform Single Inheritance:
 
-1.Create Parent (Base) class.
+1. Create Parent (Base) class.
 ```python
-	class A:
+    class A:
 ```
 2.Define attributes and Methods in Parent Class.
 ```python
-	def __init__(self,par1,par2):
-		self.par1=par1
-		self.par2=par2
+def __init__(self,par1,par2):
+  self.par1=par1
+    self.par2=par2
 ```
-3.Create Subclass (Child) Class and Inherit it from parent class
+
+3.Create Subclass (Child) Class and Inherit it from the parent class
 ```python
 class B(A):
 ```
-4.Initilize the attributes and methods
-5.In constructor use super keyword to derive the parent class properties to child class
+4.Initialize the attributes and methods
+5. In constructor use the super keyword to derive the parent class properties to the child class
 ```python
 class B(A):
-	def __init__(self,paramters):
-		super.__init__(paramters of Parent class)
+    def __init__(self,parameters):
+            super.__init__(parameters of Parent class)
  ```
-6.Now you can access attributes of parent class using self keyword
+ 
+6. Now you can access attributes of parent class using the self keyword
 ```python
 self.par1
 ```
-7.Now create object of child class and pass the required paramter
+
+7. Now create an object of child class and pass the required parameters
 8.using base class object now you can access methods of parent and base class.
 
 ### Syntax:
 ```python
 class <ParentClassName>:
-	##Initilize Attributes and Methods
+    ##Initilize Attributes and Methods
 
 class <ChildClassName>(ParentClassName):
-	def __init__(self,ParentClass Variables,Own variables):
-		super().__init__(ParentClass Variables which are Required)
-		
-		#initilize own instance variable
+    def __init__(self,ParentClass Variables,Own variables):
+            super().__init__(ParentClass Variables which are Required)            
+            #initilize own instance variable
 
 #Create an object of child class
 objname=ParentClassName(all paramters)
@@ -57,24 +59,29 @@ objname=ParentClassName(all paramters)
 objectname.methodname()
 ```
 
+
 ### Simple Example 1:
 ```python
 #Parent Class
 class A:
-	def __init__(self,vara):
-		self.vara=vara
+    def __init__(self,vara):
+            self.vara=vara
 #Child Class
 class B(A):
-	def __init__(self,vara,varb):
-		super().__init__(vara)
-		self.varb=varb
-	def Display(self):
-		#print value from class A and Class B
-		print(self.vara,self.varb)
+    def __init__(self,vara,varb):
+            super().__init__(vara)
+            self.varb=varb
+    def Display(self):
+            #print value from class A and Class B
+            print(self.vara,self.varb)
 b1=B(2,4)
+print("Vaue of vara and varb")
 b1.Display()
-
-#Result : 2 4
+```
+Output:
+```
+Vaue of vara and varb
+2 4
 ```
 
 ###  Simple Example 2:
@@ -95,8 +102,10 @@ class B(A):
 
 #create object of B class
 b1=B()
-
-#Result:Accessed from class B I am A Class variable
+```
+Output:
+```
+Accessed from class B I am A Class variable
 ```
     
 
@@ -131,7 +140,12 @@ class B(A):
 b1=B("Raj",24)
 
 #Call the display method
+print("Display Method Called")
 b1.display()
-
-#Result: Raj 24
 ```
+Output:
+```
+Display Method Called
+I am from Class B Raj 24
+```
+
