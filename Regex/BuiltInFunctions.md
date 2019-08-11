@@ -1,8 +1,8 @@
-## Built In Functions In Regex
+## Built-In Functions In Regex
 
 ### Basic Of Function of Regular Expression
 
-For searching pattern ther are following two ways
+For searching pattern, there are following two ways
 
 **1.single First match**
    - re.search() to find the first match for a pattern.
@@ -13,12 +13,12 @@ For searching pattern ther are following two ways
 #### 1.search
 
 - The **re.search()** method takes a regular expression pattern and a string and searches for that pattern within the string.
-- This will return a match object if search is successful Otherwise return None.
-- **re.search()** return only first occurence of searching pattern in the input given string.
-- add **'r'** before the searching pattern which will be considered as raw string
+- This will return a match object if the search is successful Otherwise return None.
+- **re.search()** return the only first occurrence of searching pattern in the input given string.
+- add **'r'** before the searching pattern which will be considered as a raw string
 
 **group():**
-- **group()** is an method for instance of match object.
+- **group()** is a method for an instance of the match object.
 - Return str or tuple,
 - Return subgroup(s) of the match by indices or names
 
@@ -29,10 +29,10 @@ re.search(pattern,string)
 
 Example 1:
 
-problem:find out 're' in given string
+problem: find out  're' in a given string
 ```python
 import re
-input_string='this is simple re python program.re is short form of regular expression'
+input_string='this is simple re python program.re is a short form of regular expression'
 pattern=r're'
 
 search_result=re.search(pattern,input_string)
@@ -46,19 +46,18 @@ if search_result:
     print('Result is found for :'+search_result.group())
 else:
     print('Not Found')
-
-'''
-#Result
+```
+OutPut:
+```
 <class '_sre.SRE_Match'>
 Result is found for :re
-'''
 ```
 
 #### 2.findall
 
-- findall is used to get the multiple occurences of given patteren.
+- find all is used to get the multiple occurrences of a given pattern.
 - The findall() function returns a list containing all matches.
-- The list contains the matches in the order they are found.If no matches are found, an empty list is returned.
+- The list contains the matches in the order they are found. If no matches are found, an empty list is returned.
 
 Syntax:
 ```
@@ -66,31 +65,30 @@ re.findall(pattern,string)
 ```
 
 Example:
-Find out all occurences of 're'
+Find out all occurrences of  're'
 ```python
 #import Required module
 import re
 
 #String
-input_string='this is simple re python program.re is short form of regular expression'
+input_string='this is simple re python program.re is a short form of regular expression'
 
 #pattern 
 pattern='re'
 
 result=re.findall(pattern,input_string)
 print(result)
-
-#Result :['re', 're', 're', 're']
+```
+Output:
+```
+['re', 're', 're', 're']
 ```
 
 #### 3.split()
 - Returns a list where the string has been split at each match.
 - The split() function returns a list where the string has been split at each match.
-- If multiple pattern matching in split() function the list is splitted accordingly pattern.
+- If multiple patterns matching in the split() function the list is split accordingly pattern.
 ```
-input_string:'this is string'
-splited list:['th', ' ', ' string']
-
 input_string:'python'
 splited list:['p', 'thon']
 ```
@@ -111,8 +109,10 @@ str = "This is python program"
 #Result
 result = re.split("python", str)
 print(result)
-
-#Result:['This is ', ' program']
+```
+Output:
+```
+['This is ', ' program']
 ```
 
 #### 4.sub()
@@ -142,6 +142,8 @@ input_string = "This is python program"
 #replace 'i' with 'it' word in given input_string
 result = re.sub('i',"It", input_string)
 print(result)
-
-#Result:ThIts Its python program
+```
+Output:
+```
+ThIts Its python program
 ```
