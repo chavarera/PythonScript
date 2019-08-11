@@ -1,9 +1,9 @@
 ## os.path module
 
-#### The os.path module from os module
-- **os.path** module used for common pathname manipulation.
+#### The os.path module from the os module
+- **os.path** the module used for common pathname manipulation.
 - This module implements some useful functions on pathnames.
-- Different operating systems have different path name conventions.
+- Different operating systems have different pathname conventions.
 
 different path styles:
 ```
@@ -13,7 +13,7 @@ different path styles:
 ```
 #### import os.path module
 
-- Instead of directly importing os.path name module first import os root module and access os.path from it.
+- Instead of directly importing the os.path name module first import os root module and access os.path from it.
 ```python
 #import os module
 import os
@@ -51,8 +51,10 @@ Example:
 
 #get curdir 
 print(os.path.curdir)
-
-#Result:.
+```
+Output:
+```
+.
 ```
 
 #### 2.abspath:
@@ -65,7 +67,7 @@ Syntax:
 ```python
 os.path.abspath(path)
 
-# path paramter is mandatory
+# path parameter is mandatory
 ```
 
 Example:
@@ -75,8 +77,10 @@ import os
 #path
 path=r"C:/Test"
 print(os.path.abspath(path))
-
-#Result :"currentdirectorypath/C:/Test"
+```
+Output:
+```
+currentdirectorypath/C:/Test
 ```
 
 #### 3.basename:
@@ -111,7 +115,10 @@ full_path=r"C:/Test/final/filename.txt"
 basename=os.path.basename(full_path)
 
 print(basename)
-#Result:filename.txt
+```
+Output:
+```
+filename.txt
 ```
 
 #### 4.commonpath
@@ -133,7 +140,7 @@ os.path.commonpath(['path1','path2','path3'])
 Example:
 ```python
 
-# import require dmodule
+# import require module
 import os
 
 #path list
@@ -144,7 +151,10 @@ common=os.path.commonpath(paths)
 
 #print the commonpath
 print(common)
-#Result:/usr
+```
+Ouput:
+```
+/usr
 ```
 
 #### 5.commonprefix()
@@ -178,8 +188,10 @@ comonprefix=os.path.commonprefix([path1,path2])
 
 #print Common prefix path
 print(comonprefix)
-
-#Result:C:/test/f
+```
+OutPut:
+```
+C:/test/f
 ```
 
 
@@ -211,14 +223,16 @@ name=os.path.dirname(path1)
 
 #print the dirname
 print(name)
-
-#Result:C:/test/folder
+```
+OutPut:
+```
+C:/test/folder
 ```
 
 
 #### 7.exists
 
-- Return True if given pathname is exists otherwise return False
+- Return True if the given pathname is existed otherwise return False
 
 Syntax:
 ```
@@ -230,13 +244,15 @@ Example:
 import os
 path=r"C:/test/folder/amaze.txt"
 print(os.path.exists(path))
-
-#Result:False because this path is not exists
+```
+Output:
+```
+False
 ```
 
 #### 8.isfile
 
-- Return True if given pathname is a file
+- Return True if the given pathname is a file
 
 Syntax:
 ```python
@@ -249,12 +265,15 @@ import os
 path=r"C:/test/folder/amaze.txt"
 print(os.path.isfile(path))
 
-#Result is True if that file exists and it is a a file otherwise False
+#Result is True if that file exists and it is a file otherwise False
 ```
-
+Output:
+```
+True
+```
 #### 9.isdir
 
-- Return True if given pathname is a directory
+- Return True if the given pathname is a directory
 
 Syntax:
 ```python
@@ -267,7 +286,11 @@ import os
 path=r"C:/test/folder"
 print(os.path.isdir(path))
 
-#Result is True if that directory is  exists and it is a a directory otherwise False
+#Result is True if that directory exists and it is a directory otherwise False
+```
+Output:
+```
+True
 ```
 
 #### 10.join:
@@ -290,17 +313,21 @@ path2=r"foldername"
 joined_path=os.path.join(path1,path2)
 
 print(joined_path)
-#Result:c:/foldername
 ```
+Output:
+```
+c:/foldername
+```
+
 
 #### 11.split:
 - split(path) Return a tuple containing 
 (head,tail)
 
-**tail**:where tail is everything after the final slash may be empty sometime
+**tail**: where the tail is everything after the final slash may be empty sometime
 
 - The tail part will never contain a slash.
-- If path is empty, both head and tail are empty.
+- If the path is empty, both head and tail are empty.
 
 Syntax:
 ```python
@@ -329,16 +356,15 @@ path3=r""
 splited_path3=os.path.split(path3)
 print(splited_path3)
 #Result:('', '')
-
-'''
-#Result:
+```
+Output:
+```
 ('C:/Test', 'help.txt')
 ('C:/Test', '')
 ('', '')
-'''
 ```
 
-Some Other Important os.path avialable Function
+Some Other Important os.path available Function
 
 **12.splitdrive:**
 - Split a pathname into drive and path,
