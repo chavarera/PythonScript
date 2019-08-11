@@ -2,12 +2,12 @@
 
 ### Basic Of Tuple
 - A tuple is a sequence of immutable Python objects. Tuples are sequences, just like lists.
-- A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets. 
+- A tuple is a collection that is ordered and unchangeable. In Python, tuples are written with round brackets. 
 - Tuples are used for grouping data. Each element or value that is inside of a tuple is called an item.
 
 Syntax:
 ```python
-tuplename=(element by comma separtor) 
+tuplename=(elem1,elem2,elem3...) 
 ```
 
 Example:
@@ -90,10 +90,10 @@ Element at index 2
 5
 ```
 
-### Access Multiple element from tuple
+### Access Multiple elements from a tuple
 We can use indexing to call out a few items from the tuple. Slices allow us to call multiple values by creating a range of index numbers separated by a colon [x:y].
 
-we can use slicing to accessing elements from tuple. 
+we can use slicing to accessing elements from the tuple. 
 
 Synatx:
 ```python
