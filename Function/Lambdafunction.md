@@ -50,7 +50,7 @@ Output:
 6
 ```
 
-### Is this possible to write multiline lambda
+### Is this possible to write multiline lambda Function
 No, because lambda function is only a single line one time use function so you can not create a multiline lambda function.
 Lambda function can be used with python built-in function such as filter(), map, list, etc....
 
