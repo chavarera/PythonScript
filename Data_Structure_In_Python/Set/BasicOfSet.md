@@ -14,7 +14,7 @@ setname={element}
 setname1=set(elements)
 ```
 Example:
-You can not create a blank :black_square_button: set like this
+You can not create a blank set like this
 ```python
 blankset={}
 print(type(blankset)) 
@@ -86,7 +86,7 @@ Output:
 red is present
 ```
 
-### Get the set length :straight_ruler:
+### Get the set length
 Example
 ```python
 color={'red','green','blue'}
