@@ -1,27 +1,30 @@
 ## Lambda Function
 
 ### Lambda Function
-- A Python lambda is just a Python function.But may be like a special type of function that have limited capabilities
+- A Python lambda is just a Python function. But maybe like a special type of function that has limited capabilities
 - Lambda function is a small anonymous function.
 - lambda function can have any number of arguments but only one expression, which is evaluated and returned.
 - Normally we use the **def** keyword to define a function with a name. The *lambda* keyword is used to create anonymous functions.
-- Lambda functions can accept zero or morearguments but only one expression.
+- Lambda functions can accept zero or more arguments but only one expression.
 
 ### Why Use Lambda Functions?
 
-Anonymous function is a function that is defined without a name. While normal functions are defined usinig the def keyword.we don't need to write return keyword for returning the value from lambda function.
+The anonymous function is a function that is defined without a name. While normal functions are defined using the def keyword. we don't need to write a return keyword for returning the value from the lambda function.
 
 
 Syntax:
 ```python
-lambda arguments : expression
+lambda arguments: expression
 ```
 
 Example:
 ```python
 x = lambda a : a + 10
 print(x(5)) 
-#Result:15
+```
+Output:
+```
+15
 ```
 
 ### Lambda function with multiple arguments
@@ -40,12 +43,15 @@ add=lambda a,b:a+b
 #pass 2 and 4 number
 res=add(2,4)
 print(res)
+```
 
-#Result:6
+Output:
+```
+6
 ```
 
 ### Is this possible to write multiline lambda
-No,because lambda function is only a single line one time use function so you can not create multiline lambda function.
-Lambda function can be used with python built in function such as filter(),map, list etc....
+No, because lambda function is only a single line one time use function so you can not create a multiline lambda function.
+Lambda function can be used with python built-in function such as filter(), map, list, etc....
 
 
