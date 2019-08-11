@@ -1,27 +1,27 @@
 ## Attributes and Methods
 
 
-## Atributes
+## Attributes
 - variable inside a class are called attributes.
 - A class attribute is a Python variable that belongs to a class rather than a particular object.
-- It is shared between all the object of the class.
-- Atrributes are defined outside the constructor methods.
+- It is shared between all the objects of the class.
+- Attributes are defined outside the constructor methods.
 
 Syntax:
 ```python
 class <ClassName>:
-	variablename=value
+    variablename=value
 ```
 Example:
 ```python
 class Person:
-	#Initialize Attributes
-	name="python"
-	age=25
+    #Initialize Attributes
+    name="python"
+    age=25
 ```
 ### How to get values of Class attribute using class objects?
 
-- for accessing class attributes use classname and dot(.) notation 
+- for accessing, class attributes use class name and dot(.) notation 
 
 Syntax:
 ```python
@@ -32,9 +32,9 @@ Example:
 ```python
 #Initilize class 
 class Person:
-	#Initialize Attributes
-	name="python"
-	age=25
+    #Initialize Attributes
+    name="python"
+    age=25
 
 #initialize the class object
 p1=Person()
@@ -49,6 +49,11 @@ age=p1.age
 print(age)
 #Result:25
 ```
+Output:
+```
+python
+25
+``
 
 ### Modify Class Attributes using Class object
 - To modify class attributes use normal assignment(=) operator with class object and attributes name
@@ -62,9 +67,9 @@ Example:
 ```python
 #Initilize class 
 class Person:
-	#Initialize Attributes
-	name="python"
-	age=25
+    #Initialize Attributes
+    name="python"
+    age=25
 
 #initialize the class object
 p1=Person()
@@ -83,35 +88,40 @@ print(name)
 #Result:python 3.7
 ```
 
+Output:
+```
+python
+python 3.7
+```
 
 
 ## Methods
-- A function inside a class is called method.
-- Method are accessible within the class.
-- Methods can accepts n number of parameter and return value using return keyword.
+- A function inside a class is called a method.
+- The method is accessible within the class.
+- Methods can accept n number of parameters and return value using the return keyword.
 
 ### How to define method?
-- **def** keyword is used to define method.
-- First parameter of method is **self**.
-- In method attributes are called with Classname dot(.)notation
+- **def** keyword is used to define the method.
+- The first parameter of the method is **self**.
+- In the method, attributes are called with Classname dot(.)notation
 
 Syntax:
 ```python
 Class <ClassName>:
-	def MethodName(self,Paramter1,paramter2):
-		#Code inside a method
+    def MethodName(self,Paramter1,paramter2):
+        #Code inside a method
 ```
 
 Example:
 ```python
 #initialize the class
 class Person:
-	#initialize the Method
-	def Display(self):
-		print(Person.name)
+    #initialize the Method
+    def Display(self):
+        print(Person.name)
 ```
 
-### How to call method from a class using object?
+### How to call a method from a class using an object?
 
 - to call a method from a class using class object we use dot(**.**) Notation
 
@@ -126,7 +136,7 @@ Example:
 class Person:
    #initialize the methods
    def Display(self):
-          print("simple output from Display method")
+          print("the simple output from the Display method")
 
 #initialize the class objects
 p1=Person()
@@ -134,5 +144,9 @@ p1=Person()
 #call Display method from Person class using p1 class object
 p1.Display()
 
-#Result:simple output from Display method
+#Result: the simple output from the Display method
+```
+Output:
+```
+the simple output from the Display method
 ```
