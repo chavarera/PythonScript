@@ -94,7 +94,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
 ##### 5.Modules
   - Basic
     - [Basic Of Modules](https://github.com/chavarera/PythonScript/blob/master/Module/BasicOfModule.md)
-    - [Custom Modules](https://github.com/chavarera/PythonScript/blob/master/Module/BasicOfModule.md)
+    - [Custom Modules](https://github.com/chavarera/PythonScript/blob/master/Module/CustomModule.md)
   - Some Important Modules
     - [Platform](https://github.com/chavarera/PythonScript/blob/master/Module/platform/platform.md)
     - OS Module
