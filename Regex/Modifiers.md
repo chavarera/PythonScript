@@ -3,13 +3,13 @@
 
 #### Modifiers Examples
 
-- **\w** is an one Identifier used to to search a string pattern .
-- **\d** is an one Identifier used to to search a numerical pattern .
+- **\w** is one Identifier used to search a string pattern.
+- **\d** is one Identifier used to search a numerical pattern.
 
 ### 1.+ Match 1 or More
 
 - Match 1 or More
-- **+** will match the pattern untill it will get success result means till pattern match
+- **+** will match the pattern until it will get success result means till pattern match
 
 Examples:
 ```python
@@ -48,14 +48,20 @@ result=re.findall(pattern1,input_string)
 print(result)
 #Result:['today', 'date', 'is', '19', 'jan', '2019']
 ```
-
+Output
+```
+['1', '9', '2', '0', '1', '9']
+['19', '2019']
+['t', 'o', 'd', 'a', 'y', 'd', 'a', 't', 'e', 'i', 's', '1', '9', 'j', 'a', 'n', '2', '0', '1', '9']
+['today', 'date', 'is', '19', 'jan', '2019']
+```
 
 
 ### 2. * Match 0 or more 
 
 - Match 0 or more
-- If match not found blank is returned.
-- Even space is considered as match.
+- If a match is not found blank is returned.
+- Even space is considered a match.
 
 Example:
 ```python
@@ -96,9 +102,13 @@ result=re.findall(pattern1,input_string)
 print(result)
 #Result:['today', '', 'date', '', 'is', '', '19', '', 'jan', '', '2019', '']
 ```
-
-
-
+Output:
+```
+['1', '9', '2', '0', '1', '9']
+['', '', '', '', '', '', '', '', '', '', '', '', '', '', '19', '', '', '', '', '', '2019', '']
+['t', 'o', 'd', 'a', 'y', 'd', 'a', 't', 'e', 'i', 's', '1', '9', 'j', 'a', 'n', '2', '0', '1', '9']
+['today', '', 'date', '', 'is', '', '19', '', 'jan', '', '2019', '']
+```
 
 ### 3.? Match 0 or 1
 - Match 0 or 1
@@ -147,17 +157,24 @@ print(result)
 
 '''
 ```
+Output:
+```
+['1', '9', '2', '0', '1', '9']
+['', '', '', '', '', '', '', '', '', '', '', '', '', '', '1', '9', '', '', '', '', '', '2', '0', '1', '9', '']
+['t', 'o', 'd', 'a', 'y', 'd', 'a', 't', 'e', 'i', 's', '1', '9', 'j', 'a', 'n', '2', '0', '1', '9']
+['t', 'o', 'd', 'a', 'y', '', 'd', 'a', 't', 'e', '', 'i', 's', '', '1', '9', '', 'j', 'a', 'n', '', '2', '0', '1', '9', '']
+```
 
 
 
 ### 4.{} expecting result count
 
-- Describing about numbers expecting result
+- Describing numbers expecting the result
 
 Syntax:
 ```python
-{x}	# Display x number of result
-{x,y}	# Display result count should be between x or y
+{x}    # Display x number of result
+{x,y}    # Display result count should be between x or y
 ```
 Example:
 ```python
@@ -200,7 +217,14 @@ result=re.findall(pattern,input_string)
 print(result)
 #Result:['today']
 ```
-
+Output:
+```
+['1', '9', '2', '0', '1', '9']
+['19', '20', '19']
+['201']
+['tod', 'dat', 'jan', '201']
+['today']
+```
 Example 2:
 Using {start,end}
 ```
@@ -223,8 +247,13 @@ result=re.findall(pattern,input_string)
 print(result)
 #Result:['toda', 'date', 'is', '19', 'jan', '2019']
 ```
+Output:
+```
+['19', '20', '19']
+['toda', 'date', 'is', '19', 'jan', '2019']
+```
  
-### 5.^ begining of string
+### 5.^ beginning of the string
 
 - matching the beginning of the string.
 - The caret ^ matches at the beginning of the given input text.
@@ -248,6 +277,11 @@ input_string2='Programming language is Python'
 result2=re.findall(r'^Python',input_string2)
 print(result2)
 #Result:[]
+```
+OutPut:
+```
+['Python']
+[]
 ```
 
 ### 6.$ end of the string
@@ -279,11 +313,16 @@ result2=re.findall(r'Python$',input_string2)
 print(result2)
 #Result:['Python']
 ```
+Output:
+```
+[]
+['Python']
+```
 
 ### 7.| or
 - Either or Example({1}|{3})
-- In or statement if the first pattern is matched then second pattern in or will ignores.
-- If first pattern is not matched then second pattern is checked
+- In or statement if the first pattern is matched then the second pattern in or will ignore.
+- If the first pattern is not matched then the second pattern is checked
 
 Consider
 ```
@@ -311,6 +350,10 @@ result=re.findall(pattern,input_string)
 print(result)
 
 #Result:['20', '2019', '14']
+```
+Output:
+```
+['20', '2019', '14']
 ```
 
 ### 8.[] raning modifiers
@@ -372,4 +415,11 @@ print(result)
 'r', 'o', 'm', ' ', ' ', 'd', 'a', 'y', 's', ' ']
 
 '''
+```
+Output:
+```
+['i', 'a', 'e', 'a', 'i', 'o', 'o', 'a']
+['1', '0', '5', '4', '2']
+['a', 'e', 'a', 'f', 'd', 'a']
+['i', ' ', 'a', 'm', ' ', 'L', 'e', 'a', 'r', 'n', 'i', 'n', 'g', ' ', 'p', 'y', 't', 'h', 'o', 'n', ' ', 'f', 'r', 'o', 'm', ' ', ' ', 'd', 'a', 'y', 's', ' ']
 ```
