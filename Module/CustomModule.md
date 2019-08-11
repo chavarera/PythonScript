@@ -73,12 +73,9 @@ print(dir(Calculation))
 '__builtins__', '__cached__', '__doc__',
 '__file__', '__loader__', '__name__', 
 '__package__', '__spec__', 'var1']
-
-'''
-
-
-'''
-#Result:
+```
+Output
+```
 Help on module Calculation:
 
 NAME
@@ -111,6 +108,4 @@ John
 ['Addition', 'Multiplication', 'Substraction',
 '__builtins__', '__cached__', '__doc__', '__file__',
 '__loader__', '__name__', '__package__', '__spec__', 'var1']
-
-'''
 ```
