@@ -2,15 +2,15 @@
 
 ### Introduction
 
-- Encapsulation is an most important principal of object oriented programing language.
+- Encapsulation is the most important principle of object-oriented programing language.
 - We already know the methods and Variables you can restrict access to method and variables.
-- Prevent the variable and methods from being modified using object is known as Encapsulation.
+- Prevent the variable and methods from being modified using an object is known as Encapsulation.
 - Encapsulation means that the internal representation of an object is generally hidden from view outside of the object’s definition.
-- We can Achieve encapsulation in python by creating private attributes and methods in an class.
-- unlike other programming languages public,private,protected keywords are not support in python But this scenario can be achieved using following diffrent access specifiers..
-In python there are three different access specifiers
+- We can Achieve encapsulation in python by creating private attributes and methods in a class.
+- unlike other programming languages public, private, protected keywords are not supported in python But this scenario can be achieved using following different access specifiers.
+In python, there are three different access specifiers
 ```
-1. public(Defualt)
+1. public(Default)
 2. private(__)
 3. protected(_)
 ```
@@ -18,8 +18,8 @@ private (__ double underscore)  is used to Achieve Encapsulation but we need to 
 
 ## 1.public
 
-- By defualt in class all variables and methods are public.
-- Means they can be accessed  by the class members and by the module where they imported.
+- By default in a class, all variables and methods are public.
+- This means they can be accessed by the class members and by the module where they imported.
 
 ### Syntax:
 
@@ -33,7 +33,7 @@ self.variablename=value
 
 #methods
 def MethodName():
-	#code of methods
+    #code of methods
 ```
 
 **Accessing public members**
@@ -57,7 +57,7 @@ class A:
         #public instance variables
         self.b=b
     def Display(self):
-        print("i am public method")
+        print("i am a public method")
 #Object of class A
 a1=A(20)
 
@@ -85,14 +85,14 @@ Class Variable value a:10
 Class Variable value after modified a:30
 Instance variable b: 20
 Instance Variable value after modified b:50
-i am public method
+i am a public method
 ```
 
 ## 2.private:
 - **__**(double underscore or dunder) is used to define private attributes in class.
-- For private attribute of a class the name should be started with (__)
-- Once you done you can not access the variable directly from its objects.
-- You can not change value directly. 
+- For the private attribute of a class, the name should be started with (__)
+- Once you are done you can not access the variable directly from its objects.
+- You can not change the value directly. 
 
 Syntax:
 **Declaring the class attributes and Methods**
@@ -105,7 +105,7 @@ self.__variablename=value
 
 #for method
 def __methodname():
-	#Code of methods
+    #Code of methods
 ```
 
 **Accessing the class attributes outside of the class**
@@ -136,7 +136,7 @@ class Student:
   def __Display(self):
     print("I am from private display method",self.__name)
 
-#Create object of an class
+#Create object of a class
 s1=Student()
 
 #You can Not Access private Variable direct using class object you will get error
@@ -163,22 +163,22 @@ print(s1._Student__name)
 s1._Student__name="updated Value"
 
 
-#To call private method 
+#To call a private method 
 s1._Student__Display()
-#Result:I am from private display method updated Value
+#Result: I am from a private display method updated Value
 ```
 Output
 ```
 java
 python
-I am from private display method updated Value
+I am from a private display method updated Value
 ```
 
 
 ## 3.Protected
-- To achieve protected access specifiers Add _(single underscore)  at the start of variable name doesn't change with functionality.
-- The variable can still be accessed out side of the class using class object.
-- Its value remains the same that is defined inside of the class and not overridden by other variable in the next module with the same name.
+- To achieve protected access specifiers Add _(single underscore)  at the start of the variable name doesn't change with functionality.
+- The variable can still be accessed outside of the class using the class object.
+- Its value remains the same that is defined inside of the class and not overridden by another variable in the next module with the same name.
 - The members declared as Protected are accessible from outside the class but only in a class derived from it that is in the child or subclass.
 
 Syntax:
@@ -192,7 +192,7 @@ self._variablename=value
 
 #for method
 def _methodname():
-	#Code of methods
+    #Code of methods
 ```
 
 **Accessing public members**
