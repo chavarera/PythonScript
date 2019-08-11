@@ -32,8 +32,8 @@ Output:
 
 ### 3. Change Tuple value 
 
-- unlike list, tuple are immutable objects. This means that elemnt of tuple can not be changed once it has been assigned. 
-- but if tuple contain any mutable object such as list then this object can be changeable. 
+- unlike a list, a tuple is immutable objects. This means that the element of a tuple can not be changed once it has been assigned. 
+- but if a tuple contains any mutable object such as a list then this object can be changeable. 
 
 For Example:
 ```python
@@ -41,10 +41,13 @@ mytple=(1,2,3,4,5,["red", "green"])
 # change 2 element with 9
 mytple[1]=9
 print(mytple)
-#Result:Error tuple object does not support item assignments
 ````
+Output:
+```
+Error tuple object does not support item assignments
+```
 
-But in same example you want to replace **"red"** With **"black"**
+But in the same example, you want to replace **"red"** With **"black"**
 
 Example:
 ```python
@@ -60,9 +63,9 @@ Output:
 (1,2,3,4,5,["black", "green"]) 
 ```
 
-### 4. Deleteing Tuple
-- Tuple is immutable object so we can delete individual item from tuple. 
-- Entire tuple will be deleted or removed  using del keyword. 
+### 4. Deleting Tuple
+- A tuple is an immutable object so we can delete the individual item from the tuple. 
+- The entire tuple will be deleted or removed using a del keyword. 
 
 Syntax:
 ```python
@@ -82,8 +85,8 @@ NameError: name 'mytple' is not defined
 ```
 
 
-### 5. Counting Frequencey of Element
-Get the frequency of particular element appears in tuple.
+### 5. Counting Frequency of Element
+Get the frequency of particular element appears in the tuple.
 
 Synatx:
 ```python
@@ -102,7 +105,7 @@ Output:
 
 ### 6. Find Position index of element.
 
-Get the first index of specified value. 
+Get the first index of the specified value. 
 
 Syntax:
 ```python
@@ -121,8 +124,8 @@ Output:
 
 ### 7.Check element is present in tuple or not
 
-- **'in'** keyword is used to check whether element is present in tuple or not
-- if element is present this will return boolean value True otherwise False
+- **'in'** keyword is used to check whether the element is present in tuple or not
+- if the element is present this will return boolean value True otherwise False
 
 Syntax:
 ```python
