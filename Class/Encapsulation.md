@@ -9,10 +9,11 @@
 - We can Achieve encapsulation in python by creating private attributes and methods in an class.
 - unlike other programming languages public,private,protected keywords are not support in python But this scenario can be achieved using following diffrent access specifiers..
 In python there are three different access specifiers
-	1. public(Defualt)
-	2. private(__)
-	3. protected(_)
-
+```
+1. public(Defualt)
+2. private(__)
+3. protected(_)
+```
 private (__ double underscore)  is used to Achieve Encapsulation but we need to know others also
 
 ## 1.public
@@ -50,13 +51,13 @@ objectname.MethodName()
 Example
 ```python
 class A:
-	#add public class variable
-	a=10
-	def __init__(self,b):
-		#public instance variables
-		self.b=b
-	def Display(self):
-		print("i am public method")
+    #add public class variable
+    a=10
+    def __init__(self,b):
+        #public instance variables
+        self.b=b
+    def Display(self):
+        print("i am public method")
 #Object of class A
 a1=A(20)
 
@@ -77,15 +78,14 @@ print("Instance Variable value after modified b:"+str(a1.b))
 
 #Call public methods
 a1.Display()
-
-'''
-#Result
+```
+Output
+```
 Class Variable value a:10
 Class Variable value after modified a:30
 Instance variable b: 20
 Instance Variable value after modified b:50
 i am public method
-'''
 ```
 
 ## 2.private:
@@ -166,13 +166,12 @@ s1._Student__name="updated Value"
 #To call private method 
 s1._Student__Display()
 #Result:I am from private display method updated Value
-
-
-'''
+```
+Output
+```
 java
 python
 I am from private display method updated Value
-'''
 ```
 
 
@@ -228,9 +227,9 @@ class Admin(Hr):
       print(self._name)
 emp=Admin("Jhon",20000,20)
 print(emp.Displays())
-'''
-#Result:
+```
+Output:
+```
 Jhon
 None
-'''
 ```
