@@ -17,11 +17,12 @@ import re
 ```
 
 Basic of re functions
+```
 1. findall()
 2. search()
 3. split()
 4. sub()
-
+```
 
 Some Basic pattern requirements
 
