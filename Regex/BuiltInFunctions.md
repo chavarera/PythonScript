@@ -32,10 +32,10 @@ Example 1:
 problem: find out  're' in a given string
 ```python
 import re
-input_string='this is simple re python program.re is a short form of regular expression'
+text='this is simple re python program.re is a short form of regular expression'
 pattern=r're'
 
-search_result=re.search(pattern,input_string)
+search_result=re.search(pattern,text)
 
 #Get Type of result
 print(type(search_result))
