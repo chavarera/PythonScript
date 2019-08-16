@@ -32,7 +32,8 @@ Example 1:
 problem: find out  're' in a given string
 ```python
 import re
-text='this is simple re python program.re is a short form of regular expression'
+text='''this is simple re python program.re 
+is a short form of regular expression'''
 pattern=r're'
 
 search_result=re.search(pattern,text)
@@ -71,7 +72,8 @@ Find out all occurrences of  're'
 import re
 
 #String
-input_string='this is simple re python program.re is a short form of regular expression'
+input_string='''this is simple re python program.re
+is a short form of regular expression'''
 
 #pattern 
 pattern='re'
