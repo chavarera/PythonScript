@@ -5,7 +5,7 @@
 - A linked list can store any type of data such as int, float, string, and others.
 - A linked list is an ordered collection of values. Linked lists are similar to arrays in the sense that they contain objects in a linear order.
 - A linked list is considered a recursive data structure because it has a recursive definition.
-- Data in Linked list is not stored in the contiguous memory location. if the contiguous memory location is not available linked list store the data.
+- Data on the Linked list is not stored in the contiguous memory location. if the contiguous memory location is not available linked list store the data.
 - A linked list is linear data structure it contains nodes and each node contains two different parts
 
 
@@ -46,23 +46,23 @@ Create a Node and assign data and pointer value to each Node
 Example:
 ```python
 class Node:
-    def _init_(self,val):
-        self.val=val
-        #Initially Pointer of linked list Points to Nothing
-        self.next=None
-        
-    def Traverse(self,node):
-        print('\n\nNode Start Traversing from :{}'.format(node.val))
-        while node is not None:
-            print(node.val,end="->") # access the node value
-            node=node.next          #Move to the next node
-            
-    def iterate_forward(self):
-       print('\n\nNode Start iterating  from :{}'.format(self.val))
-       node=self
-       while node is not None:
-           print(node.val,end="->")
-           node=node.next
+  def __init__(self,val):
+      self.val=val
+      #Initially Pointer of linked list Points to Nothing
+      self.next=None
+      
+  def Traverse(self,node):
+      print('\n\nNode Start Traversing from :{}'.format(node.val))
+      while node is not None:
+          print(node.val,end="->") # access the node value
+          node=node.next          #Move to the next node
+          
+  def iterate_forward(self):
+     print('\n\nNode Start iterating  from :{}'.format(self.val))
+     node=self
+     while node is not None:
+         print(node.val,end="->")
+         node=node.next
 
            
 #Initialize the different Nodes
@@ -115,11 +115,21 @@ Node Start Traversing from :27
 
 #Get Iterate From Head to Tail Node(Normal Traverse linked list)
 n1.iterate_forward()
-'''
-#Result
+```
+
+Output:
+```
+Node Start Traversing from :12
+12->18->27->9->
+
+Node Start Traversing from :18
+18->27->9->
+
+Node Start Traversing from :27
+27->9->
+
 Node Start iterating  from :12
 12->18->27->9->
-'''
 ```
 
 ![LinkedList](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/llis2t.png)
