@@ -1,9 +1,11 @@
 ## Create and Traverse linked list
 
 #### Basic Operation
+```
 1. Create Node
 2. Create a Linked List
 3. Traverse Linked list
+```
 
 ### 1. Create A Node
 
@@ -31,7 +33,7 @@ class Node:
 
 - Create a Class for a single linked list and write down different methods for insert item, remove the item and traverse a linked list.
 - Initially, Singly linked list pointing to the starting or the first node of the linked list.
-- The Single linked list contains the only member that is start_node which is initially Set to None Because the linked list will be empty
+- The Single linked list contains the only member that is start_node which is initially set to None Because the linked list will be empty
 at the time of the creation of the linked list.
 ![singleNone](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/singlelinkedlist.png)
 
