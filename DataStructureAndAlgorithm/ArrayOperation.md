@@ -12,7 +12,7 @@ for Retrieving elements from an array, there are two different ways
 #### 1. Single Element Retrieval
 
 - A collection of elements each identified by an array index.
-- Index start at zero(0) array.Because of the index, random access of element is possible.
+- Index start at zero(0) array.Because of the index, random access of elements is possible.
 - Use [] parenthesis to retrieve an element from an array
 - Array elements can be accessed using positive index start from the first element in the array
 ```
@@ -36,22 +36,26 @@ data=array.array("i",[20,10,15,23])
 
 #for 20 use 0 index to get value from it
 result=data[0]
+print("Element At 0 Index")
 print(result)
 #Result:20
 
 #Access 20 using negative index
 result=data[-4]
+print("\nGet 20 Element Using Negative Index")
 print(result)
 #Result:20
 
 
 #for 15 use 2 index to get value from it
 result=data[2]
+print("\nElement At 2nd Index")
 print(result)
 #Result:15
 
 #for 15 using Negative index
 result=data[-2]
+print("\nGet element At -2 Index")
 print(result)
 #Result:15
 
@@ -60,10 +64,27 @@ result=data[10]
 print(result)
 #Result Error: array index out of range
 ```
+Output:
+```
+Element At 0 Index
+20
 
+Get 20 Element Using Negative Index
+20
+
+Element At 2nd Index
+15
+
+Get element At -2 Index
+15
+Traceback (most recent call last):
+  File "/tmp/sessions/8796c948b36129d7/main.py", line 31, in <module>
+    result=data[10]
+IndexError: array index out of range
+```
 #### 2.Multiple Elements using slicing
 
-- In Python, we can easily access a range of items in an array using slicing operator :
+- In Python, we can easily access a range of items in an array using the slicing operator :
 
 Normal Syntax:
 ```python
@@ -72,10 +93,10 @@ array_name[startindex(including):EndIndex(Excluding)]
 
 Other Syntax :
 ```python
-array_Name[:]		-> All Elements
-array_name[start:end]	-> Begining to End
-array_name[:end]	-> Begining to end
-array_name[start:]	-> begining to end
+array_Name[:]              > All Elements
+array_name[start:end]    > Begining to End
+array_name[:end]        > Begining to end
+array_name[start:]      > begining to end
 ```
 
 Examples:
@@ -89,28 +110,43 @@ start=0
 end=4
 
 result=data[start:end]
+print("Array From 0 index to till 4 index")
 print(result)
 #Result:array('i', [20, 10, 15, 23])
 
 #Get First 2 Elements
 result=data[:2] #or data[0:2]
+print("\nGet First 2 Element")
 print(result)
 #Result:array('i', [20, 10])
 
 #Get Last 3 Elements
 result=data[1:] #or data[1:3]
+print("\nGet Last 3 Element")
 print(result)
 #Result:array('i', [10, 15, 23])
+```
+Output:
+```
+Array From 0 index to till 4 index
+array('i', [20, 10, 15, 23])
+
+Get First 2 Element
+array('i', [20, 10])
+
+Get Last 3 Element
+array('i', [10, 15, 23])
 ```
 
 
 ### 2.Add Element
 
 - After the creation of the array, we can add another element to array with the help of following built-in functions
-
+```
 1. append()
 2. insert()
 3. extend()
+```
 
 #### 1.append()
 - **append()** function add a single element to an array at the end of the array
@@ -120,7 +156,7 @@ Syntax:
 arrayName.append("element")
 ```
 
-Examples:
+Example:
 ```python
 import array
 
@@ -133,16 +169,15 @@ print(data)
 data.append(6)
 print("After appending element")
 print(data)
+```
 
-'''
-#Result
-
+Output:
+```
 Before append of new Element
 array('i', [20, 10, 15, 23])
 
 After appending element
 array('i', [20, 10, 15, 23, 6])
-'''
 ```
 
 #### 2.insert()
@@ -169,17 +204,15 @@ print(data)
 data.insert(1,6)
 print("After inserting 6  at first position element")
 print(data)
-
-'''
-#Result
-
+```
+Output:
+```
 Normal Array
 array('i', [20, 10, 15, 23])'
 
 
 After inserting 6  at first position element
 array('i', [20, 6, 10, 15, 23])
-'''
 ```
 
 #### 3.extend()
@@ -209,15 +242,14 @@ data.extend([6,11,12])
 
 print("\n\n Array After Extending [6,11,12] ")
 print(data)
-
-'''
-#Result:
+```
+Output:
+```
 Normal Array
 array('i', [20, 10, 15, 23])
 
 Array After Extending [6,11,12] 
-array('i', [20, 10, 15, 23, 6, 11, 12])
-''' 
+array('i', [20, 10, 15, 23, 6, 11, 12]) 
 ```
 
 ### 3.Update Element
@@ -253,8 +285,9 @@ print(data)
 data[-2:]=array.array('i',[9,12])
 print("\nArray After updating multiple values")
 print(data)
-'''
-#Result
+```
+Output:
+```
 Normal Array
 array('i', [20, 10, 15, 23])
 
@@ -263,10 +296,8 @@ array('i', [30, 10, 15, 23])
 
 Array After updating multiple values
 array('i', [30, 10, 9, 12])
-'''
-
-
-'''
+```
+```
 data[0]='h'
 This will generate error
 Erro:an integer is required (got type str)
@@ -274,20 +305,20 @@ Erro:an integer is required (got type str)
 
 data[552]='1'
 Error:array assignment index out of range
-'''
 ```
 
 ### 4. Remove Element
 
-- You can delete complete array or element there are following options are available.
+- You can delete a complete array or element there are the following options are available.
+```
 1. del
 2. pop()
 3. remove()
-
+```
 
 #### 1.del
 - We can delete one or more items using python del statement.
-- we can also delete complete array using del keyword.
+- we can also delete a complete array using del keyword.
 
 Syntax:
 
@@ -311,22 +342,29 @@ print(data)
 #Delete the first Element from an array
 del data[0]
 
-print("\n AFter delete first element")
+print("\nAfter delete first element")
 print(data)
 
 #delete complete array
 del data
 
+print("\nErrror")
 print(data)
 #result:name 'data' is not defined
-
-'''
+```
+Output:
+```
 Normal Array
 array('i', [20, 10, 15, 23])
 
-AFter delete first element
+After delete first element
 array('i', [10, 15, 23])
-'''
+
+Errror
+Traceback (most recent call last):
+  File "/tmp/sessions/139fbf48debb94d3/main.py", line 17, in <module>
+    print(data)
+NameError: name 'data' is not defined
 ```
 
 #### 2.pop()
@@ -347,20 +385,24 @@ import array
 arr=array.array('i',[20, 10, 15, 23])
 
 #print Normal Array
+print("Normal Array")
 print(arr)
 
 #Delete last Element
 arr.pop()
 
+print("\nAfter Poping Last Element")
 
 #print array after pop
 print(arr)
-
-'''
-#Result
+```
+Output:
+```
+Normal Array
 array('i', [20, 10, 15, 23])
+
+After Poping Last Element
 array('i', [20, 10, 15])
-'''
 ```
 
 #### 3.remove()
@@ -389,14 +431,15 @@ print(data)
 data.remove(10)
 
 
-print("\n Print array after remove of 10")
+print("\nPrint array after remove of 10")
 print(data)
+```
 
-'''
+Output:
+```
 Normal Array
 array('i', [20, 10, 15, 23])
 
 Print array after remove of 10
 array('i', [20, 15, 23])
-'''
 ```
