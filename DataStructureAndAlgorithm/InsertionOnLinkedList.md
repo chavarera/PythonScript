@@ -1,20 +1,21 @@
 ## Node Insertion On Linked List
 
 #### Inserting Element Into Single Linked List
-- As compared to array singly list is the best solution to insert a new element at any position such as beginning, end, middle, before and node, after of some node.
+- As compared to the array singly list is the best solution to insert a new element at any position such as beginning, end, middle, before and node, after of some node.
 - wherein the array if the element at 0 is already present and we insert a new element at 0 positions then the element at 0 indexes is shifted in the right side by one position.
-- if there are a small number of elements are present in the list then it is not a problem but consider a huge amount of elements are already present in the list and we are inserting an element at 0 positions then every element is right side shifted by 1.
+- if there are a small number of elements that are present in the list then it is not a problem but consider a huge amount of elements are already present in the list and we are inserting an element at 0 positions then every element is right side shifted by 1.
 - But in the linked list when we inserting a new element only one element is shifted to the right side because of these scenario linked list is more powerful than an array.
 
 
 **There are some different ways to insert an item inside the linked list**
-
+```
 1. Insert node at the Begining
 2. Insert node at the end
 3. Insert node before another node
 4. Insert node after another node
 5. Insert node at a specific index
- 
+```
+
 ## 1.Insert node at the Begining
 - Create A method inside SingleLinkedList for insertion of a new node at the beginning
 - Now create a Simple node using Node class
@@ -36,33 +37,33 @@ self.start_node=n_node
 Example:
 ```python
 class Node:
-    def init(self,data):
-        self.data=data
-        self.link=None
+  def __init__(self,data):
+      self.data=data
+      self.link=None
 
 #Simple Initialization of Single Linked List
 class SingleLinkedList:
 
-    #Constructor of a class contains only one member
-    def init(self):
-        #Member of the single linked list.
-        self.start_node=None #Set to None for Initialization 
+  #Constructor of a class contains only one member
+  def __init__(self):
+      #Member of the single linked list.
+      self.start_node=None #Set to None for Initialization 
 
-    def InsertAtbegin(self,data):
-        ''' Used To insert a new Node at the begining of Linked list'''
-        n_node=Node(data)
-        n_node.link=self.start_node
-        self.start_node=n_node
+  def InsertAtbegin(self,data):
+      ''' Used To insert a new Node at the begining of Linked list'''
+      n_node=Node(data)
+      n_node.link=self.start_node
+      self.start_node=n_node
 
-    def TraverseList(self):
-        if self.start_node is None:
-            print("No Element In List ")
-            return
-        else:            
-            node=self.start_node
-            while node is not None:
-                print(node.data)
-                node=node.link
+  def TraverseList(self):
+      if self.start_node is None:
+          print("No Element In List ")
+          return
+      else:            
+          node=self.start_node
+          while node is not None:
+              print(node.data,end="->")
+              node=node.link
 
 
 #Initialize the Object of  SingleLinkedList
@@ -74,21 +75,26 @@ s1.TraverseList()
 
 # Add 12 element at the begining of Linked list
 s1.InsertAtbegin(12)
+print("12 Inserted at Begining")
 #12->
 
 #Add 9 element to the begining of linked list
+print("9 Inserted at Begining")
 s1.InsertAtbegin(9)
 #9->12
 
 #After adding 12 element to Linked list
+print("\ncurrent Linked list Contains Follwoing Items")
 s1.TraverseList()
-
-'''
-#Result
+```
+Output:
+```
 No Element In List 
+12 Inserted at Begining
+9 Inserted at Begining
 
+current Linked list Contains Follwoing Items
 9->12->
-'''
 ```
 
 
@@ -114,7 +120,7 @@ nde=self.start_node
 - iterate through all the nodes in the linked list using a while loop 
 ```
 while nde.link is not None:
-	nde=nde.link
+    nde=nde.link
 ```
 - Assign last node memory address to already created n_node
 ```
@@ -145,21 +151,21 @@ class SingleLinkedList:
         #Check If  linked list is empty
         if self.start_node is None:
             #if linked list is empty 
-	    #then assign that new node self.start_node
+        #then assign that new node self.start_node
             self.start_node=n_node
             return
 
         #If linked list alredy contains elements 
-	#The initialize a start variavle using self.start_node
+    #The initialize a start variavle using self.start_node
         
-	n=self.start_node
+    n=self.start_node
 
         #Iterate till the last Node appears
         while n.link is not None:
             #Assign memory of every next node
             n=n.link
         #if last node is reached then assign
-	#that last node memory address to newNode
+    #that last node memory address to newNode
         n.link=n_node
         
     def TraverseList(self):
@@ -247,7 +253,7 @@ while n is not None:
      #Create a New Node
      n_node=Node(data)
 
-     #assign pointer of  new node with the already 
+     #assign pointer of a new node with the already 
      #available pointer of found node
      
      n_node.link=n.link
@@ -269,7 +275,7 @@ class SingleLinkedList:
 
     #Constructor of a class contains only one member
     def _init_(self):
-        #Member ofthe single linked list.
+        #Member of the single linked list.
         self.start_node=None #Set to None for initialization
         
     def InsertAtbegin(self,data):
@@ -297,8 +303,8 @@ class SingleLinkedList:
             #Create a New Node
             n_node=Node(data)
 
-            #assign pointer of  new node 
-	    #with the already available pointer of found node
+            #assign pointer of the new node 
+        #with the already available pointer of found node
             n_node.link=n.link
 
             #Now add pointer of a  founded node with new Node
@@ -486,9 +492,9 @@ Adding 5  Element Node before 12 Node
 ```
 
 ### 5. Insert at Specific Index
-- If index is 1 then directly assign start_node to newly created node
-- If not then iterate while loop till index-1 times if node is not none and increment I by one
-- if Node is Not None then Assign that new new node value  and change reference with next node
+- If the index is 1 then directly assign start_node to the newly created node
+- If not then iterate while loop till index-1 times if the node is not any and increment I by one
+- if the Node is None then Assign that new node value  and change reference with next node
 ```
 n_node=Node(data)
 n_node.link=n.link
@@ -505,10 +511,10 @@ class Node:
 #Simple Initialization of Single Linked List
 class SingleLinkedList:
 
-    #Constructor of an class
+    #Constructor of a class
     def _init_(self):
-        #Member of single linked list.
-        self.start_node=None #Set to None for Initilization
+        #Member of the single linked list.
+        self.start_node=None #Set to None for Initialization
         
     def InsertAtbegin(self,data):
         ''' Used To insert a new Node at the begining of Linked list'''
