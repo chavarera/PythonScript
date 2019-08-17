@@ -117,7 +117,13 @@ class STACKS:
 
 #Initialize The Stack Object    
 s1=STACKS()
-number=2010
+number=5
 print(s1.Fact(number))
-
 ```
+Output:
+```
+120
+```
+_______________________________________________________________________________________________________________
+
+
