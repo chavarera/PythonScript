@@ -39,3 +39,85 @@ Output
 3101,3108,3122,3129,3136,3143,3157,3164,3171,3178,3192,3199
 ```
 _______________________________________________________________________________________________________________
+
+
+Question 2:
+```
+Write a program which can compute the factorial of a given numbers.
+```
+Hint:
+```
+Using Recursion
+Using For Loop
+Using Math Module
+Using Stack
+```
+Solution Using Recursion
+```python
+#Factorial Using Recursion
+def Fact(number):
+  if number==0:
+    return 1
+  else:
+    return number * Fact(number-1)
+    
+fact=5
+print(Fact(fact))
+```
+
+Solution Using For Loop
+```python
+#Factorial Using For Loop
+def Fact(number):
+  if number==0:
+    return 1
+  else:
+    fact=1
+    for i in range(1,number+1):
+      fact=fact*i
+    return fact
+
+fact=5
+print(Fact(fact))
+```
+
+Solution Using Math Module
+```python 
+#Factorial using math
+import math
+def Fact(number):
+  return math.factorial(number)
+
+fact=5
+print(Fact(fact))
+```
+
+Solution Using Stack
+```python
+#Factorial Using Stack
+class STACKS:
+  def __init__(self):
+      #Initialize Empty Stack
+      self.stack=[]
+      
+  def Push(self,data):
+      '''This Will accept Element And Append to existing stack'''
+      self.stack.append(data)
+
+  def Pop(self):
+      '''This will Remove the element from top of the stack'''
+      return self.stack.pop()
+
+  def Fact(self,number):
+      '''Get The Factorial of Given Number'''
+      self.Push(1)
+      for i in range(1,number+1):
+          self.Push(self.Pop()*i)
+      return self.Pop()    
+
+#Initialize The Stack Object    
+s1=STACKS()
+number=2010
+print(s1.Fact(number))
+
+```
