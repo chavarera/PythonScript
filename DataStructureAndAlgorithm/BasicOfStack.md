@@ -1,9 +1,9 @@
 ## Stack
 
 ### Basic of Stacks
-- Simple Stack meaning arranging object on over another.
-- Stack plays a very vital role in data structure and in the algorithm in any programming language.
-- A Stack is a Container of objects that are inserted and removed according to Last-In-First-Out (LIFO) Principal.
+- Simple Stack meaning arranging objects on over another.
+- Stack plays a very vital role in the data structure in any programming language.
+- A Stack is a Container of objects that are inserted and removed according to the Last-In-First-Out (LIFO) Principal.
 - The stack data structure allows operation at only one end that end is called top.
 - The stack is a Recursive  data structure according to the structural definition of the stack
 
@@ -14,11 +14,11 @@ or
 ![Stack](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/stack.png)
 ### Stack support two different operations
 ### 1. Push(Insert ELement)
-	which adds an element to the collection. 
+    which adds an element to the collection. 
 ### 2. Pop(Remove Element)
-	removes the most recently added element that was not yet removed.
+    removes the most recently added element that was not yet removed.
 
-- We can add an element or remove element only from the end of the stack called top of the stack.
+- We can add an element or remove elements only from the end of the stack called the top of the stack.
 
 ### Some Real-Time Example Application of Stacks
 - Stack of dinner plates.
@@ -31,14 +31,15 @@ last visited page saved in top of the stack and when we press back button top of
  
 
 ### Implementation
-- The stack is an Adapter class means that stack is built on top of other data structure.
+- The stack is an Adapter class means that stack is built on top of other data structures.
 
 The stack can be implemented using 
+```
 1. List
 2. Array List
 3. Linked list
 4. Vector
-
+```
 
 #### Implementation Of Stack Using List
 create empty stack using list
@@ -49,15 +50,15 @@ self.stack=[]
 Function:
 ```python
 def __init__(self):
-        self.stack=[]
+   self.stack=[]
 ```
 
 Full Example:
 ```python
 #Create A Stack Class
 class STACKS:
-    def __init__(self):
-        self.stack=[]
+  def __init__(self):
+      self.stack=[]
 
 #Initilize Stacks Objects
 s1=STACKS()
