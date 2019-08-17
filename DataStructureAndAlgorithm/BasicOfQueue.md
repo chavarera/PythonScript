@@ -5,7 +5,7 @@
 "First-In-First-Out" manner.
 - In stack Insertion and removal of element done at the one end only, But in **Queue** insertion done at one end and removal of element done at another end so it is first in first out approach.
 - The first time added element will be removed First time and second inserted element removed at the second position in this way queue follows a Queue.
-- Queue is an Abstract data type in java it is an interface
+- The queue is an Abstract data type in java it is an interface
 - Insert Operation done At one point and that one point is called as **Rear**
 - Removal Of Element Done at Another End Called as **Front**
 
@@ -40,14 +40,14 @@
 3. Linked List
 
 
-### Perform Operation on the queue using queue python module
+### Perform Operation on the queue using the queue python module
 
-#### 1.Initilize the queue
-- for initilizing the queue data structure using *queue* Module  first import *queue* model in script
+#### 1.Initialize the queue
+- for initializing the queue data structure using *queue* Module  first import *queue* model in script
 ```
 import queue
 ```
-- After import of queue module now initilize the queue object.
+- After the import of the queue module now initialize the queue object.
 ```
 que=queue.Queue(maxszie=<Size_of_queue>)
 ```
