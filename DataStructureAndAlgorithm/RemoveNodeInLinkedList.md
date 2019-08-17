@@ -120,10 +120,9 @@ s1.Traverse()
 
 Output:
 ```python
-#Result
 Normal Linked List
-18->12->5->
+18 -> 12 -> 5 ->
 
 Linked List After Removing 12 Node
-18->5->
+18 -> 5 ->
 ```
