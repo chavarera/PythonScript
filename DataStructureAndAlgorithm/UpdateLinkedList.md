@@ -27,24 +27,24 @@ n.data=Replace_Value
 Function:
 ```python
 def UpdateNode(self,data,replace):
-    #initialize the Head Node (start_node)
-    n=self.start_node
-    if n is None:
-      print("\n No Element in List")
-      return
-    #Iterate through Whole List
-    while n is not None:
-      # if Node data found break the loop
-      if n.data==data:
-        break
-      n=n.link
+  #initialize the Head Node (start_node)
+  n=self.start_node
+  if n is None:
+    print("\n No Element in List")
+    return
+  #Iterate through Whole List
+  while n is not None:
+    # if Node data found break the loop
+    if n.data==data:
+      break
+    n=n.link
 
-    #If Element is not found in the list
-    if n is None:
-      print("Element Node Not Found in Linked List")
-    else:
-      #if node found assign value to that node
-      n.data=replace
+  #If Element is not found in the list
+  if n is None:
+    print("Element Node Not Found in Linked List")
+  else:
+    #if node found assign value to that node
+    n.data=replace
 ```
 
 Full Example:
@@ -111,7 +111,7 @@ s1.Traverse()
 
 ```
 
-Result:
+Output:
 ```
 Normal Linked List
 18->12->5->
