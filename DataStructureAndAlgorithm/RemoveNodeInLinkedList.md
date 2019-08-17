@@ -1,12 +1,12 @@
 ## Remove Node From Linked List
 
-- Return "No Element" if linked list is Empty
+- Return "No Element" if the linked list is Empty
 ```
 if n is None:
    print("\n No Element in List")
    return
 ```
-- If linked list contains element iterate linked list using while loop
+- If the linked list contains element iterate linked list using while loop
 ```
 while n is not None:
   n=n.link
@@ -29,29 +29,29 @@ n.link=n.link.link
 Function:
 ```python
 def RemoveNode(self,data):
-    #initialize the Head Node (start_node)
-    n=self.start_node
-    
-    #If No element Present in the linked list
-    if n is None:
-      print("\n No Element in List")
-      return
-    #Iterate through Whole List
-    while n is not None:
-      # if Node data found break the loop
-      if n.data==data:
-        break
-      n=n.link
+  #initialize the Head Node (start_node)
+  n=self.start_node
+  
+  #If No element Present in the linked list
+  if n is None:
+    print("\n No Element in List")
+    return
+  #Iterate through Whole List
+  while n is not None:
+    # if Node data found break the loop
+    if n.data==data:
+      break
+    n=n.link
 
-    #If Element is not found in the list
-    if n is None:
-      print("Element Node Not Found in Linked List")
-    else:
-      #if node found assign node data to data of next node
-      n.data=n.link.data
+  #If Element is not found in the list
+  if n is None:
+    print("Element Node Not Found in Linked List")
+  else:
+    #if node found assign node data to data of next node
+    n.data=n.link.data
 
-      #change that node pointer to next of next node pointer
-      n.link=n.link.link
+    #change that node pointer to next of next node pointer
+    n.link=n.link.link
 ```
 Full Example:
 ```python
@@ -117,7 +117,8 @@ s1.RemoveNode(12)
 print("\n\nLinked List After Removing 12 Node")
 s1.Traverse()
 ```
-Result:
+
+Output:
 ```python
 #Result
 Normal Linked List
