@@ -139,7 +139,8 @@ Stack Element After Poping last Element
 Function:
 ```python
 def Top(self):
-  ''' This Will Return The Top Of the Stack if Empty Then It will Return -1'''
+  ''' This Will Return The Top Of the Stack
+  if Empty Then It will Return -1'''
   if self.stack==[]:
       return "Stack is Empty"
   else:
@@ -176,7 +177,8 @@ class STACKS:
     self.stack.pop()
 
   def Top(self):
-    ''' This Will Return The Top Of the Stack if Empty Then It will Return -1'''
+    ''' This Will Return The Top Of the Stack
+    if Empty Then It will Return -1'''
     if self.stack==[]:
         return "Stack is Empty"
     else:
