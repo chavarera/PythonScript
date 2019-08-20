@@ -193,3 +193,30 @@ Solution(suraj)
 a={i:i*i for i in range(1,int(input("Enter number"))+1)}
 Print(a)
 ```
+
+_______________________________________________________________________________________________________________
+Questions 5
+```
+Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a 
+tuple which contains every number.Suppose the following input is supplied to the program:
+34,67,55,33,12,98
+Then, the output should be:
+['34', '67', '55', '33', '12', '98']
+('34', '67', '55', '33', '12', '98')
+```
+
+Using Regular Expression(aliyu)
+```python
+import re
+num = input()
+my_list = re.findall(r'[\d]+', num)
+my_tuple = tuple(my_list)
+print(my_list)
+print (my_tuple)
+```
+
+Solution More Optimized(suraj)
+```python
+n=eval(input("Enter numbers"))
+print(list(n),n)
+```
