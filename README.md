@@ -130,6 +130,7 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
     - [Queue Implementation using List](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/QueueImplementationUsingList.md)
   - Deque
     - [Basic of Deque](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/Deque.md)
+    - [Deque Using List](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/DequeUsingList.md)
   - Binary search tree
   - Balanced Binary Tree
   - Heap
