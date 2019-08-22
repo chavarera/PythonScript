@@ -4,8 +4,8 @@
 ### Data Structure
 - Data Structure is a way of storing and organizing information
 in a systematic way so we can we retrieved and handled more efficiently and more productively.
-- the data structure is a data organization, management, and storage format that enables efficient access and modification.
--An Efficient program executes faster and helps minimize resources like disk, chip, memory.
+- The data structure is a data organization, management, and storage format that enables efficient access and modification.
+- An Efficient program executes faster and helps minimize resources like disk, chip, memory.
 
 #### There are two types of data structures
 
