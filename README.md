@@ -131,6 +131,10 @@ Collection of :computer: Cool PythonScript with neat Documentation :page_facing_
   - Deque
     - [Basic of Deque](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/Deque.md)
     - [Deque Using List](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/DequeUsingList.md)
+ - Tree:
+    - [Basic Of Tree Datstructure](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BasicOfTree.md)
+    - Binary Tree:
+      - [Basic of Binary Tree](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BinaryTree.md)
   - Binary search tree
   - Balanced Binary Tree
   - Heap
