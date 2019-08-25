@@ -114,7 +114,7 @@ print(help(platform))
 ```
 
 Output:
-````
+```
 Help on module platform:
 
 NAME
@@ -155,6 +155,7 @@ FILE
 
 None
 ```
+
 
 ### 2.dir()
 - To simply list the names of all the functions and variables defined in the module.
