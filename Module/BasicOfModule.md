@@ -26,6 +26,8 @@ help('modules')
 you will get the result
 
 Please wait a moment while I gather a list of all available modules...
+
+Output
 ```
 FileSearchEngine    _testcapi           ftplib              reprlib
 GetFiles            _testcapi_d         functools           requests
@@ -80,18 +82,20 @@ import platform as plt
 #platform and plt both will point to the same object
 print(id(platform))
 print(id(plt))
-
-'''
-#Result you will get the location of an object
+```
+Output:
+```
 139950267344280
 139950267344280
-'''
 ```
 
 ### How to list all functions in a Python module?
 you can use the following two different functions to achieve function names, variables, and documentation
-    1.help()
-    2.dir()
+```
+1.help()
+2.dir()
+```
+
 ### 1.help()
 - **help()** function is used to get the  all function with docuemantation
 
@@ -107,8 +111,10 @@ import platform
 
 #get documentation
 print(help(platform))
-'''
-#Result
+```
+
+Output:
+````
 Help on module platform:
 
 NAME
@@ -148,7 +154,6 @@ FILE
     /usr/lib/python3.6/platform.py
 
 None
-'''
 ```
 
 ### 2.dir()
@@ -166,8 +171,9 @@ import platform
 
 #get function names and variable name
 print(dir(platform))
-'''
-#Result
+```
+Output
+```
 ['DEV_NULL', '_UNIXCONFDIR', '_WIN32_CLIENT_RELEASES', 
 '_WIN32_SERVER_RELEASES', '__builtins__', '__cached__',
 '__copyright__', '__doc__', '__file__', '__loader__', 
@@ -194,7 +200,6 @@ print(dir(platform))
 'release', 'subprocess', 'sys', 'system',
 'system_alias', 'uname', 'uname_result', 'version',
 'warnings', 'win32_ver']
-'''
 ```
 
 ### How to use the function, methods of modules?
@@ -214,8 +219,11 @@ import platform
 #Call python_version() from platform
 version=platform.python_version()
 print(version)
+```
 
-#Result:3.7.3
+Output:
+```
+3.7.3
 ```
 
 How to import a specific method or function name from Module?
@@ -235,6 +243,8 @@ from platform import python_version
 #get python version
 version=python_version()
 print(version)
-#Result:3.7.3
 ```
-
+Output:
+```
+3.7.3
+```
