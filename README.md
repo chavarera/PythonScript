@@ -1,7 +1,7 @@
 # :snake: PythonScript :page_with_curl:
 Collection of :computer: Cool PythonScript with neat Documentation :page_facing_up: and Example
 ________________________________
-Author.  : Ravishankar ChavareChavare
+Author.  : Ravishankar Chavare
 
 LinkedIn : [Connect With Me Here](https://www.linkedin.com/in/ravishankar-chavare-84474a102)
 ________________________________
