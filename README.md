@@ -140,7 +140,10 @@ ________________________________
     - [Basic Of Tree Datstructure](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BasicOfTree.md)
     - Binary Tree:
       - [Basic of Binary Tree](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BinaryTree.md)
-  - Binary search tree
+      - [Types OF Binary Tree](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/TypeOfBinaryTree.md)
+    - BinarySearch Tree
+      - [Binary search tree](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BinarySearhTree.md)
+      - [Operation On BST](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/OperationOnBST.md)
   - Balanced Binary Tree
   - Heap
   - Dictionary
