@@ -144,9 +144,7 @@ ________________________________
     - BinarySearch Tree
       - [Binary search tree](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BinarySearhTree.md)
       - [Operation On BST](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/OperationOnBST.md)
-  - Balanced Binary Tree
   - Heap
-  - Dictionary
   - Tries
   - Graph
   - Hash Table
