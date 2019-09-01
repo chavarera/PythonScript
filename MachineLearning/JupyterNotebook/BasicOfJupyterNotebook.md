@@ -1,5 +1,5 @@
 ## Jupyter Notebook
-
+- Jupyter Notebook is a very popular and flexible tool that allows us to put all our code and output of code with visualization in the same documents.
 - Jupyter notebook is an open-source web application that allows you to create and share documents that contain live code
 (our normal program), equations, visualizations, and narrative text.
 - If you are not familiar with any programming language and you want to start a programming career from python then use only python default python idle that makes help you to remember most of the python syntaxes.
