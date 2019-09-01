@@ -4,13 +4,13 @@
 (our normal program), equations, visualizations, and narrative text.
 - If you are not familiar with any programming language and you want to start a programming career from python then use only python default python idle that makes help you to remember most of the python syntaxes.
 
+![Jupyter](https://jupyter.org/assets/jupyterpreview.png)
 
 #### Why To Use Jupyter Notebook?
 - Jupyter supports over 40 programmings (Including python, R, Scala)
 - Jupyter Notebook can be shared through Email, Dropbox, GitHub and many others.
 - You can produce Interactive output such as HTML, table, images, video.
 - Easy to integrate with big data.
-
 
 
 ### Installation and Setup of Jupyter Notebook
@@ -61,6 +61,7 @@ pip install jupyter
 
 you will found the following window after completion 
 
+![installed](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/JupyterNotebook/img/pip.png)
 
 now jupyter is installed on your local machine.
 
@@ -83,12 +84,19 @@ and press enter key now one webpage automatically opened in your default web bro
 ```
 URL:http://localhost:8888/tree
 ```
+![open](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/JupyterNotebook/img/open.png)
+
 
 - Now click on the new dropdown list and create any folder **"PythonScript"**(or with any name) or just select any folder showing inside the directory.
 - Click on the new dropdown and select **"python3"** it will show following window
+![new](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/JupyterNotebook/img/new.png)
+
+![opened](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/JupyterNotebook/img/opened.png)
 
 
 - Now Type anything and press **ctrl+Enter** to run that or click on the run button above the file it will show the result in the second line.
+![run](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/JupyterNotebook/img/run.png)
+
 
 Now you have successfully installed a jupyter notebook and test normal print any statement. Some shortcuts and features of jupyter notebook will be continued in the next lessons
 
