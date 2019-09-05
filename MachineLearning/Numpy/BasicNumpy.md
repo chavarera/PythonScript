@@ -1,5 +1,7 @@
 ## Numpy
 
+![Numpy](https://numpy.org/_static/numpy_logo.png)
+
 ### Introduction
 - Numpy is an abbreviated form of **Numerical Python** or **Numeric Python**.
 - It is the most basic yet powerful package for scientific computing and data manipulation in Python.
