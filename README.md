@@ -166,12 +166,11 @@ ________________________________
 
 #### Machine Learning Libraries
 - [Basic Introduction](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/BasicIntroduction.md)
-- Setup and Installation
+- Setup and Installation JupyterNoteBook
   - [Basic Of JupyterNoteBook](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/JupyterNotebook/BasicOfJupyterNotebook.md)
   - [Shortcuts of Jupyter NoteBook](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/JupyterNotebook/ShortCutsofJupyter.md)
-
-- [Numpy](https://github.com/chavarera/PythonScript/tree/master/MachineLearning/Numpy)
-  - [Basic Of Numpy](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Numpy/1.BasicOfNumpy.py)
+- Numpy
+  - [Basic Of Numpy](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Numpy/BasicNumpy.md)
   - [Indexing and Selection](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Numpy/2.Indexing_Selection_in_Numpy.py)
   - [Operation on Numpy](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Numpy/3.Operation_on_numpy_array.py)
     
