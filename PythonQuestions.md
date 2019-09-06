@@ -1,3 +1,103 @@
+Question:
+Swap Two Number
+
+Program
+```
+a=25
+b=10
+
+#for swap
+a,b=b,a
+print(a)
+print(b)
+```
+output:
+```
+10
+25
+```
+Question:
+Get largest number from 2 numbers using ternary operator
+
+Syntax:
+```
+<expression 1> if <condition> else <expression 2>
+```
+Program:
+```python
+num1=50
+num2=40
+large=num1 if num1>num2 else num2
+print(large)
+```
+
+Output:
+```
+50
+```
+
+
+Question:
+Sort string numbers in  array
+
+
+Program:
+```python
+#using list comprehension
+lst=["6","8","3","9"]
+lst=[int(i) for i in lst]
+lst.sort()
+print(lst)
+
+#using map
+lst=["6","8","3","9"]
+lst=list(map(int,lst))
+lst.sort()
+print(lst)
+
+#using lambda
+lst=["6","8","3","9"]
+lst=sorted(lst,key=lambda x:int(x))
+print(lst)
+```
+
+Output:
+````
+[3, 6, 8, 9]
+[3, 6, 8, 9]
+['3', '6', '8', '9']
+```
+
+Question :
+Find N-th Number PrimeNumber
+
+Program
+```python
+L = [2,3]
+n = int(input())
+k = 4
+
+while k>0:
+      if len(L) == n:
+             break
+      for i in L:
+             if k%i==0:
+                    break
+      else:
+             L.append(k)
+      k+=1
+    
+print(L[-1])
+```
+
+Output:
+```
+10
+29
+```
+
+
+
 Question 1
 ```
 Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
