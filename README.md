@@ -171,6 +171,7 @@ ________________________________
   - [Shortcuts of Jupyter NoteBook](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/JupyterNotebook/ShortCutsofJupyter.md)
 - Numpy
   - [Basic Of Numpy](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Numpy/BasicNumpy.md)
+  - [Create Numpy Array](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Numpy/CreationOfNumpy.md)
   - [Indexing and Selection](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Numpy/2.Indexing_Selection_in_Numpy.py)
   - [Operation on Numpy](https://github.com/chavarera/PythonScript/blob/master/MachineLearning/Numpy/3.Operation_on_numpy_array.py)
     
