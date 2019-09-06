@@ -1,5 +1,4 @@
-Question:
-Swap Two Number
+### Question: Swap Two Number
 
 Program
 ```
@@ -18,8 +17,7 @@ output:
 ```
 _______________________________________________________________________________________________________________
 
-Question:
-Get largest number from 2 numbers using ternary operator
+### Question: Get largest number from 2 numbers using ternary operator
 
 Syntax:
 ```
@@ -40,8 +38,7 @@ Output:
 _______________________________________________________________________________________________________________
 
 
-Question:
-Sort string numbers in  array
+### Question: Sort string numbers in  array
 
 
 Program:
@@ -72,8 +69,7 @@ Output:
 ```
 _______________________________________________________________________________________________________________
 
-Question :
-Find N-th Number PrimeNumber
+### uestion : Find N-th Number PrimeNumber
 
 Program
 ```python
