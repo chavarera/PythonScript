@@ -148,7 +148,9 @@ ________________________________
   - Tries
   - Graph
   - Hash Table
-  
+- Search Algorithm
+  - [Linear Search](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/LinearSearch.md)
+  - [Binary Search](https://github.com/chavarera/PythonScript/blob/master/DataStructureAndAlgorithm/BinarySearch.md)
 #### Some Important Utilty Modules
   - Module logging
     - [Basic Of Logging](https://github.com/chavarera/PythonScript/blob/master/Logging/1.BasicOfLogging.py)
