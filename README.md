@@ -6,9 +6,26 @@ Author.  : Ravishankar Chavare
 LinkedIn : [Connect With Me Here](https://www.linkedin.com/in/ravishankar-chavare-84474a102)
 ________________________________
 
+
+
+
+
+
+
 [Useful Shortcuts In Idle Click Here](https://github.com/chavarera/PythonScript/blob/master/Basic/IdleShortcuts.md)
 # Fundamental Python
 #### 1.Basic Of Python
+|         | Basic Of Python  |View|Download|
+|-----------------------------------------|------------------|------------------|------------------|
+|1 |Basic Introduction and Installation⠀⠀ |[:book:](https://github.com/chavarera/PythonScript/blob/master/Basic/Introduction.md) | [   :paperclip:Download]()
+|2|Introduction Of PIP|[:book:](https://github.com/chavarera/PythonScript/blob/master/Basic/PIPIntroduction.md)|[   :paperclip:Download]()|
+|3|Write And Execute Python Program|[:book:](https://github.com/chavarera/PythonScript/blob/master/Basic/FirstProgram.md)|[   :paperclip:Download]()|
+|4|Useful Some IDLE Shortcuts|[:book:](https://github.com/chavarera/PythonScript/blob/master/Basic/IdleShortcuts.md)|[   :paperclip:Download]()|
+|5|Variables and Data Types|[:book:](https://github.com/chavarera/PythonScript/blob/master/Basic/VariableAndDataTypes.md)|[   :paperclip:Download]()|
+|6|Read Input From User|[:book:](https://github.com/chavarera/PythonScript/blob/master/Basic/UserInput.md)|[   :paperclip:Download]()|
+|7|Indentation|[:book:](https://github.com/chavarera/PythonScript/blob/master/Basic/indentation.md)|[   :paperclip:Download]()|
+|8|Comments in Python|[:book:](https://github.com/chavarera/PythonScript/blob/master/Basic/Comments.md)|[   :paperclip:Download]()|
+
 - Basic Concepts
   - [Basic Introduction and Installation](https://github.com/chavarera/PythonScript/blob/master/Basic/Introduction.md)
   - [Introduction Of PIP](https://github.com/chavarera/PythonScript/blob/master/Basic/PIPIntroduction.md)
