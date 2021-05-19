@@ -116,3 +116,13 @@ B: insert cell below
 ```
 x: Cut Selected cell 
 ```
+
+### Add Virtual Environment to Jupyter Notebook
+```
+pip install --user ipykernel
+```
+
+Next you can add your virtual environment to Jupyter by typing:
+```
+python -m ipykernel install --user --name=venv_Name
+```
